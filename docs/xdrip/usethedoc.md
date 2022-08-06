@@ -3,11 +3,7 @@ These docs are based on the [latest Nightly Build](https://github.com/Nightscout
 See at the bottom of each page the version at which it was written, if you have an older version it might not include the feature.
 
 **If you're completely new to xDrip+** and you want to install it for the first time continue to [prerequisites](../prerequisites) and follow the flow.
-
 </br>
-
-Engineering mode features are voluntarily not documented.
-
 </br>
 
 ### Specifications
