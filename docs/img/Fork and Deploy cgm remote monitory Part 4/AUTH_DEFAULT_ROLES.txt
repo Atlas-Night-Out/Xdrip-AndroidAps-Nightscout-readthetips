@@ -1,0 +1,16 @@
+AUTH_DEFAULT_ROLES
+
+***************
+roles
+***************
+readable
+denied 
+
+1. When readable, everyone can view Nightscout without a Secret token.
+
+2. Setting it to denied will require a  secret token from every visit.
+
+3. using status-only will enable api-secret based login.
+
+
+
