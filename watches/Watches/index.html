@@ -1,0 +1,1093 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://example.com/watches/Watches/">
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.3.1, mkdocs-material-8.3.9">
+    
+    
+      
+        <title>CGM onto - Watches - Xdrip-Android-APS-Nightscout-readmedoc</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.1d29e8d0.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.cbb835fc.min.css">
+        
+      
+      
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#how-to-display-cgm-data-on-your-watch" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Xdrip-Android-APS-Nightscout-readmedoc" class="md-header__button md-logo" aria-label="Xdrip-Android-APS-Nightscout-readmedoc" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Xdrip-Android-APS-Nightscout-readmedoc
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              CGM onto - Watches
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Xdrip-Android-APS-Nightscout-readmedoc" class="md-nav__button md-logo" aria-label="Xdrip-Android-APS-Nightscout-readmedoc" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    Xdrip-Android-APS-Nightscout-readmedoc
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1" type="checkbox" id="__nav_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_1">
+          Xdrip
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Xdrip" data-md-level="1">
+        <label class="md-nav__title" for="__nav_1">
+          <span class="md-nav__icon md-icon"></span>
+          Xdrip
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../xdrip/usethedoc/" class="md-nav__link">
+        Docs
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../xdrip/xdrip%20-%20Download/" class="md-nav__link">
+        Download
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../xdrip/Compatible%20Watches/" class="md-nav__link">
+        Compatible - Watches
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2">
+          Nightscout
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Nightscout" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Nightscout
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Nightscout/Setting_up_Github_Account_part1/" class="md-nav__link">
+        Part 1 - Setting up Github
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Nightscout/Setting_up_Heroku_Account_part2/" class="md-nav__link">
+        Part 2 Setting up Heroku Account 
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Nightscout/Setting_up_Atlas_Account_part3/" class="md-nav__link">
+        Part 3 Setting up Atlas Account 
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Nightscout/Part%204%20-%20Fork%20and%20Deploy%20cgm%20remote%20monitory/" class="md-nav__link">
+        Part 4 - Fork and Deploy cgm remote monitory
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Nightscout/Compatible%20Watches/" class="md-nav__link">
+        Compatible - Watches
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3">
+          Watches
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Watches" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Watches
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          CGM onto - Watches
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        CGM onto - Watches
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-display-cgm-data-on-your-watch" class="md-nav__link">
+    How to display CGM data on your watch.
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pebble-smartwatches" class="md-nav__link">
+    Pebble Smartwatches
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rebbleio" class="md-nav__link">
+    rebble.io.
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#urchin" class="md-nav__link">
+    Urchin
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pebble-xdrip" class="md-nav__link">
+    Pebble xDrip+
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#android-wear-os-smartwatches" class="md-nav__link">
+    Android Wear OS smartwatches
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#android-wear-2x" class="md-nav__link">
+    Android Wear 2.x
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#android-wear-xdrip" class="md-nav__link">
+    Android Wear xDrip+
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#amazfit-pace-stratos" class="md-nav__link">
+    Amazfit Pace &amp; Stratos
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#amazfit-band-5-bip-bip-lite-bip-s-and-gtr" class="md-nav__link">
+    Amazfit Band 5, Bip, Bip Lite, Bip S and GTR
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#amazfit-gtr2-gtr2e-gts2-gts2e-and-gtr42" class="md-nav__link">
+    Amazfit GTR2, GTR2e, GTS2, GTS2e and GTR42
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#xiaomi-miband-4-and-5" class="md-nav__link">
+    Xiaomi MiBand 4 and 5
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sugarmate" class="md-nav__link">
+    Sugarmate
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#nsapple" class="md-nav__link">
+    nsapple
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apple-watch-nightguard" class="md-nav__link">
+    Apple Watch Nightguard
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#loop-follow" class="md-nav__link">
+    Loop Follow
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fitbit" class="md-nav__link">
+    Fitbit
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#glance" class="md-nav__link">
+    Glance
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#samsung-gear-smartwatches" class="md-nav__link">
+    Samsung Gear Smartwatches
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#marclock" class="md-nav__link">
+    Marclock
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sentinel" class="md-nav__link">
+    Sentinel
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#g-watch-app" class="md-nav__link">
+    G-Watch app 
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#garmin-smartwatches-and-computers" class="md-nav__link">
+    Garmin Smartwatches and Computers
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#garmin-connecting-forerunner-945-to-xdrip" class="md-nav__link">
+    Garmin Connecting Forerunner 945 to xdrip
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Compatible%20Watches/" class="md-nav__link">
+        Compatible - Watches
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../TicWatch-Pro-3-side-load---xdrip/" class="md-nav__link">
+        TicWatch-Pro-3-Side-Load - Watches
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Userguide/" class="md-nav__link">
+        Userguide
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../apireference/" class="md-nav__link">
+        apireference
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/" class="md-nav__link">
+        about
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-display-cgm-data-on-your-watch" class="md-nav__link">
+    How to display CGM data on your watch.
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pebble-smartwatches" class="md-nav__link">
+    Pebble Smartwatches
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rebbleio" class="md-nav__link">
+    rebble.io.
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#urchin" class="md-nav__link">
+    Urchin
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pebble-xdrip" class="md-nav__link">
+    Pebble xDrip+
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#android-wear-os-smartwatches" class="md-nav__link">
+    Android Wear OS smartwatches
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#android-wear-2x" class="md-nav__link">
+    Android Wear 2.x
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#android-wear-xdrip" class="md-nav__link">
+    Android Wear xDrip+
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#amazfit-pace-stratos" class="md-nav__link">
+    Amazfit Pace &amp; Stratos
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#amazfit-band-5-bip-bip-lite-bip-s-and-gtr" class="md-nav__link">
+    Amazfit Band 5, Bip, Bip Lite, Bip S and GTR
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#amazfit-gtr2-gtr2e-gts2-gts2e-and-gtr42" class="md-nav__link">
+    Amazfit GTR2, GTR2e, GTS2, GTS2e and GTR42
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#xiaomi-miband-4-and-5" class="md-nav__link">
+    Xiaomi MiBand 4 and 5
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sugarmate" class="md-nav__link">
+    Sugarmate
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#nsapple" class="md-nav__link">
+    nsapple
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apple-watch-nightguard" class="md-nav__link">
+    Apple Watch Nightguard
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#loop-follow" class="md-nav__link">
+    Loop Follow
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fitbit" class="md-nav__link">
+    Fitbit
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#glance" class="md-nav__link">
+    Glance
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#samsung-gear-smartwatches" class="md-nav__link">
+    Samsung Gear Smartwatches
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#marclock" class="md-nav__link">
+    Marclock
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sentinel" class="md-nav__link">
+    Sentinel
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#g-watch-app" class="md-nav__link">
+    G-Watch app 
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#garmin-smartwatches-and-computers" class="md-nav__link">
+    Garmin Smartwatches and Computers
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#garmin-connecting-forerunner-945-to-xdrip" class="md-nav__link">
+    Garmin Connecting Forerunner 945 to xdrip
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+
+
+  <h1>CGM onto - Watches</h1>
+
+<!-- this is not on github server its local only and run my mkdocs server!
+docs made by D.Galloway 2019- 2021
+images would need to be change for them to show up on github from src="/my-project/img/side_load_ xdrip/1_icon_319x368.png" title="Gear Icon " to
+src="/my-project/img/side_load_ xdrip/1_icon_319x368.png" title="Gear Icon " 
+
+-->
+
+<p><br> </p>
+<p><img width="460" height="303" border="0" align="center"  src="../../img/Watches/Watches 20210821_233839.jpg" title="xdrip Logo "/>
+<br></p>
+<h2 id="how-to-display-cgm-data-on-your-watch"><strong>How to display CGM data on your watch.</strong><br><br></h2>
+<h2 id="pebble-smartwatches">Pebble Smartwatches</h2>
+<p><img width="360" height="303" border="0" align="center"  src="../../img/Watches/Pebble watch2.jpg" title="Pebble Watch"/>
+<br></p>
+<p>Pebble has been bought in 2016 by Fitbit and information resources have moved to</p>
+<h2 id="rebbleio"><a href="https://rebble.io/" target="_blank">rebble.io.</a><br></h2>
+<p>Pebble support is still maintained in <a href="https://www.facebook.com/groups/TheLoopedGroup" target="_blank"> Loop,</a> or <a href="https://www.facebook.com/groups/AndroidAPSUsers/posts/2932550243633040" target="_blank">  AndroidAPS,</a> and <a href="https://www.facebook.com/groups/xDripG5/" target="_blank">xDrip+</a><br>
+You still can find the Pebble app for iOS in the <a href="https://apps.apple.com/us/app/pebble/id957997620" target="_blank"> Apple Store</a><br></p>
+<p>For Android you need to download it from <a href="https://www.apkmirror.com/apk/pebble-technology-corp/pebble/pebble-4-4-2-1405-62d45d7d7-endframe-release/pebble-4-4-2-1405-62d45d7d7-endframe-android-apk-download/" target="_blank">APKMirror</a> or <a href="https://apkpure.com/it/pebble/com.getpebble.android.basalt" target="_blank">APKPure</a>.<br></p>
+<p>For confirmation and getting the watchfaces, the original location closed so you'll need to register with <a href="https://auth.rebble.io/auth/" target="_blank">Rebble</a>.<br>
+For  <a href="https://apps.rebble.io/en_US/search/watchfaces/1?query=nightscout" target="_blank">Nightscout watchfaces</a>. Do a search for Nightscout, or  CGM, and Configure the watchface with your Nightscout site URL.</p>
+<h2 id="urchin"><a href="https://github.com/mddub/urchin-cgm" target="_blank">Urchin</a></h2>
+<p>is a Pebble watchface to view data from a CGM monitor in graph format.</p>
+<p>If you want to use your Pebble with Loop see <a href="https://loopkit.github.io/loopdocs/nightscout/pebble/" target="_blank">Pebble Watchface,</a> for <a href="https://androidaps.readthedocs.io/en/latest/Configuration/Watchfaces.html#pebble" target="_blank">AndroidAPS</a> and <a href="https://github.com/mddub/pancreabble" target="_blank">FreeAPS</a>.</p>
+<h2 id="pebble-xdrip"><a href="https://github.com/NightscoutFoundation/xDrip/releases" target="_blank">Pebble xDrip+</a><br></h2>
+<p>To Enable Pebble Integration in xdrip Smartwatch features, go to<br></p>
+<p>1.<img width="219" height="468" border="0" align="center"  src="../../img/Watches/hanberger setting2.jpg" title="Hamberger "/> 2. <img width="219" height="468" border="0" align="center"  src="../../img/Watches/xdrip settings.jpg" title="Settings "/> 3. <img width="219" height="468" border="0" align="center"  src="../../img/Watches/smart watch feature (2).jpg" title="Smart Watch Features"/><br>
+ 4.<img width="219" height="468" border="0" align="center"  src="../../img/Watches/Pebble Intergration.jpg" title="Pebble Intergration"/> 5.<img width="219" height="468" border="0" align="center"  src="../../img/Watches/pebble intergration on1.jpg" title="Pebble Watch Intergration Turn On"/></p>
+<p>You can answer no to default watchface install if you like,so that you will be able to select another one. <br>
+You can also choose to install or not the snooze control. <img width="219" height="468" border="0" align="center"  src="../../img/Watches/snooze button.jpg" title="Snooz Button"/></p>
+<h2 id="android-wear-os-smartwatches"><a href="https://wearos.google.com/#hands-free-help" target="_blank">Android Wear OS smartwatches</a></h2>
+<p>With an Android smartphone.<br></p>
+<h2 id="android-wear-2x"><strong>Android Wear 2.x<br></strong></h2>
+<p>Install <a href="https://play.google.com/store/apps/details?id=com.google.android.wearable.app" target="_blank">Wear OS</a> on your phone from Google Play store,and pair your watch to it.
+Make sure to allow GPS and Wear OS access to position on the watch. Allow Wear OS to run in background on your phone.<br><br></p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5GSXfWNbfks" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<p><br>If for any reason you need an older version you can go to <a href="https://www.apkmirror.com/uploads/?q=google-play-services-android-wear" target="_blank">APK Mirror</a>
+Note: Newer versions of Wear OS do not support this feature anymore, you have to sideload it  and use Wear Installer after the 10th March 2021.See Video below!<br><br></p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7Ackvo657Ew" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p><br><br></p>
+<h2 id="android-wear-xdrip"><a href="https://github.com/NightscoutFoundation/xDrip/releases" target="_blank">Android Wear xDrip+</a><br></h2>
+<p>To enable Android Wear Integration to send xDrip+ BG to your smartwatch. Do not enable either Wear Collection service or Force Wear Collection.<br><br></p>
+<p>1.<img width="219" height="468" border="0" align="center"  src="../../img/Watches/hanberger setting2.jpg" title="Hamberger "/> 2. <img width="219" height="468" border="0" align="center"  src="../../img/Watches/xdrip settings.jpg" title="Settings "/> 3. <img width="219" height="468" border="0" align="center"  src="../../img/Watches/smart watch feature (2).jpg" title="Smart Watch Features"/><br>
+ 4.<img width="219" height="468" border="0" align="center"  src="../../img/Watches/Android wear intergration.jpg" title="Android Wear Intergration"/> 5.<img width="219" height="468" border="0" align="center"  src="../../img/Watches/wear intergration.jpg" title="Wear Intergration Turn On"/>
+<br>
+For full xDrip+ wear documentation go <a href="https://github.com/jamorham/xDrip-plus/blob/master/Documentation/WatchGuide.md" target="_blank">here.</a><br></p>
+<p><a href="https://androidaps.readthedocs.io/en/latest/Installing-AndroidAPS/Building-APK.html" target="_blank">AndroidAPS</a> which you will have to build yourself! See Instructions <a href="https://androidaps.readthedocs.io/en/latest/Installing-AndroidAPS/Building-APK.html" target="_blank">Here</a><br>
+For AAPS on Wear OS smartwatch <a href="https://androidaps.readthedocs.io/en/latest/Configuration/Watchfaces.html#aaps-on-wear-os-smartwatch" target="_blank">here.</a><br><br></p>
+<p><a href="https://play.google.com/store/apps/details?id=it.ct.glicemia">Glimp </a>on Google Play<br>
+Select your Wearable device and enable the Glimp watchface.<br></p>
+<p>1.<img width="219" height="468" border="0" align="center"  src="../../img/Watches/Glimp.jpg" title="Option "/> 2. <img width="219" height="468" border="0" align="center"  src="../../img/Watches/glimp settings.jpg" title="Settings "/> 3. <img width="219" height="468" border="0" align="center"  src="../../img/Watches/glimp bluetooth.jpg" title="Bluetooth"/><br>
+ 4.<img width="219" height="468" border="0" align="center"  src="../../img/Watches/glimp select wearible device.jpg" title="select wearible device"/> 5.<img width="219" height="468" border="0" align="center"  src="../../img/Watches/glimp select your watch.jpg" title="select your watch"/></p>
+<h2 id="amazfit-pace-stratos"><strong>Amazfit Pace &amp; Stratos<br></strong></h2>
+<p>xDrip+<br>
+    1. Install the Amazfit watch app on your phone from <a href="https://play.google.com/store/apps/details?id=com.huami.watch.hmwatchmanager" target="_blank">Google Play.</a> <br><br>
+    2. Install the <a href="https://androidfilehost.com/?a=show&w=files&flid=38683" target="_blank">Amazfit tool</a> and by un zipping file and double clicking on TOOL_ALL_IN_ONE.exe on a Windows PC update it as needed.<br><br>
+    3. Download the widget from the project author (<a href="https://github.com/Klaus3d3/XdripWidgetForAmazfit-Klaus/releases" target="_blank">Klaus3d3</a>) on GitHub repository.<br><br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/iLKNlmQpJdQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br>
+    4. unlock and enable USB debug on the watch, Do this by going to options then about and clicking on it 7 times.Video below is on a Ticwatch Pro 3 but I believe its done similar on the Amazfit Pace<br><br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/c7taDhXspz4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br>
+    5. Run TOOL ALL IN ONE and click the APK Installer button, select the widget apk file and INSTALL it.<br>
+    <img width="619" height="368" border="0" align="center"  src="../../img/Watches/TOOL ALL IN ONE_Apk_installer.jpg" title="TOOL ALL IN ONE Apk_installer"/><br><br>
+    6. Close the install window and click Reboot System.<br><br>
+    7. In xDrip+, enable the Amazfit service and select other options you want to enable.<br><br>
+     1.<img width="219" height="468" border="0" align="center"  src="../../img/Watches/hanberger setting2.jpg" title="Hamberger "/> 2. <img width="219" height="468" border="0" align="center"  src="../../img/Watches/xdrip settings.jpg" title="Settings "/> 3. <img width="219" height="468" border="0" align="center"  src="../../img/Watches/smart watch feature (2).jpg" title="Smart Watch Features"/><br>
+ 4.<img width="219" height="468" border="0" align="center"  src="../../img/Watches/Amazfit_sync_service.jpg" title="Amazfit Sync Service"/> 5.<img width="219" height="468" border="0" align="center"  src="../../img/Watches/Amafit_service.jpg" title="Amafit service"/><br><br></p>
+<h2 id="amazfit-band-5-bip-bip-lite-bip-s-and-gtr"><strong>Amazfit Band 5, Bip, Bip Lite, Bip S and GTR</strong></h2>
+<h2 id="amazfit-gtr2-gtr2e-gts2-gts2e-and-gtr42"><strong>Amazfit GTR2, GTR2e, GTS2, GTS2e and GTR42</strong></h2>
+<h2 id="xiaomi-miband-4-and-5"><strong>Xiaomi MiBand 4 and 5</strong></h2>
+<p><br>
+Follow Artem's instructions <a href="https://bigdigital.home.blog/" target="_blank">here.</a> For the following watches above:</p>
+<h2 id="sugarmate"><strong>Sugarmate</strong></h2>
+<p>Software designed to help you get the most out of your CGM. Can also setup as a calendar complication to display Nightscout on your Apple watch with <a href="https://sugarmate.io/" target="_blank">Sugarmate.</a><br><br></p>
+<h2 id="nsapple"><a href="https://github.com/Perceptus/nsapple" target="_blank">nsapple</a></h2>
+<p>is an apple watch app for Nightscout / Loop followers.<br></p>
+<h2 id="apple-watch-nightguard"><strong>Apple Watch</strong> <a href="https://apps.apple.com/us/app/nightguard/id1116430352#?platform=appleWatch" target="_blank">Nightguard</a></h2>
+<p>Apple Watch series 3 and above. <a href="https://github.com/nightscout/nightguard" target="_blank">GitHub</a><br></p>
+<h2 id="loop-follow"><strong>Loop Follow</strong></h2>
+<p>You can setup <a href="https://sweloop.se/LoopFollow/index.html" target="_blank">Loop Follow</a> as a calendar complication to display Nightscout on your Apple watch.</p>
+<h2 id="fitbit"><strong>Fitbit</strong></h2>
+<p><a href="https://gallery.fitbit.com/details/eaed806d-9ff5-4aa9-a2c8-518f1f852f5a" target="_blank">Nightscout Monitor</a>
+Ionic/Sense/Versa/Versa 2/Versa 3/Versa Lite
+<a href="https://github.com/sulkaharo/nsfitbit" target="_blank">Repository</a></p>
+<h2 id="glance"><a href="https://gallery.fitbit.com/details/7b5d9822-7e8e-41f9-a2a7-e823548c001c" target="_blank">Glance</a></h2>
+<p>Ionic/Sense/Versa/Versa 2/Versa 3/Versa Lite
+<a href="https://glancewatchface.com/" target="_blank">Glance Web site</a><br></p>
+<h2 id="samsung-gear-smartwatches"><strong>Samsung Gear Smartwatches</strong></h2>
+<p>xDrip Glucose Quarantine Watchface for Samsung Tizen OS Smartwatches*¹ and Wear OS by Google (former Android Wear) Smartwatches
+<a href="https://github.com/FreDiabetics/xDrip--Tasker-Tizen-Watchface-Integration/blob/master/README.md" target="_blank">Instructions</a><br></p>
+<h2 id="marclock"><strong>Marclock</strong></h2>
+<p>Ionic/Sense/Versa/Versa 2/Versa Lite
+<a href="https://github.com/cramis1/Marclock-with-CGM-weather/blob/master/README.md" target="_blank">Instructions</a><br></p>
+<h2 id="sentinel"><a href="https://gallery.fitbit.com/developer/b50ac7f5-b932-441a-be18-e258b17c736b" target="_blank">Sentinel</a></h2>
+<p>Ionic/Sense/Versa/Versa 2/Versa Lite
+<a href="https://www.facebook.com/groups/3185325128159614" target="_blank">Facebook group: Sentinel</a><br></p>
+<h2 id="g-watch-app"><strong>G-Watch app</strong> <br></h2>
+<p><a href="https://play.google.com/store/apps/details?id=sk.trupici.g_watch" target="_blank">G-Watch Mobile App on the Playstore</a><br>
+<a href="https://www.facebook.com/gwatchapp" target="_blank">Facebook group:</a> G-Watch App</p>
+<h2 id="garmin-smartwatches-and-computers"><strong>Garmin Smartwatches and Computers</strong><br></h2>
+<p>By <a href="https://apps.garmin.com/en-US/developer/74d80f40-f80a-45c2-b934-321cc86f9dac/apps" target="_blank">Phimby</a>
+By <a href="https://apps.garmin.com/en-US/developer/e985e9ec-bcf6-4aef-bfe9-77c1c93fc854/apps" target="_blank">Horsetooth</a>
+By <a href="https://apps.garmin.com/en-US/developer/f9420c47-810f-47ac-a7dd-9fa7b8ecd22d/apps" target="_blank">andreas-may</a>
+By <a href="https://apps.garmin.com/en-US/developer/c3842ca7-a645-4758-b9ed-4ee6f8e3abec/apps" target="_blank">Fredrik_S</a>
+By <a href="https://apps.garmin.com/en-US/developer/b2d30711-2708-4f3a-8e83-009c16d07081/apps" target="_blank">John_</a><br><br></p>
+<h2 id="garmin-connecting-forerunner-945-to-xdrip"><strong> Garmin Connecting Forerunner 945 to xdrip</strong><br></h2>
+<p>I will be doing a video soon on a setup for this watch keep popping back!</p>
+<p><a href="https://www.diabetes.org.uk/" target="_blank">
+  <img width="auto" height="auto" border="0" align="center"  src="../../img/Diabetesuk/pngarea.com_rutgers-logo-png-8467605.png" title="Diabetes UK"/>
+</a>               Why Not take visit <a href="https://cycle.diabetes.org.uk/">UK Wide Cycle Ride - Diabetes.uk</a> or  <a href="https://swim22.diabetes.org.uk/">Swim22 - Diabetes.uk</a> for your Diabetes Needs! </p>
+<p>If you would like to donate to me for helping with these documents please visit where I try to attempt to do one of the challenge each year to raise funds for Diabetes UK I'm yet again doing one on the 1st September 2021 (Thank you for your kind donations!)  </p>
+<p><a href="https://cycle.diabetes.org.uk/fundraising/david-galloway2023" target="_blank">
+  <img width="auto" height="auto" border="0" align="center"  src="../../img/Diabetesuk/uk_wide_cycle_ride_.jpg" title="Diabetes UK Wide cycle Ride"/></p>
+<!-- 
+
+Adding links!!!!!!!!!!!!!!
+<a href=" https://github.com/" target="_blank" title="Download Xdrip from mobile">Click Here</a> download xdrip from mobile: 
+
+ -->
+
+              
+            </article>
+            
+          </div>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+    <nav class="md-footer__inner md-grid" aria-label="Footer" >
+      
+        
+        <a href="../../Nightscout/Compatible%20Watches/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Compatible - Watches" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Compatible - Watches
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../Compatible%20Watches/" class="md-footer__link md-footer__link--next" aria-label="Next: Compatible - Watches" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Compatible - Watches
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.b97dbffb.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.6c7ad80a.min.js"></script>
+      
+    
+  </body>
+</html>

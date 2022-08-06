@@ -1,0 +1,1386 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://example.com/Nightscout/Setting_up_Heroku_Account_part2/">
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.3.1, mkdocs-material-8.3.9">
+    
+    
+      
+        <title>Part 2 Setting up Heroku Account - Xdrip-Android-APS-Nightscout-readmedoc</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.1d29e8d0.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.cbb835fc.min.css">
+        
+      
+      
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#welcome-to-the-diabetic-way" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Xdrip-Android-APS-Nightscout-readmedoc" class="md-header__button md-logo" aria-label="Xdrip-Android-APS-Nightscout-readmedoc" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Xdrip-Android-APS-Nightscout-readmedoc
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Part 2 Setting up Heroku Account 
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Xdrip-Android-APS-Nightscout-readmedoc" class="md-nav__button md-logo" aria-label="Xdrip-Android-APS-Nightscout-readmedoc" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    Xdrip-Android-APS-Nightscout-readmedoc
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1" type="checkbox" id="__nav_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_1">
+          Xdrip
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Xdrip" data-md-level="1">
+        <label class="md-nav__title" for="__nav_1">
+          <span class="md-nav__icon md-icon"></span>
+          Xdrip
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../xdrip/usethedoc/" class="md-nav__link">
+        Docs
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../xdrip/xdrip%20-%20Download/" class="md-nav__link">
+        Download
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../xdrip/Compatible%20Watches/" class="md-nav__link">
+        Compatible - Watches
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2">
+          Nightscout
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Nightscout" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Nightscout
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Setting_up_Github_Account_part1/" class="md-nav__link">
+        Part 1 - Setting up Github
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Part 2 Setting up Heroku Account 
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Part 2 Setting up Heroku Account 
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#part-2-setting-up-a-heroku-account-for-nightscout" class="md-nav__link">
+    Part 2 Setting up a Heroku Account for Nightscout
+  </a>
+  
+    <nav class="md-nav" aria-label="Part 2 Setting up a Heroku Account for Nightscout">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#now-we-are-going-to-create-a-heroku-account" class="md-nav__link">
+    Now we are going to create a Heroku account.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1-first-you-will-need-go-to-heroku-web-page-and-create-an-account-for-yourself-click-here-or-httpssignupherokucom-and-enter-all-your-account-details" class="md-nav__link">
+    1. First you will need go to Heroku web page and create an account for yourself Click Here or: https://signup.heroku.com  And enter all your account details.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-now-go-to-verify-your-account-via-the-link-in-the-verification-email-thats-sent-to-you-and-then-set-your-password" class="md-nav__link">
+    2. Now go to verify your account via the link in the verification email that’s sent to you, and then set your password.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-click-later-for-secure-your-account-this-can-be-done-later" class="md-nav__link">
+    3. Click Later for Secure your Account this can be done later!
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-your-heroku-page-will-open-now-click-on-your-profile-picture-in-the-top-right-corner-and-select-account-settings" class="md-nav__link">
+    4. Your Heroku page will open, now click on your profile picture, in the top right corner, and select Account Settings
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-click-on-billing" class="md-nav__link">
+    5.  Click on Billing
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-click-on-your-credit-card-details" class="md-nav__link">
+    6.  Click on your credit card details
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7-enter-your-credit-card-details-and-click-save-details" class="md-nav__link">
+    7.  Enter your credit card Details and click Save Details
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#you-should-now-have-2-web-pages-open-github-and-heroku-leave-them-open" class="md-nav__link">
+    You should now have 2 web pages open: Github and Heroku Leave them open.
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#now-we-need-to-do" class="md-nav__link">
+    Now we need to do 
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Setting_up_Atlas_Account_part3/" class="md-nav__link">
+        Part 3 Setting up Atlas Account 
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Part%204%20-%20Fork%20and%20Deploy%20cgm%20remote%20monitory/" class="md-nav__link">
+        Part 4 - Fork and Deploy cgm remote monitory
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Compatible%20Watches/" class="md-nav__link">
+        Compatible - Watches
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3">
+          Watches
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Watches" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Watches
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../watches/Watches/" class="md-nav__link">
+        CGM onto - Watches
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../watches/Compatible%20Watches/" class="md-nav__link">
+        Compatible - Watches
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../watches/TicWatch-Pro-3-side-load---xdrip/" class="md-nav__link">
+        TicWatch-Pro-3-Side-Load - Watches
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Userguide/" class="md-nav__link">
+        Userguide
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../apireference/" class="md-nav__link">
+        apireference
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/" class="md-nav__link">
+        about
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#part-2-setting-up-a-heroku-account-for-nightscout" class="md-nav__link">
+    Part 2 Setting up a Heroku Account for Nightscout
+  </a>
+  
+    <nav class="md-nav" aria-label="Part 2 Setting up a Heroku Account for Nightscout">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#now-we-are-going-to-create-a-heroku-account" class="md-nav__link">
+    Now we are going to create a Heroku account.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1-first-you-will-need-go-to-heroku-web-page-and-create-an-account-for-yourself-click-here-or-httpssignupherokucom-and-enter-all-your-account-details" class="md-nav__link">
+    1. First you will need go to Heroku web page and create an account for yourself Click Here or: https://signup.heroku.com  And enter all your account details.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-now-go-to-verify-your-account-via-the-link-in-the-verification-email-thats-sent-to-you-and-then-set-your-password" class="md-nav__link">
+    2. Now go to verify your account via the link in the verification email that’s sent to you, and then set your password.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-click-later-for-secure-your-account-this-can-be-done-later" class="md-nav__link">
+    3. Click Later for Secure your Account this can be done later!
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-your-heroku-page-will-open-now-click-on-your-profile-picture-in-the-top-right-corner-and-select-account-settings" class="md-nav__link">
+    4. Your Heroku page will open, now click on your profile picture, in the top right corner, and select Account Settings
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-click-on-billing" class="md-nav__link">
+    5.  Click on Billing
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-click-on-your-credit-card-details" class="md-nav__link">
+    6.  Click on your credit card details
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7-enter-your-credit-card-details-and-click-save-details" class="md-nav__link">
+    7.  Enter your credit card Details and click Save Details
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#you-should-now-have-2-web-pages-open-github-and-heroku-leave-them-open" class="md-nav__link">
+    You should now have 2 web pages open: Github and Heroku Leave them open.
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#now-we-need-to-do" class="md-nav__link">
+    Now we need to do 
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+
+
+<!-- this is on github live server !
+docs made by D.Galloway 2019- 2021-->
+<h1 id="welcome-to-the-diabetic-way">Welcome to The Diabetic way</h1>
+<p>For full Website content visit <a href="https://www.thediabeticway.co.uk/index.php/en/">The Diabetic Way</a>.
+<br>
+<br></p>
+<p><br> 
+<img width="auto" height="auto" border="0" align="center"  src="../../img/Heroku/Robot face_ heroku_account.jpg" Setting up Heroku Part 2"/></p>
+<h2 id="part-2-setting-up-a-heroku-account-for-nightscout"><strong>Part 2 Setting up a Heroku Account for Nightscout</strong><br><br></h2>
+<table width="1166" Height="148" border="1" style="border-color: #000000; background-color: #ffffff;" cellpadding="1" cellspacing="1" height="98">
+<tbody>
+<tr style="height: 16px;">
+<td style="width: 1158px; border-color: #000000; background-color: #5B9BD5;" fff=""><span style="font-size: 14pt;"><strong><span style="color: #ffffff;">Note!</span></strong></span></td>
+</tr>
+<tr style="height: 56.4063px;">
+<td style="width: 1158px; border-color: #000000;"><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 14pt;"> You will have already needed to have done <a href=" https://atlas-night-out.github.io/my-project/user-guide/Setting_up_Github_Account_part1/" target="_blank" title=" Part 1 Setting up Github Account for Nightscout.">Part 1 Setting up Github Account for Nightscout</a>. To be able to continue.</span></span></td>
+</tr>
+</tbody>
+</table>
+
+<p><br></p>
+<h3 id="now-we-are-going-to-create-a-heroku-account"><strong>Now we are going to create a Heroku account.</strong><br><br></h3>
+<h3 id="1-first-you-will-need-go-to-heroku-web-page-and-create-an-account-for-yourself-click-here-or-httpssignupherokucom-and-enter-all-your-account-details">1. First you will need go to Heroku web page and create an account for yourself <a href=" https://signup.heroku.com" target="_blank" title="Heroku Account">Click Here</a> or: https://signup.heroku.com  <span style="background-color: #FFFF00"><strong>And enter all your account details</strong></span>.<br></h3>
+<p><a href="https://signup.heroku.com" target="_blank">
+  <img width="auto" height="auto" border="0" align="center"  src="../../img/Heroku/sign_up.jpg" title="Sign up a Heroku Account"/></a>  </p>
+<p>First Name, last name, email address
+“Role” and “Primary development language” can be anything, but “Hobbyist” and “Node js” are the most appropriate choices. <span style="background-color: #FFFF00"><strong>And click on Create your free Account</strong></span><br><br></p>
+<h3 id="2-now-go-to-verify-your-account-via-the-link-in-the-verification-email-thats-sent-to-you-and-then-set-your-password">2. Now go to verify your account via the link in the verification email that’s sent to you, and then set your password.<br></h3>
+<p><img width="auto" height="auto" border="0" align="center"  src="../../img/Heroku/set password.jpg" title="set password up"/><br></p>
+<h3 id="3-click-later-for-secure-your-account-this-can-be-done-later">3. Click <span style="background-color: #FFFF00"><strong>Later</strong></span> for Secure your Account this can be done later!<br></h3>
+<p><img width="auto" height="auto" border="0" align="center"  src="../../img/Heroku/Later for Secure your Account.jpg" title="Secure your Account"/><br></p>
+<h3 id="4-your-heroku-page-will-open-now-click-on-your-profile-picture-in-the-top-right-corner-and-select-account-settings">4. Your Heroku page will open, now click on your profile picture, in the top right corner, and <span style="background-color: #FFFF00"><strong>select Account Settings</strong></span><br><br></h3>
+<p><img width="auto" height="auto" border="0" align="center"  src="../../img/Heroku/heroku Account Settings.jpg" title="Heroku Account Settings"/><br></p>
+<table width="1166" Height="178" border="1" style="border-color: #000000; background-color: #ffffff;" cellpadding="1" cellspacing="1" height="98">
+<tbody>
+<tr style="height: 16px;">
+<td style="width: 1158px; border-color: #000000; background-color: #5B9BD5;" fff=""><span style="font-size: 14pt;"><strong><span style="color: #ffffff;">Note!</span></strong></span></td>
+</tr>
+<tr style="height: 56.4063px;">
+<td style="width: 1158px; border-color: #000000;"><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 14pt;"> Unless you willingly select billable features, your credit card information is only used for verifications and you will not be charged anything. Worst case you’ll be charged £0.00</span></span></td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<h3 id="5-click-on-billing">5.  Click on <span style="background-color: #FFFF00"><strong>Billing</strong></span><br></h3>
+<p><img width="auto" height="auto" border="0" align="center"  src="../../img/Heroku/billing.jpg" title="Select Billing"/><br></p>
+<h3 id="6-click-on-your-credit-card-details">6.  Click on your <span style="background-color: #FFFF00"><strong>credit card details</strong></span><br></h3>
+<p><img width="auto" height="auto" border="0" align="center"  src="../../img/Heroku/Add credit Card.jpg" title="Add yoru credit card details"/><br></p>
+<h3 id="7-enter-your-credit-card-details-and-click-save-details">7.  Enter your <span style="background-color: #FFFF00"><strong>credit card Details</strong></span> and click Save Details<br></h3>
+<p><img width="auto" height="auto" border="0" align="center"  src="../../img/Heroku/enter payment details.jpg" title="Enter Card Details"/><br></p>
+<h3 id="you-should-now-have-2-web-pages-open-github-and-heroku-leave-them-open">You should now have 2 web pages open: <span style="background-color: #FFFF00"><strong>Github</strong></span> and <span style="background-color: #FFFF00"><strong>Heroku</strong></span> Leave them open.<br><br></h3>
+<p><strong>Heroku</strong>
+<img width="auto" height="auto" border="0" align="center"  src="../../img/Heroku/welcome to heroku.jpg" title="Welcome to Heroku main page"/><br><br>
+<strong>Github</strong>
+<img width="auto" height="auto" border="0" align="center"  src="../../img/Heroku/github & heroku open.jpg" title="Welcome to Github main page"/><br><br></p>
+<h2 id="now-we-need-to-do"><center>Now we need to do <br></center></h2>
+<p><br></p>
+<h1 id="part-3-set-up-a-atlas-account"><center>Part 3: <a href="https://atlas-night-out.github.io/Xdrip-AndroidAps-Nightscout-Docs/Nightscout/Setting_up_Atlas_Account_part3/" target="_blank" title="set up a Atlas Account - Part 3">Set up a Atlas Account</a> </center></h1>
+<p><br></p>
+<hr />
+<p><br>
+<a href="https://www.diabetes.org.uk/" target="_blank">
+ <center> <img width="auto" height="auto" border="0" align="center"  src="../../img/Diabetesuk/pngarea.com_rutgers-logo-png-8467605.png" title="Diabetes UK"/>
+</a>               Why Not take visit <a href="https://cycle.diabetes.org.uk/">UK Wide Cycle Ride - Diabetes.uk</a> <span style="background-color: #FFFF00"><strong>or</strong></span>  <a href="https://swim22.diabetes.org.uk/">Swim22 - Diabetes.uk</a> <span style="background-color: #FFFF00"><strong>or</strong></span> <a href="https://monthofmiles.diabetes.org.uk/?gclid=CjwKCAjwz5iMBhAEEiwAMEAwGO2_OoOGRQdN3BDD3NUQ8WoYAsJsxd1YUJN8dSVJowD1E4AjJ1RdVxoC9bgQAvD_BwE">Month of Miles - Diabetes.uk</a> for all of your Diabetes Needs!
+</center></p>
+<!--  
+***********************************************************************************************************************************************************
+below needs removing when finished!!!!!!!!!!!!!
+*************************************************************************************************************************************************************
+
+8. Now go back to your Github account, and make sure you’re in your ( Your Github account name / cgm-remote-monitor)<br>
+
+
+
+
+In your case it will be ( Your Github Account Name / cgm-remote-monitor)
+
+
+
+Github_cgm-remote-monitor-Repository
+Github_cgm-remote-monitor-Repository
+
+
+In the repository, scroll down to where the Readme file is displayed, and click the Purple Deploy to Heroku button.
+
+
+If you are doing this process on a phone or tablet, you may not see the Readme displayed on scrolling — have your browser load the Desktop version of the page first.
+
+
+
+
+Make sure to write all settings down if you can! Things like App name, API secret you will need in a lot of other setups so it’s important to document it.
+On the Heroku screen that opens, fill in the information requested:
+App name: Your site will have a URL like “your-app-name.herokuapp.com”. This is where you choose the “your-app-name” part. In my case I called mine app-name: t1diabetics
+Region: No matter where you are, this setting does not impact you; leave it on United States.
+Config Vars: Most of these are populated with defaults that will be fine for a typical setup. All of them can be edited later. There are a few you will want to note during this setup though:
+API SECRET: This is required. Enter a passphrase you will use for your site. It has to be   12 characters no less or you will get errors!
+BG HIGH, BG LOW, BG TARGET BOTTOM, and TARGET TOP:
+The thresholds at which your site will alert you. HIGH and LOW are your “urgent” thresholds
+TARGET BOTTOM and TARGET TOP
+are the top and bottom of your “good” ranges.
+As of version 13.0, these values can be entered in either mg/dl or mmol/L
+I will do another Video on the setup of the Bridge Server, ignore this for now.
+If you are outside the US, set BRIDGE SERVER to “EU” (in capitals, without the quotation marks. If you are inside the US, leave it as it is.
+DISPLAY UNITS: Units will be mg/dl by default. If you want mmol/L, enter “mmol” or “mmol/L” here.
+ENABLE: This variable that turns on all the features you want to use with adding plug in’s
+There’s a list of all of the plug in’s and what they do here. (The ones you can choose to enable are under the heading “Advanced Plug in’s”)
+See Link in description below:
+https://github.com/nightscout/cgm-remote-monitor#plugins
+Now click the Deploy app button at the bottom of the page.
+Heroku will begin deployment, going through a list of automated steps at the bottom of the page. This process can take a while be patient!
+During the “Configure environment” step, you will be asked to add a credit/debit card to the account.
+All Heroku accounts need a card on file to verify the account and allow for paid add-ons. You will never be charged without explicitly opting into extra levels of service, and for a typical Nightscout site you won’t ever need anything extra.
+
+
+Fill in your details, you will never be charged without explicitly opting into extra levels of service, and for a typical Nightscout site you won’t ever need anything extra
+Sometimes you might have an error or issue’s in doing this process due to incorrect password or need to verify again then go to https://heroku.com/verify
+After adding your Card Details again, Click save
+and go back to the Deployment page.
+Click the Deploy app button again, and it should complete this time.
+Again, this will take a few minutes be patient!
+Congratulations! Your app was successfully deployed
+Right click View to open in a new tab also Right click Manage App so both are open in new tabs
+I got a error due to the API Secret password being incorrectly done!
+Go to your Heroku Account you just made.
+You are now in your Heroku Account
+Go to Settings
+Select Reveal Config Vars
+Scroll down until you come to the API Secret and edit it and make sure password is 12 characters
+Click save
+Now go back and refresh your Nightscout Site you created
+Your Heroku site is now created
+Make sure to write your Nightscout App URL down for safe keepings as will need this later.
+We now need to add your Nightscout App URL into Xdrip for your CGM data to go to Nightscout there are lots of different ways to do this, but for this setup I’m going to show you in Xdrip how to add base URL into it, which will be in another video.
+We will also need to setup your profile editor which I will also do in another video
+
+
+If you have not setup xdrip already see my other video on utube How to Installing Xdrip at https://youtu.be/7Qwr4HrchTU It is also on The Diabetic way Website
+
+
+Has you will need to have xdrip installed before we can add your base URL for Nightscout to work
+Please note this xdrip setup was not made with the same Github accounts so urls and names will be different until I can make an updated xdrip video.
+Now we need to see How to add Base URL into xDrip
+See Part 3 How to add Base URL into Xdrip
+
+
+
+
+h) Add a database username (for example nightscout) and a database password (in the example below soo5ecret but please change it!).
+
+<br>
+
+Write down these credentials in the boxes below (yes, in this browser window you're reading now, unless you're reading a printed version). You’ll need them later.
+
+<br>
+Database password:<input type="text" id="myPwd" value="click here, delete and put your own " size="32">
+<br>
+
+Database username:<input type="text" id="myUsr" value="click here, delete and put your own" size="32">
+
+<br>
+Paste the string in the box below `(yes, in this browser window you're reading now, unless you're reading a printed version)`
+<input type="text" id="myAtlas" value="click here, delete and paste your Atlas connection string" size="100">
+<br>
+
+Database Name: <input type="text" id="mydB" value="click here, delete and put your own" size="30">
+<br>
+Click the Generate button (just here below this line: in this browser window you're reading):
+
+<br>
+
+
+<button onclick="Generate()">Generate</button>
+
+
+
+
+Field1: <input type="text" id="field1" value="Hello World!"><br>
+Field2: <input type="text" id="field2"><br><br>
+Field3: <input type="text" id="field3"><br><br>
+<button onclick="myFunction()">Copy Text</button>
+
+<p>A function is triggered when the button is clicked. The function copies the text from Field1 into Field2.</p>
+
+<script>
+function myFunction() {
+  document.getElementById("field3").value = document.getElementById("field1","field2").value;
+}
+</script>
+
+
+
+
+
+
+
+<img width="auto" height="auto" border="0" align="center"  src="/img/Atlas/Robot face_ Atlas account_860x462.jpg" Setting up Atlas Part 3"/>
+
+
+
+<font size="4">
+
+This is a regular paragraph.
+
+Paragraph:
+
+1. **Now Open another tab**  to make a Mongodb Atlas** Account: <a href="https://www.mongodb.com/cloud/atlas" target="_blank" title="Click Start Free">See Here</a> 
+  and **click** Start Free
+ <img width="auto" height="auto" border="0" align="center"  src="/img/Atlas/MongoDB Atlas start free.jpg"Click Start"/>
+      2. **No need to do this part** but I did.<img width="auto" height="auto" border="0" align="center"  src="/img/Atlas/MongoDB_Atlas account_setup.jpg"MongoDB Atlas Account Setup.jp"/>
+ <br>
+      3. Sub item three<br>
+2. Item two
+
+
+* Enter your information and then click Get Started Free
+  <img width="auto" height="auto" border="0" align="center"  src="/img/Atlas/MongoDB Atlas fill in details2.jpg"Fill in your details"/>
+
+
+  Select Create a cluster in Shared Clusters (FREE)
+
+
+
+
+  Leave all default values and click Create Cluster
+
+
+
+
+
+  Atlas will create your default cluster, wait until it is complete... (can take more than 3 minutes)
+
+
+
+   Click on CONNECT
+
+
+   f. Click on Allow Access from Anywhere
+
+
+   Click on Add IP Address
+
+
+
+
+   h) Add a database username (for example nightscout) and a database password (in the example below soo5ecret but please change it!).
+
+
+   i) Then click Create Database User.
+
+
+   j)Click on Choose a connection method
+
+
+   Select Connect your application
+
+
+
+   Copy the connection string: click Copy and paste it somewhere to edit it (like Notepad).
+
+</font>
+
+
+Check what version you are upto on your Nightscout site. In my example I'm on version  14.06 (Liquorice)
+
+<table width="1166" border="1" style="border-color: #000000; background-color: #ffffff;" cellpadding="1" cellspacing="1" height="98">
+<tbody>
+<tr style="height: 16px;">
+<td style="width: 1158px; border-color: #000000; background-color: #5B9BD5;" fff=""><span style="font-size: 14pt;"><span style="color: #ffffff;">Note! video, see below</span></span></td>
+</tr>
+<tr style="height: 56.4063px;">
+<td style="width: 1158px; border-color: #000000;"><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 14pt;">
+<iframe width="850" height="415" src="https://www.youtube.com/embed/MFsbm45b6YY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  </span></td>
+</tr>
+</tbody>
+</table>
+
+
+
+Updating your website to the latest version
+ <a href="https://github.com/nightscout/cgm-remote-monitor/releases" target="_blank" title="Nightscout Release Versions">See Here</a> for the 
+ current released version at moment) is easy with the update tool linked below. 
+
+
+
+## Instructions
+
+These instruction have been made on the 28 <span style="background-color: #FFFF00">**April 2021**</span><br>
+<br>
+<table width="1166" border="1" style="border-color: #000000; background-color: #ffffff;" cellpadding="1" cellspacing="1" height="98">
+<tbody>
+<tr style="height: 16px;">
+<td style="width: 1158px; border-color: #000000; background-color: #5B9BD5;" fff=""><span style="font-size: 14pt;"><strong><span style="color: #ffffff;">Note!</span></strong></span></td>
+</tr>
+<tr style="height: 56.4063px;">
+<td style="width: 1158px; border-color: #000000;"><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 14pt;">Azure Users
+as of 0.12, Nightscout no longer supports the free Azure platform now. If you really want to keep using Azure, don’t update to any version above 0.12</span></td>
+</tr>
+</tbody>
+</table>
+<br>
+
+# Step 1 Update Github Repo
+
+* Log into your GitHub Account.<a href="https://github.com/" target="_blank" title="GitHub Login">-- Here --</a>
+<span style="background-color: #FFFF00">**Wait**</span>: Make sure you’re actually signed into your GitHub account and <span style="background-color: #FFFF00">**Check**</span> by looking in the upper right corner of the page to verify. You cannot do this later.<span style="background-color: #FFFF00">**Best to do it now!.**</span> 
+😉 <br>
+
+* Now<a href="http://nightscout.github.io/pages/update-fork/" target="_blank" title="Update Tool">-- Click Here --</a> to open the <span style="background-color: #FFFF00">**update tool or image below!**</span>for Nightscout in a new tab from Github. Make sure both are open<br>
+
+* Enter your GitHub <span style="background-color: #FFFF00">**username**</span> and click the blue button that says Check for updates. (Note: your username is not an email address.)<br>
+
+
+<a href="http://nightscout.github.io/pages/update-fork/" target="_blank">
+  <img width="auto" height="auto" border="0" align="center"  src="/img/Nightscout/Time to Update Nightscout.png" title="Update Tool"/>
+</a>
+click the blue button that says<span style="background-color: #FFFF00">**Checks for updates**</span>
+
+* If an update is available, the tool will tell you this,and provide directions for you, and also give you a button that will take you to <span style="background-color: #FFFF00">**GitHub**</span> to finish the process.
+
+<a href="http://nightscout.github.io/pages/update-fork/" target="_blank">
+  <img width="auto" height="auto" border="0" align="center"  src="/img/Nightscout/update availible.jpg" title="Update Tool"/></a><br>
+
+* <span style="background-color: #FFFF00">**Click the Continue updating at GitHub button.**</span> Review the directions on the screen that pops up, and continue.
+
+## step 1 `(see Step1 & Step2 video below)`
+
+* <span style="background-color: #FFFF00">**Click "Create pull request"**</span> Your fork must be on the left side  
+<a >
+  <img width="auto" height="auto" border="0" align="center"  src="/img/Nightscout/step1_creat_pull_request.jpg" title="Your fork must be on the left side and the nightscout/cgm-remote-monitor must be on the right. right."/></a>
+ and the <span style="background-color: #FFFF00">**nightscout/cgm-remote-monitor must be on the right.**</span><br>
+
+## step 2 create pull request
+
+* Click <span style="background-color: #FFFF00">**"Create pull request” again,**</span> do not change the comparison. Your fork must be on the left side and the nightscout/cgm-remote-monitor must be on the right side.
+<a >
+  <img width="auto" height="auto" border="0" align="center"  src="/img/Nightscout/step 2 create pull request again.jpg" title="Your fork must be on the left side and the nightscout/cgm-remote-monitor must be on the right. right."/></a>
+* <span style="background-color: #FFFF00">** Also Give your pull request a name**</span> like “Update” or “Sweet Liquorice Update” — doesn’t really matter what this is.
+
+## Step 1 & Step 2 Video
+<br>
+
+
+<table width="1166" border="1" style="border-color: #000000; background-color: #ffffff;" cellpadding="1" cellspacing="1" height="98">
+<tbody>
+<tr style="height: 16px;">
+<td style="width: 1158px; border-color: #000000; background-color: #5B9BD5;" fff=""><span style="font-size: 14pt;"><span style="color: #ffffff;">step 1 & Step 2 Video</span></span></td>
+</tr>
+<tr style="height: 56.4063px;">
+<td style="width: 1158px; border-color: #000000;"><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 14pt;">
+<iframe width="850" height="415" src="https://www.youtube.com/embed/6tGsLOE1BuE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  </span></td>
+</tr>
+</tbody>
+</table>
+
+
+ <br>
+
+
+## step 3 merge pull request
+
+* Click <span style="background-color: #FFFF00">**"Merge pull request**</span>
+
+<a >
+  <img width="auto" height="auto" border="0" align="center"  src="/img/Nightscout/step 3 merge pull request.jpg" title="Merge pull request"/></a>
+
+* or see video below
+<br>
+<table width="1166" border="1" style="border-color: #000000; background-color: #ffffff;" cellpadding="1" cellspacing="1" height="98">
+<tbody>
+<tr style="height: 16px;">
+<td style="width: 1158px; border-color: #000000; background-color: #5B9BD5;" fff=""><span style="font-size: 14pt;"><span style="color: #ffffff;">Note! video,</span></span></td>
+</tr>
+<tr style="height: 56.4063px;">
+<td style="width: 1158px; border-color: #000000;"><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 14pt;">
+<iframe width="850" height="415" src="https://www.youtube.com/embed/gUEqZAfPEZ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  </span></td>
+</tr>
+</tbody>
+</table>
+
+
+
+## step 4 confirm merge
+<br>
+* Now Click the  <span style="background-color: #FFFF00">**Confirm merge button.**</span>
+<a>
+  <img width="auto" height="auto" border="0" align="center"  src="/img/Nightscout/step 4 click  confirm merge.jpg" title="Step 4 Confirm Merge"/></a>
+
+## step 5 merged
+
+* If you see <span style="background-color: #FFFF00">**"Merged" in purple,**</span> you have successfully updated your fork. If you're using Heroku you will need to to push the Deploy Branch button, in the Manual deploy section of the Deploy page.
+
+* <span style="background-color: #FFFF00">**You have successfully updated your GitHub repository**</span>, now let's deploy it in Heroku.
+<br>
+<br>
+<table width="1166" border="1" style="border-color: #000000; background-color: #ffffff;" cellpadding="1" cellspacing="1" height="98">
+<tbody>
+<tr style="height: 16px;">
+<td style="width: 1158px; border-color: #000000; background-color: #db4e12;" fff=""><span style="font-size: 14pt;"><strong><span style="color: #ffffff;">Note!</span></strong></span></td>
+</tr>
+<tr style="height: 56.4063px;">
+<td style="width: 1158px; border-color: #000000;"><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 14pt;">If you’re on Heroku and have Automatic Deploys enabled, you’re done!<br>
+ If you don’t have Automatic Deploys on yet, or aren’t sure, run through these steps below!</span></td>
+</tr>
+</tbody>
+</table>
+
+# Step6: Deploy in Heroku
+<br>
+
+
+* Log into <a href="https://id.heroku.com/login" target="_blank" title="Nightscout Release Versions">Heroku</a>  
+<a href="https://id.heroku.com/login" target="_blank">
+  <img width="auto" height="auto" border="0" align="center"  src="/img/Heroku/log into heroku.jpg" title="Log into Heroku"/>
+</a>
+
+* Select your app `(In my case The Dibetic Way)`
+<img width="auto" height="auto" border="0" align="center"  src="/img/Heroku/Select_your_App.jpg" title="Select Deploy Tab"/>
+<br>
+
+* In the middle bit, click on the GitHub button if it isn’t already showing as connected. It will ask you to authorize the connection if you’re doing it for the first time.
+
+<img width="auto" height="auto" border="0" align="center"  src="/img/Heroku/github connected.jpg" title="Select Deploy Tab"/>
+<br>
+
+* Type “cgm” into the repo-name search box, and click Search
+<br>
+
+* Click the Connect button once it finds your cgm-remote-monitor repository. You should now be connected
+<br>
+
+<table width="1166" border="1" style="border-color: #000000; background-color: #ffffff;" cellpadding="1" cellspacing="1" height="98">
+<tbody>
+<tr style="height: 16px;">
+<td style="width: 1158px; border-color: #000000; background-color: #5B9BD5;" fff=""><span style="font-size: 14pt;"><span style="color: #ffffff;">Note! see video</span></span></td>
+</tr>
+<tr style="height: 56.4063px;">
+<td style="width: 1158px; border-color: #000000;"><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 14pt;">
+<iframe width="850" height="415" src="https://www.youtube.com/embed/5S2lcc5XY_g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  </span></td>
+</tr>
+</tbody>
+</table>
+
+* Or if Heroku is not connected to GitHub, scroll down and click Connect to GitHub, if a popup window opens and requires authorization, click Authorize Heroku
+<br>
+
+* Now after connecting to Gitnub, Scroll down to the bottom of the page, make sure to select the <span style="background-color: #FFFF00">master branch</span>  and then click <span style="background-color: #FFFF00"> Deploy Branch</span>
+<br>
+  <img width="auto" height="auto" border="0" align="center"  src="/img/Heroku/masterthendeploy.jpg" title="Select master then Deploy Branch"/>
+</a>
+<br>
+* Build will start, do not interfere and wait for completion. It can take a while <span style="background-color: #FFFF00">approximately around 10 minutes Do not Interrupt the process</span>  has it can lead to a broken site and you'll need to restart again.
+<br>  
+  <img width="auto" height="auto" border="0" align="center"  src="/img/Heroku/Build-will-start.jpg" title="Build will start and information will scroll in the log window"/>
+</a>
+<br>
+*  Wait until the deploy process completes and <span style="background-color: #FFFF00">click View</span> if nothing happens click Manage App then upper right Open App
+<br>
+  <img width="auto" height="auto" border="0" align="center"  src="/img/Heroku/view-App.jpg" title="Delect View now that the deploy process is complete"/></a>
+<br>
+*  Your site will open and  it should be at the latest version on your Nightscout Site
+<br>
+* <span style="background-color: #FFFF00">You're Finished!</span> 
+* Head over to your Nightscout site and check its updated!
+
+
+<table width="1166" border="1" style="border-color: #000000; background-color: #ffffff;" cellpadding="1" cellspacing="1" height="98">
+<tbody>
+<tr style="height: 16px;">
+<td style="width: 1158px; border-color: #000000; background-color: #5B9BD5;" fff=""><span style="font-size: 14pt;"><span style="color: #ffffff;">Check if Nightscout as updated Video</span></span></td>
+</tr>
+<tr style="height: 56.4063px;">
+<td style="width: 1158px; border-color: #000000;"><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 14pt;">
+<iframe width="850" height="415" src="https://www.youtube.com/embed/MFsbm45b6YY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  </span></td>
+</tr>
+</tbody>
+</table>
+<br>
+
+<table width="1166" border="1" style="border-color: #000000; background-color: #ffffff;" cellpadding="1" cellspacing="1" height="98">
+<tbody>
+<tr style="height: 16px;">
+<td style="width: 1158px; border-color: #000000; background-color: #5B9BD5;" fff=""><span style="font-size: 14pt;"><span style="color: #ffffff;">Helpfull Note!</span></span></td>
+</tr>
+<tr style="height: 56.4063px;">
+<td style="width: 1158px; border-color: #000000;"><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 14pt;">
+<span style="background-color: #00000">To let your site finish updating itself as soon as you update your fork in the future with another Pull Request, enable Automatic Deploys here (from the master branch):
+<br>                                                                </span> 
+
+<iframe width="850" height="415" src="https://www.youtube.com/embed/x73tDH-ln4A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  <span style="background-color: #FFFFFF"> If you’ve just turned the Automatic thing on, you’ll need to manually do the first deploy — make sure the branch is on master, and click the Deploy Branch button:</span></td>
+</tr>
+</tbody>
+</table>
+<br>
+
+
+
+<table width="1266" border="1" style="border-color: #000000; background-color: #ffffff;" cellpadding="1" cellspacing="1" height="98">
+<tbody>
+<tr style="height: 16px;">
+<td style="width: 1158px; border-color: #000000; background-color: #FF0000;" fff=""><span style="font-size: 14pt;"><strong><span style="color: #ffffff;">Warning!</span></strong></span></td>
+</tr>
+<tr style="height: 56.4063px;">
+<td style="width: 1158px; border-color: #000000;"><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 14pt;"> 1: Some new features, updates, or bug fixes may require that you clear your browser cache before you will see the changes taken effect<br/> 2: If you get no errors and no readings after a while see about doing a <a href="http://127.0.0.1:8000/user-guide/Redeploying%20your%20repository/" target="_blank" title="Redeploying your repository link">Redeploying your repository</a> </span></td>
+</tr>
+</tbody>
+</table>
+***********************************************************************************************************************************************************
+above needs removing when finished!!!!!!!!!!!!!
+*************************************************************************************************************************************************************
+-->
+
+<!--  
+
+  mkdocs.yml    # The configuration file.
+    docs/
+    index.md  # The documentation homepage.
+       ...       # Other markdown pages, images and other files.
+
+
+
+<a href="http://nightscout.github.io/pages/update-fork/" target="_blank">
+  <img width="auto" height="auto" border="0" align="center"  src="/img/Nightscout/Time to Update Nightscout.png" title="Update Tool"/></a>      
+
+
+adding  Yellow Hightligher!!!!!!!!  
+<span style="background-color: #FFFF00">**Marked text**</span>
+
+
+<a>
+  <img width="auto" height="auto" border="0" align="center"  src="/img/Nightscout/Time to Update Nightscout.png" title="Update Tool"/></a>  
+
+
+
+
+Adding a image
+<a href="https://www.youtube.com/watch?v=MFsbm45b6YY" target="_blank">
+  <img width="auto" height="auto" border="0" align="center"  src="/img/Nightscout/nightscout version_14.06.jpg" title="Version of Nightscout Video"/>
+</a>
+
+
+Adding Video
+
+<iframe width="850" height="415" src="https://www.youtube.com/embed/MFsbm45b6YY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Note
+**Note:** a note is something that needs to be mentioned but is apart from the context.
+
+
+List
+This is a regular paragraph.
+
+Paragraph:
+
+1. **Now Open another tab**  to make a Mongodb Atlas** Account: <a href="https://www.mongodb.com/cloud/atlas" target="_blank" title="Click Start Free">See Here</a> 
+  and **click** Start Free
+ <img width="auto" height="auto" border="0" align="center"  src="/img/Atlas/MongoDB Atlas start free.jpg"Click Start"/>
+   2. Sub item two
+   3. Sub item three
+2. Item two
+
+
+
+font size
+<font size="4">
+
+</font>
+
+
+
+Table
+| Syntax | Description |
+| ----------- | ----------- |
+| Header | Title |
+| Paragraph | Text |
+
+
+-->
+
+              
+            </article>
+            
+          </div>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+    <nav class="md-footer__inner md-grid" aria-label="Footer" >
+      
+        
+        <a href="../Setting_up_Github_Account_part1/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Part 1 - Setting up Github" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Part 1 - Setting up Github
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../Setting_up_Atlas_Account_part3/" class="md-footer__link md-footer__link--next" aria-label="Next: Part 3 Setting up Atlas Account " rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Part 3 Setting up Atlas Account 
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.b97dbffb.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.6c7ad80a.min.js"></script>
+      
+    
+  </body>
+</html>

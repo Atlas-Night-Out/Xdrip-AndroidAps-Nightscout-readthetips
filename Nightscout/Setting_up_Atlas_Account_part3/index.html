@@ -1,0 +1,1354 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://example.com/Nightscout/Setting_up_Atlas_Account_part3/">
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.3.1, mkdocs-material-8.3.9">
+    
+    
+      
+        <title>Part 3 Setting up Atlas Account - Xdrip-Android-APS-Nightscout-readmedoc</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.1d29e8d0.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.cbb835fc.min.css">
+        
+      
+      
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#welcome-to-the-diabetic-way" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Xdrip-Android-APS-Nightscout-readmedoc" class="md-header__button md-logo" aria-label="Xdrip-Android-APS-Nightscout-readmedoc" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Xdrip-Android-APS-Nightscout-readmedoc
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Part 3 Setting up Atlas Account 
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Xdrip-Android-APS-Nightscout-readmedoc" class="md-nav__button md-logo" aria-label="Xdrip-Android-APS-Nightscout-readmedoc" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    Xdrip-Android-APS-Nightscout-readmedoc
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1" type="checkbox" id="__nav_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_1">
+          Xdrip
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Xdrip" data-md-level="1">
+        <label class="md-nav__title" for="__nav_1">
+          <span class="md-nav__icon md-icon"></span>
+          Xdrip
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../xdrip/usethedoc/" class="md-nav__link">
+        Docs
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../xdrip/xdrip%20-%20Download/" class="md-nav__link">
+        Download
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../xdrip/Compatible%20Watches/" class="md-nav__link">
+        Compatible - Watches
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2">
+          Nightscout
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Nightscout" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Nightscout
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Setting_up_Github_Account_part1/" class="md-nav__link">
+        Part 1 - Setting up Github
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Setting_up_Heroku_Account_part2/" class="md-nav__link">
+        Part 2 Setting up Heroku Account 
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Part 3 Setting up Atlas Account 
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Part 3 Setting up Atlas Account 
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#part-3-setting-up-a-atlas-account-for-nightscout" class="md-nav__link">
+    Part 3 Setting up a Atlas Account for Nightscout
+  </a>
+  
+    <nav class="md-nav" aria-label="Part 3 Setting up a Atlas Account for Nightscout">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-now-open-another-tab-to-make-a-mongodb-atlas-account-see-here" class="md-nav__link">
+    1. Now Open another tab  to make a Mongodb Atlas** Account: See Here
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-enter-your-account-details-like-i-have-and-then-click-get-started-free" class="md-nav__link">
+    2. Enter your Account Details like I have and then click get started free
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-atlas-will-send-you-an-email-if-you-dont-receive-it-check-your-spam-folder" class="md-nav__link">
+    3. Atlas will send you an email, if you don't receive it check your Spam folder.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-now-verify-your-email" class="md-nav__link">
+    4. Now verify your email
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-enter-some-information-like-i-have-below-and-then-finish" class="md-nav__link">
+    5. Enter some information like I have below and then Finish 
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-select-create-a-cluster-in-shared-clusters-free" class="md-nav__link">
+    6. Select Create a cluster in Shared Clusters (FREE)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7-leave-all-default-values-and-click-create-cluster" class="md-nav__link">
+    7. Leave all default values and click Create Cluster
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8-click-on-connect" class="md-nav__link">
+    8.  Click on CONNECT
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#9-click-on-allow-access-from-anywhere" class="md-nav__link">
+    9. Click on Allow Access from Anywhere
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#10-click-on-add-ip-address" class="md-nav__link">
+    10. Click on Add IP Address
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#11-add-a-database-username-for-example-nightkai-and-a-database-user-password-in-the-my-examples-below-madeuppassword7-but-please-change-it-later-see-both-images-below" class="md-nav__link">
+    11. Add a database username (for example nightkai) and a database user password (in the my examples below  Madeuppassword7) but please change it later, see both images below!!
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12-then-click-create-database-user" class="md-nav__link">
+    12. Then click Create Database User.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#13-click-on-choose-a-connection-method" class="md-nav__link">
+    13. Click on  Choose a Connection Method
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#14-now-select-connect-your-application" class="md-nav__link">
+    14.  Now Select Connect your application
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#15-copy-the-connection-string-click-copy-icon-and-paste-it-somewhere-to-edit-it-laterlike-notepad" class="md-nav__link">
+    15. Copy the Connection string: click Copy icon and paste it somewhere to edit it later(like Notepad).
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#16-makeup-a-name-for-your-database-this-is-not-a-important-information-example-kdatabase-note-that-default-is-myfirstdatabase-only-letters-and-numbers-no-spaces" class="md-nav__link">
+    16. Makeup a name for your database, this is not a important information (example kdatabase ), note that default is myFirstDatabase. Only letters and numbers, no spaces.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#17-i-will-try-to-give-you-an-example-about-the-way-to-do-it-below" class="md-nav__link">
+    17. I will try to give you an example about the way to do it below:
+  </a>
+  
+    <nav class="md-nav" aria-label="17. I will try to give you an example about the way to do it below:">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#i-have-given-you-my-examples-below-on-the-right-side-of-the-boxes-so-just-ignore-them-they-are-my-examples-to-show-you-how-the-connection-string-is-made-up-you-need-to-had-your-details-into-the-left-side-boxes-making-sure-to-remove-click-here-delete-and-put-your-ownfirst-and-click-on-generate" class="md-nav__link">
+    I have given you my examples below on the right side of the  boxes so just ignore them they are my examples to show you how the connection string is made up!  You need to had your details into the left side Boxes making sure to remove (click here, delete and put your own!)first, and click on Generate.
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#my-connection-string-results" class="md-nav__link">
+    My Connection String results
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#another-example-for-you-below" class="md-nav__link">
+    Another example for you below!
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#now-we-need-to-do" class="md-nav__link">
+    Now we need to do 
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Part%204%20-%20Fork%20and%20Deploy%20cgm%20remote%20monitory/" class="md-nav__link">
+        Part 4 - Fork and Deploy cgm remote monitory
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Compatible%20Watches/" class="md-nav__link">
+        Compatible - Watches
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3">
+          Watches
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Watches" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Watches
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../watches/Watches/" class="md-nav__link">
+        CGM onto - Watches
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../watches/Compatible%20Watches/" class="md-nav__link">
+        Compatible - Watches
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../watches/TicWatch-Pro-3-side-load---xdrip/" class="md-nav__link">
+        TicWatch-Pro-3-Side-Load - Watches
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Userguide/" class="md-nav__link">
+        Userguide
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../apireference/" class="md-nav__link">
+        apireference
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/" class="md-nav__link">
+        about
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#part-3-setting-up-a-atlas-account-for-nightscout" class="md-nav__link">
+    Part 3 Setting up a Atlas Account for Nightscout
+  </a>
+  
+    <nav class="md-nav" aria-label="Part 3 Setting up a Atlas Account for Nightscout">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-now-open-another-tab-to-make-a-mongodb-atlas-account-see-here" class="md-nav__link">
+    1. Now Open another tab  to make a Mongodb Atlas** Account: See Here
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-enter-your-account-details-like-i-have-and-then-click-get-started-free" class="md-nav__link">
+    2. Enter your Account Details like I have and then click get started free
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-atlas-will-send-you-an-email-if-you-dont-receive-it-check-your-spam-folder" class="md-nav__link">
+    3. Atlas will send you an email, if you don't receive it check your Spam folder.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-now-verify-your-email" class="md-nav__link">
+    4. Now verify your email
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-enter-some-information-like-i-have-below-and-then-finish" class="md-nav__link">
+    5. Enter some information like I have below and then Finish 
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-select-create-a-cluster-in-shared-clusters-free" class="md-nav__link">
+    6. Select Create a cluster in Shared Clusters (FREE)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7-leave-all-default-values-and-click-create-cluster" class="md-nav__link">
+    7. Leave all default values and click Create Cluster
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8-click-on-connect" class="md-nav__link">
+    8.  Click on CONNECT
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#9-click-on-allow-access-from-anywhere" class="md-nav__link">
+    9. Click on Allow Access from Anywhere
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#10-click-on-add-ip-address" class="md-nav__link">
+    10. Click on Add IP Address
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#11-add-a-database-username-for-example-nightkai-and-a-database-user-password-in-the-my-examples-below-madeuppassword7-but-please-change-it-later-see-both-images-below" class="md-nav__link">
+    11. Add a database username (for example nightkai) and a database user password (in the my examples below  Madeuppassword7) but please change it later, see both images below!!
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12-then-click-create-database-user" class="md-nav__link">
+    12. Then click Create Database User.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#13-click-on-choose-a-connection-method" class="md-nav__link">
+    13. Click on  Choose a Connection Method
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#14-now-select-connect-your-application" class="md-nav__link">
+    14.  Now Select Connect your application
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#15-copy-the-connection-string-click-copy-icon-and-paste-it-somewhere-to-edit-it-laterlike-notepad" class="md-nav__link">
+    15. Copy the Connection string: click Copy icon and paste it somewhere to edit it later(like Notepad).
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#16-makeup-a-name-for-your-database-this-is-not-a-important-information-example-kdatabase-note-that-default-is-myfirstdatabase-only-letters-and-numbers-no-spaces" class="md-nav__link">
+    16. Makeup a name for your database, this is not a important information (example kdatabase ), note that default is myFirstDatabase. Only letters and numbers, no spaces.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#17-i-will-try-to-give-you-an-example-about-the-way-to-do-it-below" class="md-nav__link">
+    17. I will try to give you an example about the way to do it below:
+  </a>
+  
+    <nav class="md-nav" aria-label="17. I will try to give you an example about the way to do it below:">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#i-have-given-you-my-examples-below-on-the-right-side-of-the-boxes-so-just-ignore-them-they-are-my-examples-to-show-you-how-the-connection-string-is-made-up-you-need-to-had-your-details-into-the-left-side-boxes-making-sure-to-remove-click-here-delete-and-put-your-ownfirst-and-click-on-generate" class="md-nav__link">
+    I have given you my examples below on the right side of the  boxes so just ignore them they are my examples to show you how the connection string is made up!  You need to had your details into the left side Boxes making sure to remove (click here, delete and put your own!)first, and click on Generate.
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#my-connection-string-results" class="md-nav__link">
+    My Connection String results
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#another-example-for-you-below" class="md-nav__link">
+    Another example for you below!
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#now-we-need-to-do" class="md-nav__link">
+    Now we need to do 
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+
+
+<!-- this is on github live server !
+docs made by D.Galloway 2019- 2021-->
+
+<h1 id="welcome-to-the-diabetic-way">Welcome to The Diabetic way</h1>
+<p>For full Website content visit <a href="https://www.thediabeticway.co.uk/index.php/en/">The Diabetic Way</a>.
+<br>
+<br></p>
+<p><img width="auto" height="auto" border="0" align="center"  src="../../img/Atlas/Robot face_ Atlas account_860x462.jpg" Setting up Atlas Part 3"/><br><br></p>
+<h2 id="part-3-setting-up-a-atlas-account-for-nightscout"><strong>Part 3 Setting up a Atlas Account for Nightscout</strong><br><br></h2>
+<h3 id="1-now-open-another-tab-to-make-a-mongodb-atlas-account-see-here">1. <strong>Now Open another tab</strong>  to make a Mongodb Atlas** Account: <a href="https://www.mongodb.com/cloud/atlas" target="_blank" title="Click Try Free">See Here</a></h3>
+<p>and <strong>click</strong> <span style="background-color: #FFFF00"><strong>Start Free</strong></span><br>
+  <img width="auto" height="auto" border="0" align="center"  src="../../img/Atlas/free Atlas Account.jpg" title="Sign up a Atlas Account"/></a> </p>
+<h3 id="2-enter-your-account-details-like-i-have-and-then-click-get-started-free">2. Enter your Account Details like I have and then click <span style="background-color: #FFFF00"><strong>get started free</strong></span></h3>
+<p><img width="auto" height="auto" border="0" align="center"  src="../../img/Atlas/setting up a free  Atlas Account.jpg"Fill in your details"/><br><br></p>
+<h3 id="3-atlas-will-send-you-an-email-if-you-dont-receive-it-check-your-spam-folder">3. Atlas will send you an email, if you don't receive it check your Spam folder.<br></h3>
+<h3 id="4-now-verify-your-email">4. Now verify your email<br></h3>
+<p><img width="auto" height="auto" border="0" align="center"  src="../../img/Atlas/verify your email.jpg"Verify your email"/><br></p>
+<h3 id="5-enter-some-information-like-i-have-below-and-then-finish">5. Enter some information like I have below and then Finish <br></h3>
+<p><img width="auto" height="auto" border="0" align="center"  src="../../img/Atlas/welcome to Atlas.jpg" Welcome to Atlas"/></p>
+<h3 id="6-select-create-a-cluster-in-shared-clusters-free">6. Select Create a cluster in <span style="background-color: #FFFF00"><strong>Shared Clusters (FREE)</strong></span><br></h3>
+<p><img width="auto" height="auto" border="0" align="center"  src="../../img/Atlas/deploy a could database free.jpg" title="Shared Clusters (FREE)"/></p>
+<h3 id="7-leave-all-default-values-and-click-create-cluster">7. Leave all default values and click <span style="background-color: #FFFF00"><strong>Create Cluster</strong></span><br></h3>
+<p><img width="auto" height="auto" border="0" align="center"  src="../../img/Atlas/create shared clusters.jpg" title="Create Cluster"/><br>
+  Atlas will create your default cluster, wait until it is complete... (can take more than 3 minutes) If not sure after a while click on the leaf icon in the top left!<br><br></p>
+<h3 id="8-click-on-connect">8.  Click on <span style="background-color: #FFFF00"><strong>CONNECT</strong></span><br></h3>
+<pre><code>&lt;img width="auto" height="auto" border="0" align="center"  src="../../img/Atlas/click on connect.jpg" title="click connect"/&gt;&lt;br&gt;
+</code></pre>
+<h3 id="9-click-on-allow-access-from-anywhere">9. Click on <span style="background-color: #FFFF00"><strong>Allow Access from Anywhere</strong></span><br></h3>
+<p><img width="auto" height="auto" border="0" align="center"  src="../../img/Atlas/Allow Access from Anywhere.jpg" title="Allow Access from Anywhere"/><br>
+ <br />
+<table width="1166" Height="185 border="1" style="border-color: #000000; background-color: #ffffff;" cellpadding="1" cellspacing="1" height="98">
+<tbody>
+<tr style="height: 16px;">
+<td style="width: 1158px; border-color: #000000; background-color: #db4e12;" fff=""><span style="font-size: 14pt;"><strong><span style="color: #ffffff;">Note!</span></strong></span></td>
+</tr>
+<tr style="height: 56.4063px;">
+<td style="width: 1158px; border-color: #000000;"><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 14pt;">If you don't allow access from anywhere (IP 0.0.0.0/0) Nightscout will not be able to access your database.!<br></span></td>
+</tr>
+</tbody>
+</table></p>
+<p><br></p>
+<h3 id="10-click-on-add-ip-address">10. Click on <span style="background-color: #FFFF00"><strong>Add IP Address</strong></span><br></h3>
+<p><img width="auto" height="auto" border="0" align="center"  src="../../img/Atlas/Add IP Address.jpg" title=" Click on Add IP Address"/><br></p>
+<table width="1166" Height="185 border="1" style="border-color: #000000; background-color: #ffffff;" cellpadding="1" cellspacing="1" height="98">
+<tbody>
+<tr style="height: 16px;">
+<td style="width: 1158px; border-color: #000000; background-color: #db4e12;" fff=""><span style="font-size: 14pt;"><strong><span style="color: #ffffff;">Note!</span></strong></span></td>
+</tr>
+<tr style="height: 56.4063px;">
+<td style="width: 1158px; border-color: #000000;"><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 14pt;">Database Details: Make sure to not use your Atlas account Account details. <br>Do not use special characters: only letters and numbers. No spaces.<br>
+ </span></td>
+</tr>
+</tbody>
+</table>
+<p><br> </p>
+<h3 id="11-add-a-database-username-for-example-nightkai-and-a-database-user-password-in-the-my-examples-below-madeuppassword7-but-please-change-it-later-see-both-images-below">11. Add a database username (for example <span style="background-color: #FFFF00"><strong>nightkai</strong></span>) and a database user password (in the my examples below <span style="background-color: #FFFF00"><strong> Madeuppassword7</strong></span>) but please change it later, see both images below!!</h3>
+<pre><code>&lt;img width="auto" height="auto" border="0" align="center"  src="../../img/Atlas/database username and a database password.jpg" title=" Add a database username and a database password, see both images below!"/&gt;&lt;br&gt;
+</code></pre>
+<h3 id="12-then-click-create-database-user">12. Then click <span style="background-color: #FFFF00"><strong>Create Database User</strong></span>.<br></h3>
+<p><img width="auto" height="auto" border="0" align="center"  src="../../img/Atlas/create database user.jpg" title=" Create Database User"/><br>
+ <br />
+<table width="1166" Height="185 border="1" style="border-color: #000000; background-color: #ffffff;" cellpadding="1" cellspacing="1" height="98">
+<tbody>
+<tr style="height: 16px;">
+<td style="width: 1158px; border-color: #000000; background-color: #db4e12;" fff=""><span style="font-size: 14pt;"><strong><span style="color: #ffffff;">Note!</span></strong></span></td>
+</tr>
+<tr style="height: 56.4063px;">
+<td style="width: 1158px; border-color: #000000;"><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 14pt;">Make sure you write these details down in a safe place, you are going to need them later in the boxes below to make your Connection String!<br> <span style="background-color: #FFFF00">db user</span> and <span style="background-color: #FFFF00">db user password!</span></span></td>
+</tr>
+</tbody>
+</table></p>
+<p><br></p>
+<h3 id="13-click-on-choose-a-connection-method">13. Click on  <span style="background-color: #FFFF00"><strong>Choose a Connection Method</strong></span><br></h3>
+<p><img width="auto" height="auto" border="0" align="center"  src="../../img/Atlas/connection method.jpg" title=" connection method"/><br></p>
+<h3 id="14-now-select-connect-your-application">14.  Now Select <span style="background-color: #FFFF00"><strong>Connect your application</strong></span><br></h3>
+<p><img width="auto" height="auto" border="0" align="center"  src="../../img/Atlas/Connect your application.jpg" title=" Connect your application"/><br></p>
+<h3 id="15-copy-the-connection-string-click-copy-icon-and-paste-it-somewhere-to-edit-it-laterlike-notepad">15. Copy the <span style="background-color: #FFFF00"><strong>Connection string:</strong></span> click Copy icon and paste it somewhere to edit it later(like Notepad).</h3>
+<p><img width="auto" height="auto" border="0" align="center"  src="../../img/Atlas/connection string.jpg" title=" connection string"/><br></p>
+<table width="1166" Height="185 border="1" style="border-color: #000000; background-color: #ffffff;" cellpadding="1" cellspacing="1" height="98">
+<tbody>
+<tr style="height: 16px;">
+<td style="width: 1158px; border-color: #000000; background-color: #db4e12;" fff=""><span style="font-size: 14pt;"><strong><span style="color: #ffffff;">Note! It should be similar to this - cluster0 (xxxxx) will be different):</span></strong></span></td>
+</tr>
+<tr style="height: 56.4063px;">
+<td style="width: 1158px; border-color: #000000;"><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 14pt;">mongodb+srv://nightkai:password@cluster0.xxxxx.mongodb.net/myFirstDatabase?retryWrites=true&w=majority<br>
+ </span></td>
+</tr>
+</tbody>
+</table>
+<p><br><br></p>
+<h3 id="16-makeup-a-name-for-your-database-this-is-not-a-important-information-example-kdatabase-note-that-default-is-myfirstdatabase-only-letters-and-numbers-no-spaces">16. Makeup a name for your database, this is not a important information (example kdatabase ), note that default is <span style="background-color: #FFFF00"><strong>myFirstDatabase</strong></span>. Only letters and numbers, no spaces.<br><br></h3>
+<h3 id="17-i-will-try-to-give-you-an-example-about-the-way-to-do-it-below">17. I will try to give you an example about the way to do it below:</h3>
+<p><br>
+  <strong> A.</strong> In the boxes below 1st is your Atlas Account you gave yourself a <span style="background-color: #FFFF00"><strong>User Name</strong></span> add it to the box below User Name on the left side!
+ <br>
+   <strong>B.</strong> Then you also made a <span style="background-color: #FFFF00"><strong>Database user Password add your Password</strong> </span>you  created for your database add this too into the box on the left side.
+<br>
+   <strong>C.</strong> For the Cluster0 xxxxx where everyones will be unique when making a cluster when it is made so yours needs to be added into the Connection string part after it says Cluster0<br>
+   <strong>D.</strong> And lastly you made up a <span style="background-color: #FFFF00"><strong>Database Name</strong> </span>, also add this to the last box on the left and click the <span style="background-color: #FFFF00"><strong>Generate button</strong></span>  which will generate your <span style="background-color: #FFFF00"><strong>connection string code</strong></span> that you will  need to add to your Heroku API
+<br>
+    <br></p>
+<h4 id="i-have-given-you-my-examples-below-on-the-right-side-of-the-boxes-so-just-ignore-them-they-are-my-examples-to-show-you-how-the-connection-string-is-made-up-you-need-to-had-your-details-into-the-left-side-boxes-making-sure-to-remove-click-here-delete-and-put-your-ownfirst-and-click-on-generate"><strong>I have given you my examples below on the right side of the  boxes so just ignore them they are my examples to show you how the connection string is made up! </strong><br> You need to had your details into the left side Boxes making sure to remove (click here, delete and put your own!)first, and click on Generate.</h4>
+<p></font>
+<br><p>
+<span style="background-color: #FFFF00"><strong>username:</strong></span> <input type="text" id="username" value="click here, delete and put your own! " size="32">  Eg: username: <input type="text" id="egusername" value="nightkai" size="32"><br></p>
+<p><span style="background-color: #FFFF00"><strong>Database password:</strong></span> <input type="text" id="dbpassword" value="click here,delete and put your own!" size="31">Eg: Database password: <input type="text" id="egdbpassword" value="   Madeuppassword7" size="20"><br>
+<br>
+<span style="background-color: #FFFF00"><strong>@cluster0:xxxxx</strong></span> <input type="text" id="@cluster" value="click here, delete and put your own! " size="32"> E.g: cluster0.xxxxx <input type="text" id="egdbname" value=" j2iil " size="20><br>output: <input type="text" id="output" value="click here, delete and put your own " size="32"></p>
+<p><br>
+<span style="background-color: #FFFF00"><strong>Database Name:</strong></span> <input type="text" id="dbname" value="click here, delete and put your own! " size="32"> E.g: Database Name: <input type="text" id="egdbname" value=" kdatabase " size="20><br>output: <input type="text" id="output" value="click here, delete and put your own " size="32"><br></p>
+<p><br></p>
+<p></p>
+
+<p><button onclick="myFunction()">Generate</button><br><br><br><br>
+<span style="background-color: #FFFF00"><strong>mongodb+srv://</strong></span> <input type="text" id="field3"value="User Name">
+: <input type="text" id="field4"value="Database Password">
+@cluster0.<input type="text" id="field6"value="cluster0.xxxxx ">.mongodb.net/ <input type="text" id="field5"value="Database Name">?retryWrites=true&amp;w=majority<br><br></p>
+<p><strong>E.</strong> After you have generated it, yours should be looking somthing similar to the one below. Mine might be a little different to what yours should be so do check it carefully, and make sure to copy and paste it into notepad like I will show you in the video below<br></p>
+<h3 id="my-connection-string-results"><strong>My Connection String results</strong></h3>
+<p><font size="+0"> <strong>mongodb+srv://nightkai:Madeuppassword7@cluster0.j2iil.mongodb.net/kdatabase?retryWrites=true&amp;w=majority</strong></font><br></p>
+<p><img width="auto" height="auto" border="0" align="center"  src="../../img/Atlas/how to make connection string.jpg" title="My Connection String results"/></p>
+<table width="1266" Height="120 border="1" style="border-color: #000000; background-color: #ffffff;" cellpadding="1" cellspacing="1" height="98">
+<tbody>
+<tr style="height: 16px;">
+<td style="width: 1158px; border-color: #000000; background-color: #FF0000;" fff=""><span style="font-size: 14pt;"><strong><span style="color: #ffffff;">Warning!</span></strong></span></td>
+</tr>
+<tr style="height: 56.4063px;">
+<td style="width: 1158px; border-color: #000000;"><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 14pt;"> Keep this string safely aside, it is called your MONGODB_URI<br/>  </span></td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<script>
+function myFunction() {
+  document.getElementById("field3").value = document.getElementById("username").value;
+  document.getElementById("field4").value = document.getElementById("dbpassword").value;
+  document.getElementById("field5").value = document.getElementById("dbname").value;
+  document.getElementById("field6").value = document.getElementById("@cluster").value;
+
+}
+</script>
+<p><br><br></p>
+<table width="1166" Height="485 border="1" style="border-color: #000000; background-color: #ffffff;" cellpadding="1" cellspacing="1" height="98">
+<tbody>
+<tr style="height: 16px;">
+<td style="width: 1158px; border-color: #000000; background-color: #5B9BD5;" fff="" ><span style="font-size: 14pt;"><span style="color: #ffffff; ">video demo of getting connection string,</span></span></td>
+</tr>
+<tr style="height: 56.4063px;">
+<td style="width: 1158px; border-color: #000000;"><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 14pt;">
+ <iframe id="video3" width="860" height="615" src="https://www.youtube.com/embed/iYnNddVSbzY?start=19" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<hr />
+<p>a) If you want to do it manually: replace <password> with your database password as noted previously (in the example below <strong>Madeuppassword7</strong> ) and <dbname> by any text you want to add as your <strong>database name</strong>, say kdatabase in my example. The result will be like this:<br>
+ <img width="auto" height="auto" border="0" align="center"  src="../../img/Atlas/how to make connection string.jpg" title="My Connection String results"/></p>
+<h3 id="another-example-for-you-below"><strong> Another example for you below!</strong></h3>
+<p><img width="auto" height="auto" border="0" align="center"  src="../../img/Fork and Deploy cgm remote monitory Part 4/connecting_to_cluster.jpg" title="connecting_to_cluster"/></p>
+<table width="1166" Height="185 border="1" style="border-color: #000000; background-color: #ffffff;" cellpadding="1" cellspacing="1" height="98">
+<tbody>
+<tr style="height: 16px;">
+<td style="width: 1158px; border-color: #000000; background-color: #5B9BD5;" fff=""><span style="font-size: 14pt;"><strong><span style="color: #ffffff;">Note!</span></strong></span></td>
+</tr>
+<tr style="height: 56.4063px;">
+<td style="width: 1158px; border-color: #000000;"><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 14pt;" " target="_blank" title="First create a user account by going to">There are no < and > characters in the final string, neither for password nor for database name.</span></span></td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<h2 id="now-we-need-to-do"><center>Now we need to do <br></center></h2>
+<p><br></p>
+<h1 id="part-4-fork-and-deploy-cgm-remote-monitory"><center>Part 4: <a href="https://atlas-night-out.github.io/my-project/user-guide/Fork_and_Deploy_cgm_remote_monitory_part4/" target="_blank" title="Fork and Deploy cgm remote monitory Part 4">Fork and Deploy cgm remote monitory</a> </center></h1>
+<p><br><br>
+<a href="https://www.diabetes.org.uk/" target="_blank">
+  <img width="auto" height="auto" border="0" align="center"  src="/my-project/img/Diabetesuk/pngarea.com_rutgers-logo-png-8467605.png" title="Diabetes UK"/>
+</a>               Why Not take visit <a href="https://cycle.diabetes.org.uk/">UK Wide Cycle Ride - Diabetes.uk</a> <span style="background-color: #FFFF00"><strong>or</strong></span>  <a href="https://swim22.diabetes.org.uk/">Swim22 - Diabetes.uk</a> <span style="background-color: #FFFF00"><strong>or</strong></span> <a href="https://monthofmiles.diabetes.org.uk/?gclid=CjwKCAjwz5iMBhAEEiwAMEAwGO2_OoOGRQdN3BDD3NUQ8WoYAsJsxd1YUJN8dSVJowD1E4AjJ1RdVxoC9bgQAvD_BwE">Month of Miles - Diabetes.uk</a> for all of your Diabetes Needs!<br><br></p>
+<!--  
+  ****************************************************************************************************************
+  remove this after you finish it!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+  ##Step 4: Fork and deploy cgm-remote-monitor
+
+<br>   
+   1.  You should now have 3 pages opened in your browser: Heroku, Atlas, and Github, Make sure you are logged-in on each one (i.e. not asking you to login) before you continue.
+
+   2.  Click this link https://github.com/nightscout/cgm-remote-monitor, a new GitHub page will open. Click on Fork
+
+   3. d) Scroll down and click Deploy to Heroku
+
+
+   4. Enter your CGM in the Cloud site name: invent a name you will use to see your BG in the cloud. Confirm that the name is available.
+
+   5.  Don’t change the region.
+
+   6. Scroll down and setup the following variables:
+
+   7. API_SECRET will be your Nightscout site password, it needs to be at least 12 characters long and you should NOT use spaces if you use @ or ! symbols remember you will probably need to express them using Percent encoding in your uploader and downloader apps. If you're not sure on how to do this, it is recommended to use only letters (uppercase + lowercase) and digits.
+
+   8. If you want to link your Dexcom Share account as a data source, complete the following lines:
+
+   9. If you want to link your CareLink account as a data source (currently not functional with Heroku), complete the following lines:
+
+   10. Select the units you’re using in DISPLAY_UNITS acceptable choices are mg/dl or mmol/L (or just mmol).
+
+
+11. In ENABLE, copy and paste the following words (separated by a space) so that won't have to think about which you want now:
+12. Now you need the connection string you defined during the Atlas cluster creation (as the example below, but not the string below). Copy and paste it in the MONGODB_URI variable field.
+
+If you compiled all the fields and successfully generated the string this is what you should copy in MONGODB_URI:
+
+Sorry... something is missing for me to make it automatically...
+
+13. If you preferred to make it yourself, make sure it looks like this:
+mongodb+srv://nightscout:soo5ecret@cluster0.xxxxx.mongodb.net/mycgmic?retryWrites=true&w=majority
+
+
+14. Scroll down to the end of the list and click Deploy app
+
+15.  WAIT until completion (will take some time). Do not interrupt the process until it's complete.
+
+16. Then click View (if nothing happens, click Manage App -> Open App, in upper right corner)
+
+17. Your Nightscout site should open and direct you to a new profile creation.
+
+18. Setup your Time zone and eventually all other fields. Do not leave any fields empty. If you don't know which value to use, just use the default value. You can change these values later at any time.
+
+19. Browse down to Authentication status and click Authenticate. Enter your API secret. Click Update.
+
+
+20. Click Save.
+
+21.  If the following pop-up shows up click OK, and check status (upper right of the window).
+
+22. If you need to modify your profile after this, authenticate with the lock icon (top right of the page): enter your API secret. Then click on the hamburger menu and select Profile Editor.
+
+23. Dexcom Share and CareLink users should see data flowing in after some minutes. Other uploaders like xDrip+, Spike, xDrip4iOS, etc will need to be setup with the Nightscout address and API secret in the app.
+
+
+
+
+</font>
+
+
+Check what version you are upto on your Nightscout site. In my example I'm on version  14.06 (Liquorice)
+
+<table width="1166" border="1" style="border-color: #000000; background-color: #ffffff;" cellpadding="1" cellspacing="1" height="98">
+<tbody>
+<tr style="height: 16px;">
+<td style="width: 1158px; border-color: #000000; background-color: #5B9BD5;" fff=""><span style="font-size: 14pt;"><span style="color: #ffffff;">Note! video, see below</span></span></td>
+</tr>
+<tr style="height: 56.4063px;">
+<td style="width: 1158px; border-color: #000000;"><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 14pt;">
+<iframe width="850" height="415" src="https://www.youtube.com/embed/MFsbm45b6YY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  </span></td>
+</tr>
+</tbody>
+</table>
+
+
+
+Updating your website to the latest version
+ <a href="https://github.com/nightscout/cgm-remote-monitor/releases" target="_blank" title="Nightscout Release Versions">See Here</a> for the 
+ current released version at moment) is easy with the update tool linked below. 
+
+
+
+
+
+
+
+
+
+  ********************************************************************************************************************************
+  mkdocs.yml    # The configuration file.
+    docs/
+    index.md  # The documentation homepage.
+       ...       # Other markdown pages, images and other files.
+
+
+    **************************
+  Links
+  ******************************    
+<a href="http://nightscout.github.io/pages/update-fork/" target="_blank">
+  <img width="auto" height="auto" border="0" align="center"  src="/img/Nightscout/Time to Update Nightscout.png" title="Update Tool"/></a>      
+
+
+*******************     
+external link
+******************
+
+# <center>Part 4: <a href="https://atlas-night-out.github.io/my-project/user-guide/Fork_and_Deploy_cgm_remote_monitory_part4/" target="_blank" title="Fork and Deploy cgm remote monitory Part 4">Fork and Deploy cgm remote monitory</a> </center>
+
+
+
+
+adding  Yellow Hightligher!!!!!!!!  
+<span style="background-color: #FFFF00">**Marked text**</span>
+
+
+***********************
+adding an image
+***********************
+
+  <a><img width="auto" height="auto" border="0" align="center"  src="/img/Nightscout/Time to Update Nightscout.png" title="Update Tool"/></a>   
+
+
+
+
+<a href="https://www.youtube.com/watch?v=MFsbm45b6YY" target="_blank">
+  <img width="auto" height="auto" border="0" align="center"  src="/img/Nightscout/nightscout version_14.06.jpg" title="Version of Nightscout Video"/>
+</a>
+
+*******************************************************************************
+Adding Video
+
+<iframe width="850" height="415" src="https://www.youtube.com/embed/MFsbm45b6YY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Note
+**Note:** a note is something that needs to be mentioned but is apart from the context.
+
+
+List
+This is a regular paragraph.
+
+Paragraph:
+
+1. **Now Open another tab**  to make a Mongodb Atlas** Account: <a href="https://www.mongodb.com/cloud/atlas" target="_blank" title="Click Start Free">See Here</a> 
+  and **click** Start Free
+ <img width="auto" height="auto" border="0" align="center"  src="/img/Atlas/MongoDB Atlas start free.jpg"Click Start"/>
+   2. Sub item two
+   3. Sub item three
+2. Item two
+
+
+
+font size
+<font size="4">
+
+</font>
+
+*******************************
+orange table
+
+<table width="1166" border="1" style="border-color: #000000; background-color: #ffffff;" cellpadding="1" cellspacing="1" height="98">
+<tbody>
+<tr style="height: 16px;">
+<td style="width: 1158px; border-color: #000000; background-color: #db4e12;" fff=""><span style="font-size: 14pt;"><strong><span style="color: #ffffff;">Note!</span></strong></span></td>
+</tr>
+<tr style="height: 56.4063px;">
+<td style="width: 1158px; border-color: #000000;"><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 14pt;">If you’re on Heroku and have Automatic Deploys enabled, you’re done!<br>
+ If you don’t have Automatic Deploys on yet, or aren’t sure, run through these steps below!</span></td>
+</tr>
+</tbody>
+</table>
+***************************************
+red warning table
+***************************
+<table width="1266" border="1" style="border-color: #000000; background-color: #ffffff;" cellpadding="1" cellspacing="1" height="98">
+<tbody>
+<tr style="height: 16px;">
+<td style="width: 1158px; border-color: #000000; background-color: #FF0000;" fff=""><span style="font-size: 14pt;"><strong><span style="color: #ffffff;">Warning!</span></strong></span></td>
+</tr>
+<tr style="height: 56.4063px;">
+<td style="width: 1158px; border-color: #000000;"><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 14pt;"> 1: Some new features, updates, or bug fixes may require that you clear your browser cache before you will see the changes taken effect<br/> 2: If you get no errors and no readings after a while see about doing a <a href="http://127.0.0.1:8000/user-guide/Redeploying%20your%20repository/" target="_blank" title="Redeploying your repository link">Redeploying your repository</a> </span></td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+*******************************
+Table
+| Syntax | Description |
+| ----------- | ----------- |
+| Header | Title |
+| Paragraph | Text |
+
+
+-->
+
+              
+            </article>
+            
+          </div>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+    <nav class="md-footer__inner md-grid" aria-label="Footer" >
+      
+        
+        <a href="../Setting_up_Heroku_Account_part2/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Part 2 Setting up Heroku Account " rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Part 2 Setting up Heroku Account 
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../Part%204%20-%20Fork%20and%20Deploy%20cgm%20remote%20monitory/" class="md-footer__link md-footer__link--next" aria-label="Next: Part 4 - Fork and Deploy cgm remote monitory" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Part 4 - Fork and Deploy cgm remote monitory
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.b97dbffb.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.6c7ad80a.min.js"></script>
+      
+    
+  </body>
+</html>
