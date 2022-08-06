@@ -1,19 +1,15 @@
-# Xdrip-Android-APS-Nightscout-readmedoc
+# Xdrip-Android-APS-Nightscout-readthetips
+
+
+For full documentation on Android APS visit <a href="https://androidaps.readthedocs.io/en/latest/index.html" target="_blank" title="Android APS">Android APS</a> </center>
 <br>
 
+## Tip 1 - Download xdrip
 
 
-#### Installation
+## Tip 2 - Nightscout Setup
 
-This Pagage can be found on ?????
-<!--  Bash
-    -->
-
-pip install Xdrip - Android AAPS - Nightscout - readmedocs
+## Tip 3 - Watches CGM Setups
 
 
-#### Usage
-This is a simple usage of the package
-<!--  Git Bash
-    -->
->>> import Xdrip - Android AAPS - Nightscout - readmedocs
+  

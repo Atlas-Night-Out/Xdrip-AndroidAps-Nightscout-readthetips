@@ -1,11 +1,9 @@
-site_name: Xdrip-Android-APS-Nightscout-readmedoc
+site_name: Xdrip-Android-APS-Nightscout-readthetips
 site_url: https://example.com
-theme: material
-language: en
-logo: assets/images/T1_xDrip+logo_white_236x236.png
-favicon: assets/images/favicon.png 
-features:
-        - header.autohide
+theme:
+    name: material
+    language: en
+    features:
         - navigation.tabs
         - navigation.tabs.sticky
         - navigation.tracking
@@ -13,14 +11,15 @@ features:
         - search.suggest
         - search.highlight
         - content.code.annotate
-palette: black 
-primary: black
-scheme: default
-nav_style: primary
-    
-    
+    logo: assets/images/T1_xDrip+logo_white_236x236.png
+    favicon: xDrip+logo.png
+    palette:
+      primary: Black
+      scheme: default
+    nav_style: primary
 
 nav:
+     - Home: 'index.md'
      - Xdrip :
         - 'Docs': 'xdrip/usethedoc.md'
         - 'Download': 'xdrip/xdrip - Download.md'
@@ -31,12 +30,13 @@ nav:
         - 'Part 3 Setting up Atlas Account ': 'Nightscout/Setting_up_Atlas_Account_part3.md'
         - 'Part 4 - Fork and Deploy cgm remote monitory': 'Nightscout/Part 4 - Fork and Deploy cgm remote monitory.md'
         - 'Compatible - Watches': 'Nightscout/Compatible Watches.md'
-
      - Watches :
         - 'CGM onto - Watches': 'watches/Watches.md'
         - 'Compatible - Watches': 'watches/Compatible Watches.md'
         - 'TicWatch-Pro-3-Side-Load - Watches': 'watches/TicWatch-Pro-3-side-load---xdrip.md'
-     - Home: index.md
+      
+      
+      
      - Userguide: Userguide.md
      - apireference: apireference.md
      - about: about.md
