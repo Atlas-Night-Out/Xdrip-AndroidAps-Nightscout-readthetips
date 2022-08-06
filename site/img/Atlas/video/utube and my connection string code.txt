@@ -1,0 +1,12 @@
+my connection string code
+*************************
+
+mongodb+srv://nightkai:N8!aX9q:FhgRpiF@cluster0.j2iil.mongodb.net/kdatabase?retryWrites=true&w=majority
+
+******************
+utube info
+****************
+This is to show you how to generate your Connection string code to add to your  
+Heroku account settings config Var mongodb_url to work with Nightscout
+
+Please can see the full Setup process at: https://atlas-night-out.github.io/my-project/user-guide/Setting_up_Github_Account_part1/
