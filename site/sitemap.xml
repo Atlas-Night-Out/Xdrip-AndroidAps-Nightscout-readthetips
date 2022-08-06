@@ -21,6 +21,26 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://example.com/index_bk/</loc>
+         <lastmod>2022-08-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://example.com/Helpful/Home/</loc>
+         <lastmod>2022-08-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://example.com/Helpful/_Footer/</loc>
+         <lastmod>2022-08-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://example.com/Helpful/_gsdata_/_saved_/Home/</loc>
+         <lastmod>2022-08-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://example.com/Nightscout/Compatible%20Watches/</loc>
          <lastmod>2022-08-06</lastmod>
          <changefreq>daily</changefreq>
