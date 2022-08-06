@@ -1,0 +1,7 @@
+2022-08-02 14:39:30: -- Analysis Started by On File Change Incremental
+2022-08-02 14:39:30: Changes: 1, Conflicts: 0, CopyTime: 0, FixState: 0, Errors: 0, All: 12
+2022-08-02 14:39:30: Left to Right: Copy File: 1 
+2022-08-02 14:39:30: == Sync Started by On File Change Incremental
+2022-08-02 14:39:30: Start only 1 threads, limited by tasks to run
+2022-08-02 14:39:30: Copy Over 'C:/Users/lanca/StudioProjects/Diabeteshelplinks.wiki/Diabeteshelplinks.wiki/Home.md' -> 'C:/Users/lanca/StudioProjects/Xdrip-AndroidAps-Nightscout-Docs/Xdrip-AndroidAps-Nightscout-Docs-1/docs/Helpful/Home.md' (12,278)
+2022-08-02 14:39:30: == Sync Complete. Time: 00:00:00, Speed: 0.00/s, OK: 1, Errors: 0

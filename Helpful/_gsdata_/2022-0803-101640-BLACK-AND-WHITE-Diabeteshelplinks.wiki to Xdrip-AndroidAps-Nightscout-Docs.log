@@ -1,0 +1,7 @@
+2022-08-03 10:16:41: -- Analysis Started by On File Change, After Delay
+2022-08-03 10:16:41: Changes: 1, Conflicts: 0, CopyTime: 0, FixState: 0, Errors: 0, All: 16
+2022-08-03 10:16:41: Left to Right: Copy File: 1 
+2022-08-03 10:16:41: == Sync Started by On File Change, After Delay
+2022-08-03 10:16:41: Start only 1 threads, limited by tasks to run
+2022-08-03 10:16:41: Copy New 'C:/Users/lanca/StudioProjects/Diabeteshelplinks.wiki/Diabeteshelplinks.wiki/Docs/img/Diabetes News/_methode_times_prod_web_bin_731fcb92-11d2-11ed-b5dc-213f5c972cc4.jpg' -> 'C:/Users/lanca/StudioProjects/Xdrip-AndroidAps-Nightscout-Docs/Xdrip-AndroidAps-Nightscout-Docs-1/docs/Helpful/Docs/img/Diabetes News/_methode_times_prod_web_bin_731fcb92-11d2-11ed-b5dc-213f5c972cc4.jpg' (15,123)
+2022-08-03 10:16:41: == Sync Complete. Time: 00:00:01, Speed: 0.00/s, OK: 1, Errors: 0
