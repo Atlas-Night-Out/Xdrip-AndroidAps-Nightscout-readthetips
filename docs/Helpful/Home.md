@@ -185,11 +185,11 @@ Nightscout Setup: <a href="https://atlas-night-out.github.io/my-project/user-gui
 
 
 
-## Diabetes News3325
+## Diabetes News-29564
 News as it arrive's<br><br>
 
 <a href="https://www.thetimes.co.uk/article/ef0a6e1e-11ce-11ed-b5dc-213f5c972cc4?shareToken=0d704635d470ac18ebfc291e5698be39" target="_blank">
-  <img width="auto" height="auto" border="0" align="center"  src="Docs/img/Diabetes News/_methode_times_prod_web_bin_731fcb92-11d2-11ed-b5dc-213f5c972cc4.jpg" title="Diabetes patients win access to ‘life-changing’ Dexcom gadget"/>
+  <img width="auto" height="auto" border="0" align="center"  src="../../img/Diabetes News/_methode_times_prod_web_bin_731fcb92-11d2-11ed-b5dc-213f5c972cc4.jpg" title="Diabetes patients win access to ‘life-changing’ Dexcom gadget"/>
 </a><br><br>
 
 Diabetes patients win access to ‘life-changing’ Dexcom gadget: <a href="https://www.thetimes.co.uk/article/ef0a6e1e-11ce-11ed-b5dc-213f5c972cc4?shareToken=0d704635d470ac18ebfc291e5698be39">Diabetes patients win access to ‘life-changing’ Dexcom gadget</a> (Great News for Diabetic in the UK - I've been fighting for this for 6 years! )<br><br>
