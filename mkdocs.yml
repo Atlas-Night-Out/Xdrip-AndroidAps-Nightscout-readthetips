@@ -12,7 +12,7 @@ theme:
         - search.highlight
         - content.code.annotate
     logo: assets/images/T1_xDrip+logo_white_236x236.png
-    favicon: xDrip+logo.png
+    favicon: assets/images/favicon.png
     palette:
       primary: Black
       scheme: default

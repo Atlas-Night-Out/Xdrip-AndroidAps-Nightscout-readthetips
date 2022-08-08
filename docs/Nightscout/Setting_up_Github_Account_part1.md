@@ -94,10 +94,10 @@ with other devices and setups too! You do this at your own risk as my instructio
 <br>
 ## <center>Now we need to Do <br></center>
 <br>
-# <center>Part 2: <a href=" https://atlas-night-out.github.io/Xdrip-AndroidAps-Nightscout-Docs/Nightscout/Setting_up_Heroku_Account_part2/" target="_blank" title="Setting up Heroku Account">Setting up Heroku Account</a> </center>
+# <center>Part 2: <a href=" https://atlas-night-out.github.io/Xdrip-AndroidAps-Nightscout-readthetips/Nightscout/Setting_up_Heroku_Account_part2/" target="_blank" title="Setting up Heroku Account">Setting up Heroku Account</a> </center>
 <br>
 
- 
+ https://atlas-night-out.github.io/Xdrip-AndroidAps-Nightscout-readthetips/Nightscout/Setting_up_Heroku_Account_part2/
 <br> 
 ### Diabetes UK
 <a href="https://www.diabetes.org.uk/" target="_blank">
