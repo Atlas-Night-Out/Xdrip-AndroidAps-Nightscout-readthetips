@@ -5,6 +5,7 @@ For full documentation on Android APS visit <a href="https://androidaps.readthed
 <br>
 
 ## Tip 1 - Download xdrip
+Tip 1: <a href="https://atlas-night-out.github.io/Xdrip-AndroidAps-Nightscout-readthetips/xdrip/xdrip%20-%20Download/">Download xdrip</a> 
 
 
 ## Tip 2 - Nightscout Setup
