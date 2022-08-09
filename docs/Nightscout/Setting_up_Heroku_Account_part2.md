@@ -63,7 +63,7 @@ First Name, last name, email address
 
 ## <center>Now we need to do <br></center>
 <br>
-# <center>Part 3: <a href="https://atlas-night-out.github.io/Xdrip-AndroidAps-Nightscout-Docs/Nightscout/Setting_up_Atlas_Account_part3/" target="_blank" title="set up a Atlas Account - Part 3">Set up a Atlas Account</a> </center>
+# <center>Part 3: <a href="https://atlas-night-out.github.io/Xdrip-AndroidAps-Nightscout-readthetips/Nightscout/Setting_up_Atlas_Account_part3/">Set up a Atlas Account</a> </center>
 <br>
 
 **********************************************************************************************
