@@ -9,9 +9,9 @@ For full Website content visit [The Diabetic Way](https://www.thediabeticway.co.
 ## Xdrip Follower Setup
 
 ## If you would like to follow these instructions with video then click image below other wise continue step by step below<br><br>
-<a href="https://youtu.be/iS-jvFBCsOg" target="_blank">
-  <img width="auto" height="auto" border="0" align="center"  src="/my-project/img/xdrip_followers_setup/utube video image_866x330.jpg" title="xdrip follower setup Video"/>
-</a>
+
+
+<iframe id="video9" width="860" height="515" src="https://www.youtube.com/embed/iS-jvFBCsOg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ### 1. First, we need to setup the Master mode
 in Sync Settings on your main phone<br><br>
 <font size="4"> 
