@@ -86,6 +86,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://example.com/xdrip/Xdrip%20Follower%20Setup/</loc>
+         <lastmod>2022-08-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://example.com/xdrip/usethedoc/</loc>
          <lastmod>2022-08-09</lastmod>
          <changefreq>daily</changefreq>

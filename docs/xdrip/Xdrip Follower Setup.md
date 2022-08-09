@@ -12,30 +12,30 @@ For full Website content visit [The Diabetic Way](https://www.thediabeticway.co.
 <a href="https://youtu.be/iS-jvFBCsOg" target="_blank">
   <img width="auto" height="auto" border="0" align="center"  src="/my-project/img/xdrip_followers_setup/utube video image_866x330.jpg" title="xdrip follower setup Video"/>
 </a>
-## First, we need to setup the Master mode<br>
+### 1. First, we need to setup the Master mode<br>
 in Sync Settings on your main phone<br><br>
 <font size="4"> 
-1. Go to settings <br><br>
+1.1 Go to settings <br><br>
 <img width="300" height="auto" border="0" align="center"  src="/my-project/img/xdrip_followers_setup/hanberger setting_200x396.jpg" title="settings "/></a><br><br>
-2. then xdrip+ sync settings<br><br>
+1.2 then xdrip+ sync settings<br><br>
 <img width="300" height="auto" border="0" align="center"  src="/my-project/img/xdrip_followers_setup/xdrip+ sync settings_200x400.jpg" title="xdrip+ sync settings"/></a><br><br>
-3. These are the Settings to select.<br><br>
+1.3 These are the Settings to select.<br><br>
 <img width="300" height="auto" border="0" align="center"  src="/my-project/img/xdrip_followers_setup/sync settings_200x441.jpg" title="Settings to select"/></a><br><br>
-## Now display the security key QR code and scan with our Followers handset<br><br><br>
-4. Go to show settings QR codes on main mobile<br><br>
+### 2.Now display the security key QR code and scan with our Followers handset<br><br><br>
+2.1 Go to show settings QR codes on main mobile<br><br>
 <img width="300" height="auto" border="0" align="center"  src="/my-project/img/xdrip_followers_setup/show settings QR codes on main mobile_200x395.jpg" title="show settings QR codes"/></a><br><br>
-5. And select xdrip plus security key settings only.<br><br>
+2.2 And select xdrip plus security key settings only.<br><br>
 <img width="300" height="auto" border="0" align="center"  src="/my-project/img/xdrip_followers_setup/xdrip plus security key settings only_200x398.jpg" title="xdrip plus security key settings only"/></a><br><br>
-##  Now configure <span style="background-color: #FFFF00">**the follower’s handset**</span> using its camera<br><br>
-6. Go to settings / hardware data source <br><br>
+###  3.Now configure <span style="background-color: #FFFF00">**the follower’s handset**</span> using its camera<br><br>
+3.1 Go to settings / hardware data source <br><br>
 <img width="300" height="auto" border="0" align="center"  src="/my-project/img/xdrip_followers_setup/hardware data source_200x396.jpg" title="hardware data source "/></a><br><br>
-7. and then select xdrip+ sync follower<br><br>
+3.2 and then select xdrip+ sync follower<br><br>
 <img width="300" height="auto" border="0" align="center"  src="/my-project/img/xdrip_followers_setup/xdrip+ sync follower_200x393.jpg" title="xdrip+ sync follower"/></a><br><br>
-8. Now select Configure and allow permissions.<br><br>
+3.4 Now select Configure and allow permissions.<br><br>
 <img width="300" height="auto" border="0" align="center"  src="/my-project/img/xdrip_followers_setup/Auto Configure_200x396.jpg" title="Auto Configure"/></a><br><br>
-9. Then select Auto Configure again<br><br>
+3.5 Then select Auto Configure again<br><br>
 <img width=300" height="auto" border="0" align="center"  src="/my-project/img/xdrip_followers_setup/Auto Configure_200x396.jpg" title="Auto Configure again"/></a><br><br>
-10. and scan the other mobile bar code, with it<br><br>
+3.6 and scan the other mobile bar code, with it<br><br>
 <img width="300" height="auto" border="0" align="center"  src="/my-project/img/xdrip_followers_setup/bar code_200x415.jpg" title="mobile bar code"/></a><br><br>
 
 ### If you need to setup mulitiple xdrip Followers then see my other setup on how to do this. I will add a link
