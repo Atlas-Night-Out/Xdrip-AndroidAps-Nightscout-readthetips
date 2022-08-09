@@ -12,7 +12,7 @@ For full Website content visit [The Diabetic Way](https://www.thediabeticway.co.
 <a href="https://youtu.be/iS-jvFBCsOg" target="_blank">
   <img width="auto" height="auto" border="0" align="center"  src="/my-project/img/xdrip_followers_setup/utube video image_866x330.jpg" title="xdrip follower setup Video"/>
 </a>
-### 1. First, we need to setup the Master mode<br>
+### 1. First, we need to setup the Master mode
 in Sync Settings on your main phone<br><br>
 <font size="4"> 
 1.1 Go to settings <br><br>
