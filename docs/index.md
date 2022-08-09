@@ -8,9 +8,14 @@ For full documentation on Android APS visit <a href="https://androidaps.readthed
 Tip 1: <a href="https://atlas-night-out.github.io/Xdrip-AndroidAps-Nightscout-readthetips/xdrip/xdrip%20-%20Download/">Download xdrip</a> 
 
 
-## Tip 2 - Nightscout Setup
+## Tip 2 - CGM Watches Setups
+Tip 2: <a href="https://atlas-night-out.github.io/Xdrip-AndroidAps-Nightscout-readthetips/watches/Watches/">CGM Watches Setups</a>
 
-## Tip 3 - Watches CGM Setups
+## Tip 3 - Nightscout Setup
+Tip 3: <a href="https://atlas-night-out.github.io/Xdrip-AndroidAps-Nightscout-readthetips/Nightscout/Setting_up_Github_Account_part1/">Nightscout Setup</a> 
 
+
+## Tip 2 - CGM Watches Setups
+Tip 2: <a href="https://atlas-night-out.github.io/Xdrip-AndroidAps-Nightscout-readthetips/watches/Watches/">CGM Watches Setups</a> 
 
   
