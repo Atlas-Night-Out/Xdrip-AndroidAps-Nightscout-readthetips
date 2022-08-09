@@ -15,7 +15,7 @@ Tip 2: <a href="https://atlas-night-out.github.io/Xdrip-AndroidAps-Nightscout-re
 Tip 3: <a href="https://atlas-night-out.github.io/Xdrip-AndroidAps-Nightscout-readthetips/Nightscout/Setting_up_Github_Account_part1/">Nightscout Setup</a> 
 
 
-## Tip 2 - CGM Watches Setups
-Tip 2: <a href="https://atlas-night-out.github.io/Xdrip-AndroidAps-Nightscout-readthetips/watches/Watches/">CGM Watches Setups</a> 
+## Tip 4 - Diabetes Helpful Links
+Tip 4: <a href="https://atlas-night-out.github.io/Xdrip-AndroidAps-Nightscout-readthetips/Helpful/Home/">Diabetes Helpful Links</a> 
 
   
