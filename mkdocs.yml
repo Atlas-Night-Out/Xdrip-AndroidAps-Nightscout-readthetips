@@ -35,12 +35,13 @@ nav:
         - 'CGM onto - Watches': 'watches/Watches.md'
         - 'Compatible - Watches': 'watches/Compatible Watches.md'
         - 'TicWatch-Pro-3-Side-Load - Watches': 'watches/TicWatch-Pro-3-side-load---xdrip.md'
+      - Dexcom :
+        - 'Dexcom': 'Dexcom/Userguide.md'
+        
       
       
       
-     - Userguide: Userguide.md
-     - Userguide : 
-     - 'CGM onto - Watches': 'Dexcom/Userguide.md'
+     - Userguide: Userguide.md 
      - about: about.md
      - Helpful Links: 'Helpful/Home.md'
 
