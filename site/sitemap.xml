@@ -26,6 +26,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://example.com/Dexcom/Userguide/</loc>
+         <lastmod>2022-08-11</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://example.com/Helpful/Home/</loc>
          <lastmod>2022-08-11</lastmod>
          <changefreq>daily</changefreq>
