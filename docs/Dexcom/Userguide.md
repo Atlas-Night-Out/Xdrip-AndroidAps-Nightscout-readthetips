@@ -1,3 +1,8 @@
+### There are 4 Elements to get started
+
+* 1. Sensor Applicator
+<img width="auto" height="auto" border="0" align="center"  src="docs/img/Dexcom/Sensor Applicator_20220811_135041_2.jpg" title="Update Tool"/></a>	
+
 ### Dexcom Intro Userguide
 
 * Prepare for sensor insertion <br>
