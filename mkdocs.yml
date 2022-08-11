@@ -39,6 +39,8 @@ nav:
       
       
      - Userguide: Userguide.md
+     - Userguide : 
+     - 'CGM onto - Watches': 'Dexcom/Userguide.md'
      - about: about.md
      - Helpful Links: 'Helpful/Home.md'
 
