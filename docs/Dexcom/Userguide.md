@@ -1,7 +1,7 @@
 ### There are 4 Elements to get started
 
 * 1. Sensor Applicator
-<img width="auto" height="auto" border="0" align="center"  src="../img/Dexcom/Sensor Applicator_20220811_135041_2.jpg" title="Sensor Applicator"/></a>	
+<img width="auto" height="auto" border="0" align="center"  src="../../img/Dexcom/Sensor Applicator_20220811_135041_2.jpg" title="Sensor Applicator"/></a>	
 
 ### Dexcom Intro Userguide
 
