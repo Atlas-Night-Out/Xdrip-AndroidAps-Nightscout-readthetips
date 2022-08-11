@@ -13,5 +13,5 @@ If you would like to sponsor me and help and like on what I have done on here pl
 
 
 <a href="https://cycle.diabetes.org.uk/fundraising/david-galloway2023?fbclid=IwAR2CL0onwfJNvtIdN0-bBo5bkAFR53p-DwWHqvLQVYQ7pcCgkz-4ITTJhC4" target="_blank">
- <center> <img width="auto" height="auto" border="0" align="center"  src="docs/img/about/uk wide cycle ride UK David.jpg" title="UK wide cycle Ride for Diabetes UK"/>
+ <center> <img width="auto" height="auto" border="0" align="center"  src="../img/about/uk wide cycle ride UK David.jpg" title="UK wide cycle Ride for Diabetes UK"/>
 </a>
