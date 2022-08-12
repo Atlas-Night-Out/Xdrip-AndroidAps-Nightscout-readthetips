@@ -31,8 +31,11 @@ Then After the 2 hour Warm up I would then add Sensor code and add the tansmitte
 <br>
 <iframe id="video29564" width="860" height="615" src="https://www.youtube.com/embed/c5mjePmJVS0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
 
-### Tip
-I also never use Alcohol wipes to wipe my skin, I prefer to use one of three spray's called Cavilon or Sorbaderm 28ml spray with some towel rolls.<br> This helps protect my skin but also helps keep the sensors on longer. I spray on and allow 5 minutes to dry before applying the Sensor Applicator.<br><br>
+### Tips
+I also do not use Alcohol wipes to wipe my skin, I prefer to use one of three types of spray's, one is called Cavilon,the other Sorbaderm or Medi Derma-s all 28ml spray with some kitchen roll.<br> 
+This helps protect my skin but also helps keep the sensors on longer. I spray it on and allow 5 minutes to dry before applying the Sensor Applicator.<br><br>
+
+When It comes to removing the Sensor I use Sensi Care, sting free adhesive releaser.
 
 
 
