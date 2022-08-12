@@ -23,6 +23,15 @@
 </iframe>
 
 
+If Using A Receiver
+
+I found if I was using xdrip+ and Android APS I would install them first and start the Sensor and Transmitter, first in xDrip+<br>
+
+Then After the 2 hour Warm up I would then add Sensor code and add the tansmitter Serial Number to the Dexcom Receiver to let it do its process. I tended not to carry the receiver around with me but liked it at the side of the bed as an extra percaution.<br>
+<br>
+<iframe id="video29564" width="860" height="615" src="https://www.youtube.com/embed/c5mjePmJVS0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
 
 
 
