@@ -87,7 +87,10 @@ Sporty Diabetic Type1's:  <a href="https://www.facebook.com/groups/SportyT1" tit
 
 CGM in the Cloud: <a href="https://www.facebook.com/groups/cgm in the cloud/" title="CGM in the Cloud">CGM in the Cloud</a><br>
 
-Xdrip: <a href="https://www.facebook.com/groups/xDripG5/" title="Xdrip">Xdrip</a><br>
+
+Xdrip+: <a href="https://www.facebook.com/groups/xDripG5/" target="_blank" title="Xdrip+">Xdrip+</a><br>
+
+Xdrip+ - UK: <a href="https://www.facebook.com/groups/5390196001057776" target="_blank" title="Xdrip+ - UK">Xdrip+ - UK</a><br>
 
 G-Watch app <a href= "https://www.facebook.com/groups/304670184064267/?ref=pages_group_cta/" title="SamsungG-Watch app">G-Watch app</a><br>
 
@@ -99,7 +102,6 @@ Loop: <a href="https://www.facebook.com/groups/TheLoopedGroup" target="_blank"> 
 
 Parents of Children with Type 1 Diabetes - Group <a href="https://www.facebook.com/groups/104811746342626" target="_blank"> Parents of Children with Type 1 Diabetes</a><br>
 
-The Diabetic Lounge UK: Type 1 Diabetes - Group <a href="https://www.facebook.com/groups/1761470610745826" target="_blank"> The Diabetic Lounge UK</a><br>
 
 Juicebox Podcast: Type 1 Diabetes - Group <a href="https://www.facebook.com/groups/boldwithinsulin/" target="_blank"> Juicebox Podcast: Type 1 Diabetes</a><br>
 
