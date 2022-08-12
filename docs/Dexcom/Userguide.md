@@ -3,7 +3,7 @@
 1. Sensor Applicator
 <img width="420" height="220" border="0" align="center"  src="../../img/Dexcom/Sensor Applicator_20220811_135041_2.jpg" title="Sensor Applicator"/></a>	
 2.  Sensor
-<img width="320" height="120" border="0" align="center"  src="../../img/Dexcom/Sensor_20220811_160x269.jpg" title="Sensor"/></a>	
+<img width="Auto" height="Auto" border="0" align="center"  src="../../img/Dexcom/Sensor_20220811_160x269.jpg" title="Sensor"/></a>	
 3.  Transmitter
 <img width="320" height="120" border="0" align="center"  src="../../img/Dexcom/Transmitter_20220811_460x486.jpg" title="Transmitter"/></a>
 
