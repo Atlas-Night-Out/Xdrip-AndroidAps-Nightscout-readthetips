@@ -9,7 +9,7 @@
 4.  A Display
 <img width="320" height="120" border="0" align="center"  src="../../img/Dexcom/Display_20220812_460x537.jpg" title="Display"/></a><br>
 
-### Dexcom Intro Userguide
+## Dexcom Intro Userguide
 
 * Prepare for sensor insertion <br>
 * Take off tape (not forgetting to keep safe or photo your Sensor Code) you will need this.
