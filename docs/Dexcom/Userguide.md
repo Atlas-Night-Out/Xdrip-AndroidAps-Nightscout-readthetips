@@ -5,13 +5,14 @@
 2.  Sensor
 <img width="Auto" height="Auto" border="0" align="center"  src="../../img/Dexcom/Sensor_20220811_160x269.jpg" title="Sensor"/></a>	
 3.  Transmitter
-<img width="Auto" height="Auto" border="0" align="center"  src="../../img/Transmitter_20220811_180x190.jpg" title="Transmitter"/></a>
+<img width="Auto" height="Auto" border="0" align="center"  src="../../img/Dexcom/Transmitter_20220811_180x190.jpg" title="Transmitter"/></a>
 4.  A Display
 <img width="320" height="120" border="0" align="center"  src="../../img/Dexcom/Display_20220812_460x537.jpg" title="Display"/></a><br>
 
 ### Dexcom Intro Userguide
 
 * Prepare for sensor insertion <br>
+* Take off tape (not forgetting to keep safe or photo your Sensor Code) you will need this.
 * Insert a sensor <br>
 * Attach transmitter to transmitter holder 
 
