@@ -1,4 +1,3 @@
-##### Dexcom
 <img width="Auto" height="Auto" border="0" align="center"  src="../../img/Dexcom/Dexcom G6 Logo_1_200x30.png" title="Dexcom"/></a><br>
 
 
