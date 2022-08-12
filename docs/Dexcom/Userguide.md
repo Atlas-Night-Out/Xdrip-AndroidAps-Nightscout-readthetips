@@ -35,7 +35,15 @@ Then After the 2 hour Warm up I would then add Sensor code and add the tansmitte
 I also do not use Alcohol wipes to wipe my skin, I prefer to use one of three types of spray's, one is called Cavilon,the other Sorbaderm or Medi Derma-s all 28ml spray with some kitchen roll.<br> 
 This helps protect my skin but also helps keep the sensors on longer. I spray it on and allow 5 minutes to dry before applying the Sensor Applicator.<br><br>
 
-When It comes to removing the Sensor I use Sensi Care, sting free adhesive releaser.
+### Tips 2
+When it's time comes to removing the Sensor after 10 days I use a spray called Sensi Care, sting free adhesive releaser. Whick makes it very easy to remove.
+
+### Tips 3
+And if at any point you feel you are not getting correct readings always do a finger prick. I find it can take a few hours for the sensor to settle in so I will finger prick until I can trust the readings.<br>
+
+### Tip 4 Why Sensor Glucose Won't Always Match Your Blood Glucose<br>
+<iframe id="video29564" width="860" height="615" src="https://www.youtube.com/embed/d9UzbC7pf4E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 
 
