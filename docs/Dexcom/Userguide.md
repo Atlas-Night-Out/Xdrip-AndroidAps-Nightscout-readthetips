@@ -3,7 +3,7 @@
 1. Sensor Applicator
 <img width="420" height="220" border="0" align="center"  src="../../img/Dexcom/Sensor Applicator_20220811_135041_2.jpg" title="Sensor Applicator"/></a>	
 * 2  Sensor
-<img width="420" height="220" border="0" align="center"  src="../../img/Dexcom/Sensor Applicator_20220811_135041_2.jpg" title="Sensor"/></a>	
+<img width="420" height="220" border="0" align="center"  src="../../img/Dexcom/Sensor_20220811_460x773.jpg" title="Sensor"/></a>	
 ### Dexcom Intro Userguide
 
 * Prepare for sensor insertion <br>
