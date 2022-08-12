@@ -12,7 +12,7 @@
 ## Dexcom Intro Userguide
 
 * Prepare for sensor insertion <br>
-* Take off tape <span style="background-color: #FFFF00">**(Do not forget to keep safe or take a photo your Sensor Code)**</span> you will need this.<img width="320" height="120" border="0" align="center"  src="../../img/Dexcom/Sensor _code20220811_160x271.jpg" title="Sensor Code"/></a><br>
+* Take off tape <span style="background-color: #FFFF00">**(Do not forget to keep safe or take a photo your Sensor Code)**</span> you will need this.<img width="Auto" height="Auto" border="0" align="center"  src="../../img/Dexcom/Sensor _code20220811_160x271.jpg" title="Sensor Code"/></a><br>
 * Insert a sensor <br>
 * Attach transmitter to transmitter holder 
 
