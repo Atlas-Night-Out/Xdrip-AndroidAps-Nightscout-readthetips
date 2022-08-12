@@ -12,7 +12,7 @@
 ## Dexcom Intro Userguide
 
 * Prepare for sensor insertion <br>
-* Take off tape <span style="background-color: #FFFF00">**(Do not forget to keep safe or take a photo of your Sensor Code)**</span><br> you will need this.<br>
+* Take off Labels <span style="background-color: #FFFF00">**(Do not forget to keep Lebels safe or take a photo of your Sensor Code)**</span><br> you will need the code later.<br>
 <centre><img width="Auto" height="Auto" border="0" align="center"  src="../../img/Dexcom/Sensor _code20220811_160x271.jpg" title="Sensor Code"/></a></centre><br>
 * Insert a sensor <br>
 * Attach transmitter to transmitter holder 
@@ -25,11 +25,14 @@
 
 ## If Using A Receiver
 
-I found if I was using xdrip+ and Android APS I would install them first and start the Sensor and Transmitter, first in xDrip+<br>
+I found if I was using xdrip+ I would start the Sensor and Transmitter, first in xDrip.+<br>
 
-Then After the 2 hour Warm up I would then add Sensor code and add the tansmitter Serial Number to the Dexcom Receiver to let it do its process. I tended not to carry the receiver around with me but liked it at the side of the bed as an extra percaution.<br>
+Then After the 2 hour Warm up I would then add Sensor code and add the tansmitter Serial Number to the Dexcom Receiver to let it do its process. <br>  I tended not to carry the receiver around with me but liked it at the side of the bed as an extra percaution.<br>
 <br>
-<iframe id="video29564" width="860" height="615" src="https://www.youtube.com/embed/c5mjePmJVS0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe id="video29564" width="860" height="615" src="https://www.youtube.com/embed/c5mjePmJVS0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+
+### Tip
+I also never use Alcohol wipes to wipe my skin, I prefer to use one of three spray's called Cavilon or Sorbaderm 28ml spray with some towel rolls.<br> This helps protect my skin but also helps keep the sensors on longer. I spray on and allow 5 minutes to dry before applying the Sensor Applicator.<br><br>
 
 
 
