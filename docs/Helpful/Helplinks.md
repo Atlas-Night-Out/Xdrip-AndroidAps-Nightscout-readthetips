@@ -5,7 +5,7 @@
 
 <img src="https://media.giphy.com/media/lNjpNhi82csekMFe3r/giphy.gif" width="200" height="180" /><br>
 
-## *Web Sites*
+## **Web Sites**
 
 JDRF - UK: <a href="https://jdrf.org.uk/information-support/about-type-1-diabetes/?gclid=CjwKCAjw77WVBhBuEiwAJ-YoJMKWGEHD9mZVCQJ6g2XTwbkuIU6fRSgAbHjncLVcvIfGbzb8obeFSBoCBBgQAvD_BwE" target="_blank" title="JDRF - UK">JDRF - UK</a><br>
 
@@ -36,7 +36,7 @@ One million step Challenge - Diabetes UK: <a href="https://step.diabetes.org.uk/
 
 Freestyle Libre: <a href="https://www.freestylelibre.co.uk/libre/" target="_blank" title="Freestyle Libre">Freestyle Libre</a><br>
 
-## Diabetes Watches<br>
+## **Diabetes Watches**<br>
 
 Pebble Wiki: <a href="https://github.com/pebble-dev/wiki/wiki" target="_blank" title="pebble Wiki">Pebble Wiki</a><br>
 
@@ -53,7 +53,7 @@ Fitbit Versa 2 Users Group: <a href="https://www.facebook.com/groups/fitbitversa
 
 
 
-## *Sponsor Web Sites*
+## **Sponsor Web Sites**
 
 Diabetes.uk <a href="https://www.diabetes.org.uk/" target="_blank" title="Diabetes Uk Web site">Diabetes.uk</a><br>
 
@@ -113,7 +113,7 @@ Diabetes UK Cycling Heroes: <a href="https://www.facebook.com/groups/43552655661
 
 You know you're a Type 1 Diabetic when...: <a href="https://www.facebook.com/groups/245031082351346" target="_blank"> You know you're a Type 1 Diabetic when...</a><br>
 
-## *Github Repositories<br>*
+## **Github Repositories<br>**
 
 M5_NightscoutMon: <a href="https://github.com/mlukasek/M5_NightscoutMon" target="_blank">M5_NightscoutMon</a><br><br>
 
@@ -124,13 +124,13 @@ Nightscout - cgm-remote-monitor: <a href="https://github.com/nightscout/cgm-remo
 Nightscout - cgm-remote-monitor: <a href="https://github.com/nightscout/cgm-remote-monitor" target="_blank">Nightscout - cgm-remote-monitor</a><br><br>
 
 
-## *Github Wiki's*<br>
+## **Github Wiki's**<br>
 
 Welcome to the Diabetes helpful web links wiki!: <a href="https://github.com/Atlas-Night-Out/Diabeteshelplinks/wiki" target="_blank" title="Welcome to the Diabetes helpful web links wiki!">Welcome to the Diabetes helpful web links wiki!</a><br>
 
 M5_NightscoutMon: <a href="https://github.com/mlukasek/M5_NightscoutMon/wiki" target="_blank">M5_NightscoutMon</a><br><br>
 
-## *CGM* (Continuous Glucose Monitoring)
+## **CGM** (Continuous Glucose Monitoring)
 
 Dexcom CGM Users: <a href="https://www.facebook.com/groups/268385496689037" target="_blank"> Dexcom CGM Users</a><br>
 
@@ -146,7 +146,7 @@ Dexcom G7: <a href="https://www.facebook.com/groups/235546917779339" target="_bl
 
 LIBRE & DEXCOM CGM D.I.Y DIABETIC REBELS: <a href="https://www.facebook.com/groups/528436247518366" target="_blank"> LIBRE & DEXCOM CGM D.I.Y DIABETIC REBELS</a><br>
 
-## *Pumps*
+## **Pumps**
 
 Omnipod users: <a href="https://www.facebook.com/groups/169768006383549" target="_blank"> Omnipod users</a><br>
 
@@ -162,7 +162,7 @@ Medtronic, Tslim, Omnipod Pumps: <a href="https://www.facebook.com/groups/137477
 
 Medtronic 770G and 780G support group and beyond: <a href="https://www.facebook.com/groups/262289741599090" target="_blank"> Medtronic 770G and 780G support group and beyond </a><br><br>
 
-## *Diabetes Information Technologies*
+## **Diabetes Information Technologies**
 
 Brolis Sensor Technology <a href="https://www.youtube.com/watch?v=Nu9rQ-HwVFU" title="Brolis Sensor Technology">See Here</a> (Video)<br>
 
@@ -173,7 +173,7 @@ Longevity Techology <a href="https://www.longevity.technology/smart-tech-earring
 Bionic Wookiee: <a href="https://bionicwookiee.com/2021/05/27/anubis-developments/?fbclid=IwAR1zLQ5adZQYcYPSvjbA3Hh2vNZkKMkET-DxSQpERxHc4QOPU1Itcd7pNac" target="_blank" title="Bionic Wookiee">Bionic Wookiee</a><br>
 
 
-## *xdrip - Wiki*
+## **xdrip - Wiki**
 
 Cyb-Netic xDrip-plus wiki <a href="https://github.com/Atlas-Night-Out/xDrip-plus/wiki" title="Cyb-Netic xDrip-plus wiki">See Here</a><br>
 
@@ -187,7 +187,7 @@ Nightscout Setup: <a href="https://atlas-night-out.github.io/my-project/user-gui
 
 
 
-## *Diabetes News-29564*
+## **Diabetes News-29564**
 News as it arrive's<br><br>
 
 <a href="https://www.thetimes.co.uk/article/ef0a6e1e-11ce-11ed-b5dc-213f5c972cc4?shareToken=0d704635d470ac18ebfc291e5698be39" target="_blank">
@@ -196,7 +196,7 @@ News as it arrive's<br><br>
 
 Diabetes patients win access to ‘life-changing’ Dexcom gadget: <a href="https://www.thetimes.co.uk/article/ef0a6e1e-11ce-11ed-b5dc-213f5c972cc4?shareToken=0d704635d470ac18ebfc291e5698be39">Diabetes patients win access to ‘life-changing’ Dexcom gadget</a> (Great News for Diabetic in the UK - I've been fighting for this for 6 years! )<br><br>
 
-## *email me!*
+## **email me!**
 If you see or get any links not working or you have a link you'd like me to add please [Contact Us](mailto:diabetes.uk@outlook.com)
 
 <p align="center">

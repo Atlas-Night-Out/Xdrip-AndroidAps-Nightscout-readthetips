@@ -26,7 +26,7 @@
 </iframe>
 
 
-## *If Using A Receiver*
+## **If Using A Receiver**
 
 I found if I was using xdrip+ I would start the Sensor and Transmitter, first in xDrip.+<br>
 
