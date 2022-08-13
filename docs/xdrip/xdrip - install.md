@@ -1,12 +1,13 @@
 <!-- this is not on github server its local only and run my mkdocs server!
 docs made by D.Galloway 2019- 2021-->
 
-# Install xDrip <br><br>
-This installation is a little old now and really needs to be updated, which I will do when I get time too.
+# **Install xDrip** <br>
+This installation is a little old now and the video really needs to be updated, which I will do as soon as getting time to.
 
-Btu for now its still a good help for you to setup xdrip+ onto your mobile.
+But for now, it’s still a good help for you to set up xdrip+ onto your mobile. Just turn off the music if it’s not to your tastes :-) 
 You do not need to have Nightscout installed for xdrip+ to work as mentioned in the video!
-You can get you reading from your CGM direct from xdrip.
+You can get your reading from your CGM direct from xdrip+.
+
 
 ## **PC Download**
 [<img src="../../img/xdrip/xdrip pc download.jpg">](https://github.com/NightscoutFoundation/xDrip/releases)
@@ -19,8 +20,6 @@ You can get you reading from your CGM direct from xdrip.
 ### **Install Xdrip+** 
 
 <iframe id="video29564" width="860" height="615" src="https://www.youtube.com/embed/7Qwr4HrchTU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
 
 
 <a href="https://www.diabetes.org.uk/" target="_blank">
