@@ -25,6 +25,7 @@ nav:
      - Xdrip :
         - 'Docs': 'xdrip/usethedoc.md'
         - 'Download': 'xdrip/xdrip - Download.md'
+        - 'Install': 'xdrip/xdrip - install.md'
         - 'Compatible - Watches': 'xdrip/Compatible Watches.md'
         - 'Xdrip Follower': 'xdrip/Xdrip Follower Setup.md'
      - Nightscout :
