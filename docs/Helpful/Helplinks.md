@@ -1,6 +1,6 @@
 # Welcome to the Diabetes helpful web links wiki!
 
- created to give you an easy one-stop place for helpful Links!
+ Helpful Links!
 
 
 <img src="https://media.giphy.com/media/lNjpNhi82csekMFe3r/giphy.gif" width="200" height="180" /><br>
@@ -177,7 +177,7 @@ Bionic Wookiee: <a href="https://bionicwookiee.com/2021/05/27/anubis-development
 
 Cyb-Netic xDrip-plus wiki <a href="https://github.com/Atlas-Night-Out/xDrip-plus/wiki" title="Cyb-Netic xDrip-plus wiki">See Here</a><br>
 
-## Nightscout - Wiki
+## **Nightscout - Wiki**
 
 Cyb-Netic Nightscout wiki <a href="https://github.com/Atlas-Night-Out/xDrip-plus/wiki" title="Cyb-Netic xDrip-plus wiki">See Here</a><br>
 
