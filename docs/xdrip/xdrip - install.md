@@ -1,23 +1,25 @@
 <!-- this is not on github server its local only and run my mkdocs server!
 docs made by D.Galloway 2019- 2021-->
 
-# Download xDrip <br><br>
+# Install xDrip <br><br>
+This installation is a little old now and really needs to be updated, which I will do when I get time too.
 
+Btu for now its still a good help for you to setup xdrip+ onto your mobile.
+You do not need to have Nightscout installed for xdrip+ to work as mentioned in the video!
+You can get you reading from your CGM direct from xdrip.
 
-## PC Download
+## **PC Download**
 [<img src="../../img/xdrip/xdrip pc download.jpg">](https://github.com/NightscoutFoundation/xDrip/releases)
 <br>
 
-To Download latest version of Xdrip on a Pc , <a href="https://github.com/NightscoutFoundation/xDrip/releases " target="_blank" title="PC xdrip latest version">See Here</a>  and go to the  "Latest version". <br>
-From a "mobile" You will need to go to a web browser on your mobile and
- Download the latest version of Xdrip <a href="https://jamorham.github.io/#xdrip-plus" target="_blank" title="Mobile xdrip latest version">from Here</a> <br><br>
-
-## Mobile download
+## **Mobile download**
 [<img src="../../img/xdrip/xdrip mobile download.jpg">](https://jamorham.github.io/#xdrip-plus)
 
-No need to uninstall first. But I would would recomend you do! And don't forget to backup your settings first!<br> 
 
-<centre><iframe width="860" height="615" align="center" src="https://www.youtube.com/embed/C3n9cKoD3Dg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </centre><br><br>
+### **Install Xdrip+** 
+
+<iframe id="video29564" width="860" height="615" src="https://www.youtube.com/embed/7Qwr4HrchTU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 
 
