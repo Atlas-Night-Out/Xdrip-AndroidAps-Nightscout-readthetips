@@ -1,6 +1,6 @@
 <!-- this is not on github server its local only and run my mkdocs server!
 docs made by D.Galloway 2019- 2021-->
-
+<img width="Auto" height="Auto" border="0" align="center"  src="../../img/xdrip/xdrip+ original logo.jpg" title="Display"/></a><br>
 # **Install xDrip** <br>
 This installation is a little old now and the video really needs to be updated, which I will do as soon as getting time to.
 
