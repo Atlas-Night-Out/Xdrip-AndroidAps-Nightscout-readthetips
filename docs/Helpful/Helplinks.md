@@ -65,7 +65,7 @@ Diabetes UK Month of Miles Challenge: <a href="https://swim22.diabetes.org.uk/" 
 
 JDRF: <a href="https://jdrf.org.uk/information-support/about-type-1-diabetes/?gclid=CjwKCAjw77WVBhBuEiwAJ-YoJMKWGEHD9mZVCQJ6g2XTwbkuIU6fRSgAbHjncLVcvIfGbzb8obeFSBoCBBgQAvD_BwE" target="_blank" title="JDRF">JDRF</a><br>
 
-## Sponsor cycling ride's, Swimming and Walking Events you can join!
+## **Sponsor cycling ride's, Swimming and Walking Events you can join!**
 
 JDRF Cycling Events:  <a href="https://jdrf.org.uk/get-involved/fundraise/events/?event_cat=cycle-rides#postFilter" title="JDRF Cycling Events">JDRF Cycling Events</a><br>
 
@@ -196,7 +196,7 @@ News as it arrive's<br><br>
 
 Diabetes patients win access to ‘life-changing’ Dexcom gadget: <a href="https://www.thetimes.co.uk/article/ef0a6e1e-11ce-11ed-b5dc-213f5c972cc4?shareToken=0d704635d470ac18ebfc291e5698be39">Diabetes patients win access to ‘life-changing’ Dexcom gadget</a> (Great News for Diabetic in the UK - I've been fighting for this for 6 years! )<br><br>
 
-## **email me!**
+## **Contact Us**
 If you see or get any links not working or you have a link you'd like me to add please [Contact Us](mailto:diabetes.uk@outlook.com)
 
 <p align="center">
