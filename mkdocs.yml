@@ -34,7 +34,7 @@ nav:
         - 'Part 3 Setting up Atlas Account ': 'Nightscout/Setting_up_Atlas_Account_part3.md'
         - 'Part 4 - Fork and Deploy cgm remote monitory': 'Nightscout/Part 4 - Fork and Deploy cgm remote monitory.md'
         - 'Compatible - Watches': 'Nightscout/Compatible Watches.md'
-        - 'Compatible - Watches': 'Nightscout/Nightscout_Oracle Cloud - setup.md'
+        - 'Oracle Cloud Setup': 'Nightscout/Nightscout_Oracle Cloud - setup.md'
      - Watches :
         - 'CGM onto - Watches': 'watches/Watches.md'
         - 'Compatible - Watches': 'watches/Compatible Watches.md'
