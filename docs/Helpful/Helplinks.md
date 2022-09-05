@@ -1,7 +1,5 @@
 # Welcome to the Diabetes helpful web links wiki!
 
- Helpful Links!
-
 
 <img src="https://media.giphy.com/media/lNjpNhi82csekMFe3r/giphy.gif" width="200" height="180" /><br>
 
