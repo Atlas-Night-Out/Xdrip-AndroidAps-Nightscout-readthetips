@@ -70,7 +70,7 @@ This page will list your ‘Public IP address’ – copy it to your clipboard.<
 
 
 
-## To Be continued! Do not attempt this process until I have finished it!
+## To Be continued! Do not attempt this process until I have finished it! I might be going Docker way to an installation rather than this one! Stay tuned!
 
 
 <br><br>
