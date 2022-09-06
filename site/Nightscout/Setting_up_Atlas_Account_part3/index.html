@@ -766,7 +766,7 @@
   
     <li class="md-nav__item">
       <a href="../Nightscout_Oracle%20Cloud%20-%20setup/" class="md-nav__link">
-        Compatible - Watches
+        Oracle Cloud Setup
       </a>
     </li>
   
@@ -1269,98 +1269,7 @@ function myFunction() {
   <img width="auto" height="auto" border="0" align="center"  src="/my-project/img/Diabetesuk/pngarea.com_rutgers-logo-png-8467605.png" title="Diabetes UK"/>
 </a>               Why Not take visit <a href="https://cycle.diabetes.org.uk/">UK Wide Cycle Ride - Diabetes.uk</a> <span style="background-color: #FFFF00"><strong>or</strong></span>  <a href="https://swim22.diabetes.org.uk/">Swim22 - Diabetes.uk</a> <span style="background-color: #FFFF00"><strong>or</strong></span> <a href="https://monthofmiles.diabetes.org.uk/?gclid=CjwKCAjwz5iMBhAEEiwAMEAwGO2_OoOGRQdN3BDD3NUQ8WoYAsJsxd1YUJN8dSVJowD1E4AjJ1RdVxoC9bgQAvD_BwE">Month of Miles - Diabetes.uk</a> for all of your Diabetes Needs!<br><br></p>
 <!--  
-  ****************************************************************************************************************
-  remove this after you finish it!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
-  ##Step 4: Fork and deploy cgm-remote-monitor
-
-<br>   
-   1.  You should now have 3 pages opened in your browser: Heroku, Atlas, and Github, Make sure you are logged-in on each one (i.e. not asking you to login) before you continue.
-
-   2.  Click this link https://github.com/nightscout/cgm-remote-monitor, a new GitHub page will open. Click on Fork
-
-   3. d) Scroll down and click Deploy to Heroku
-
-
-   4. Enter your CGM in the Cloud site name: invent a name you will use to see your BG in the cloud. Confirm that the name is available.
-
-   5.  Don’t change the region.
-
-   6. Scroll down and setup the following variables:
-
-   7. API_SECRET will be your Nightscout site password, it needs to be at least 12 characters long and you should NOT use spaces if you use @ or ! symbols remember you will probably need to express them using Percent encoding in your uploader and downloader apps. If you're not sure on how to do this, it is recommended to use only letters (uppercase + lowercase) and digits.
-
-   8. If you want to link your Dexcom Share account as a data source, complete the following lines:
-
-   9. If you want to link your CareLink account as a data source (currently not functional with Heroku), complete the following lines:
-
-   10. Select the units you’re using in DISPLAY_UNITS acceptable choices are mg/dl or mmol/L (or just mmol).
-
-
-11. In ENABLE, copy and paste the following words (separated by a space) so that won't have to think about which you want now:
-12. Now you need the connection string you defined during the Atlas cluster creation (as the example below, but not the string below). Copy and paste it in the MONGODB_URI variable field.
-
-If you compiled all the fields and successfully generated the string this is what you should copy in MONGODB_URI:
-
-Sorry... something is missing for me to make it automatically...
-
-13. If you preferred to make it yourself, make sure it looks like this:
-mongodb+srv://nightscout:soo5ecret@cluster0.xxxxx.mongodb.net/mycgmic?retryWrites=true&w=majority
-
-
-14. Scroll down to the end of the list and click Deploy app
-
-15.  WAIT until completion (will take some time). Do not interrupt the process until it's complete.
-
-16. Then click View (if nothing happens, click Manage App -> Open App, in upper right corner)
-
-17. Your Nightscout site should open and direct you to a new profile creation.
-
-18. Setup your Time zone and eventually all other fields. Do not leave any fields empty. If you don't know which value to use, just use the default value. You can change these values later at any time.
-
-19. Browse down to Authentication status and click Authenticate. Enter your API secret. Click Update.
-
-
-20. Click Save.
-
-21.  If the following pop-up shows up click OK, and check status (upper right of the window).
-
-22. If you need to modify your profile after this, authenticate with the lock icon (top right of the page): enter your API secret. Then click on the hamburger menu and select Profile Editor.
-
-23. Dexcom Share and CareLink users should see data flowing in after some minutes. Other uploaders like xDrip+, Spike, xDrip4iOS, etc will need to be setup with the Nightscout address and API secret in the app.
-
-
-
-
-</font>
-
-
-Check what version you are upto on your Nightscout site. In my example I'm on version  14.06 (Liquorice)
-
-<table width="1166" border="1" style="border-color: #000000; background-color: #ffffff;" cellpadding="1" cellspacing="1" height="98">
-<tbody>
-<tr style="height: 16px;">
-<td style="width: 1158px; border-color: #000000; background-color: #5B9BD5;" fff=""><span style="font-size: 14pt;"><span style="color: #ffffff;">Note! video, see below</span></span></td>
-</tr>
-<tr style="height: 56.4063px;">
-<td style="width: 1158px; border-color: #000000;"><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 14pt;">
-<iframe width="850" height="415" src="https://www.youtube.com/embed/MFsbm45b6YY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  </span></td>
-</tr>
-</tbody>
-</table>
-
-
-
-Updating your website to the latest version
- <a href="https://github.com/nightscout/cgm-remote-monitor/releases" target="_blank" title="Nightscout Release Versions">See Here</a> for the 
- current released version at moment) is easy with the update tool linked below. 
-
-
-
-
-
-
-
+  ********************************************************************************************************
 
 
   ********************************************************************************************************************************
