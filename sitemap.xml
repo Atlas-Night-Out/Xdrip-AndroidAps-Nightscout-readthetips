@@ -2,122 +2,127 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://example.com/</loc>
-         <lastmod>2022-09-06</lastmod>
+         <lastmod>2022-09-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/Userguide/</loc>
-         <lastmod>2022-09-06</lastmod>
+         <lastmod>2022-09-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/about/</loc>
-         <lastmod>2022-09-06</lastmod>
+         <lastmod>2022-09-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/apireference/</loc>
-         <lastmod>2022-09-06</lastmod>
+         <lastmod>2022-09-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/index_bk/</loc>
-         <lastmod>2022-09-06</lastmod>
+         <lastmod>2022-09-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/Dexcom/Userguide/</loc>
-         <lastmod>2022-09-06</lastmod>
+         <lastmod>2022-09-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/Helpful/Helplinks/</loc>
-         <lastmod>2022-09-06</lastmod>
+         <lastmod>2022-09-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/Nightscout/Compatible%20Watches/</loc>
-         <lastmod>2022-09-06</lastmod>
+         <lastmod>2022-09-10</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://example.com/Nightscout/Google%20Cloud_setup/</loc>
+         <lastmod>2022-09-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/Nightscout/Nightscout_Oracle%20Cloud%20-%20setup/</loc>
-         <lastmod>2022-09-06</lastmod>
+         <lastmod>2022-09-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/Nightscout/Part%204%20-%20Fork%20and%20Deploy%20cgm%20remote%20monitory/</loc>
-         <lastmod>2022-09-06</lastmod>
+         <lastmod>2022-09-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/Nightscout/Setting_up_Atlas_Account_part3/</loc>
-         <lastmod>2022-09-06</lastmod>
+         <lastmod>2022-09-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/Nightscout/Setting_up_Github_Account_part1/</loc>
-         <lastmod>2022-09-06</lastmod>
+         <lastmod>2022-09-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/Nightscout/Setting_up_Heroku_Account_part2/</loc>
-         <lastmod>2022-09-06</lastmod>
+         <lastmod>2022-09-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/Nightscout/image/</loc>
-         <lastmod>2022-09-06</lastmod>
+         <lastmod>2022-09-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/assets/images/AndroidAPS/usethedoc/</loc>
-         <lastmod>2022-09-06</lastmod>
+         <lastmod>2022-09-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/watches/Compatible%20Watches/</loc>
-         <lastmod>2022-09-06</lastmod>
+         <lastmod>2022-09-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/watches/TicWatch-Pro-3-side-load---xdrip/</loc>
-         <lastmod>2022-09-06</lastmod>
+         <lastmod>2022-09-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/watches/Watches/</loc>
-         <lastmod>2022-09-06</lastmod>
+         <lastmod>2022-09-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/xdrip/Compatible%20Watches/</loc>
-         <lastmod>2022-09-06</lastmod>
+         <lastmod>2022-09-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/xdrip/Xdrip%20Follower%20Setup/</loc>
-         <lastmod>2022-09-06</lastmod>
+         <lastmod>2022-09-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/xdrip/usethedoc/</loc>
-         <lastmod>2022-09-06</lastmod>
+         <lastmod>2022-09-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/xdrip/xdrip%20-%20Download/</loc>
-         <lastmod>2022-09-06</lastmod>
+         <lastmod>2022-09-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/xdrip/xdrip%20-%20datasource/</loc>
-         <lastmod>2022-09-06</lastmod>
+         <lastmod>2022-09-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/xdrip/xdrip%20-%20install/</loc>
-         <lastmod>2022-09-06</lastmod>
+         <lastmod>2022-09-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
