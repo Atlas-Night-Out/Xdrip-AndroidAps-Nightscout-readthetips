@@ -35,6 +35,7 @@ nav:
         - 'Part 4 - Fork and Deploy cgm remote monitory': 'Nightscout/Part 4 - Fork and Deploy cgm remote monitory.md'
         - 'Compatible - Watches': 'Nightscout/Compatible Watches.md'
         - 'Oracle Cloud Setup': 'Nightscout/Nightscout_Oracle Cloud - setup.md'
+        - 'Google Cloud Setup': 'Nightscout/Google Cloud_setup.md'
      - Watches :
         - 'CGM onto - Watches': 'watches/Watches.md'
         - 'Compatible - Watches': 'watches/Compatible Watches.md'
