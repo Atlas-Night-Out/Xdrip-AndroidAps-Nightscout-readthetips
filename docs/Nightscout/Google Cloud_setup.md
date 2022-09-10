@@ -10,7 +10,7 @@ For full Website content visit [The Diabetic Way](https://www.thediabeticway.co.
 
 1.	Sign up: By going to https://www.oracle.com/cloud/sign-in.html or <a href=" https://www.oracle.com/cloud/sign-in.html" target="_blank" title="Sign up">Click Here</a><br><br>
 a.	Go to Sign in.<br><a href="https://www.oracle.com/cloud/sign-in.html" target="_blank">
-  <img width="auto" height="auto" border="0" align="center"  src="/my-project/img/Nightscout/Nightscout_Oracle Cloud-setup/sign up to Oracle cloud.jpg" title="sign up to Oracle cloud"/>
+  <img width="auto" height="auto" border="0" align="center"  src="/img/Nightscout/Nightscout_Oracle Cloud-setup/sign up to Oracle cloud.jpg" title="sign up to Oracle cloud"/>
 </a><br>
 
 ### 1. 
