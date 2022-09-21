@@ -207,8 +207,9 @@ This is what you need to do in xDrip on your master (Main)  phone.<br>
 
 That’s it. Your xDrip readings should now upload to your Nightscout on Google Cloud.<br>
 If not triple check the way you have added your Base URL correctly, it is very case sensitive!<br>
-### 27. **Set up xDrip to upload to your AndroidAPS** <br>
-This is the same has above except your Url will be your web address noip Host address, not like xdrip's where is as Both Secret and Noip host with the added api/v1<br>
+### 27. **Set up xDrip to go to your AndroidAPS** <br>
+This is the same has above except your Url will be your web address noip Host address, not like xdrip's where it has Both Secret and Noip host with the added api/v1<br>
+<center><img width="Auto" height="Auto" border="0" align="center"  src="/img/Nightscout/Google Cloud/xdrip Adding Your Base.jpg" title="Adding Your Base"/></a></center><br>
 
 ## How to Configure DDNS (Dynamic DNS) in a Router 
 #### 1. Is another issue some of you may face if you do not have a static Ip address. There is software available for you to download from noip called a <a href=" https://my.noip.com/dynamic-dns/duc" target="_blank" title="Dynamic update client">Dynamic update client</a>. <br>
@@ -246,7 +247,7 @@ Under “Nightscout Follow URL”, enter Token@hostname assuming “Token” is 
 
 <br><br>
 <center><a href="https://www.diabetes.org.uk/" target="_blank">
-  <img width="auto" height="auto" border="0" align="center"  src="/my-project/img/Diabetesuk/pngarea.com_rutgers-logo-png-8467605.png" title="Diabetes UK"/>
+  <img width="auto" height="auto" border="0" align="center"  src="/img/Diabetesuk/pngarea.com_rutgers-logo-png-8467605.png" title="Diabetes UK"/>
 </a>Why Not take visit [UK Wide Cycle Ride - Diabetes.uk](https://cycle.diabetes.org.uk/) or  [Swim22 - Diabetes.uk](https://swim22.diabetes.org.uk/) for your Diabetes Needs!</center><br><br>
 
 
