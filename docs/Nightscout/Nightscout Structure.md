@@ -9,7 +9,7 @@ For full Website content visit [The Diabetic Way](https://www.thediabeticway.co.
 
 
    - MONGO_CONNECTION - Your mongo uri, for example: mongodb://dave:Davespass@ds099999.mongolab.com:99999/nightscout.<br>
-   You can see this at <a href=" https://atlas-night-out.github.io/my-project/user-guide/Nightscout/Setting_up_Atlas_Account_part3/" target="_blank" title="First create a user account by going to">Click Here</a> Section 17 [This link](#1.1-my-header)ndfh
+   You can see this at <a href=" https://atlas-night-out.github.io/my-project/user-guide/Nightscout/Setting_up_Atlas_Account_part3/" target="_blank" title="First create a user account by going to">Click Here</a> Section 17 [This link](#1.1-my-header)
   -  DISPLAY_UNITS (mg/dl) - Choices: mg/dl and mmol. Setting to mmol puts the entire server into mmol mode by default, no further settings needed.
   -  BASE_URL - Used for building links to your sites api, ie pushover callbacks, usually the URL of your Nightscout site you may want https instead of http
 

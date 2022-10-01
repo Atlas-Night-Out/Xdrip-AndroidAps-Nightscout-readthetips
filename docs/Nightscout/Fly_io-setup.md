@@ -6,6 +6,9 @@ For full Website content visit [The Diabetic Way](https://www.thediabeticway.co.
 
 ###  **Fly_io for Nightscout**<br>
 
+
+[This link](#7-set-up-xdrip-to-go-to-your-androidaps)
+
 Credit too:Big thanks to Robby,  for the idea, links putting it together, implementing the installer, and testing everything with myself for the docs, and Robby for the tips.<br>
 
 ## Upcoming changes made:
@@ -75,7 +78,7 @@ On AASP it is done seperatly, you add your Nightscout Web URL and then add your 
 <center><img width="350" height="Auto" border="0" align="center"  src="../../img/Nightscout/Fly_io/AAPS_Base URL.jpg" title="AAPS Base"/></a></center><br>
 
 
-### 29. **Setting up xDrip as a (follower) like for your dad from the example from above**
+### 8. **Setting up xDrip as a (follower) like for your dad from the example from above**
 This will be on your followers mobile phone, not your own.
 #### 1. In the xDrip Data Source Settings, choose “Nightscout Follower” as the hardware data source.
 <center><img width="250" height="Auto" border="0" align="center"  src="../..//img/Nightscout/Google Cloud/xdrip settings.jpg" title=" xdrip settings"/><img width="250" height="Auto" border="0" align="center"  src="../..//img/Nightscout/Google Cloud/Hardware Data Source1.jpg" title=" Select Hardware Data Source"/></a><img width="250" height="Auto" border="0" align="center"  src="../..//img/Nightscout/Google Cloud/Hardware Data Source.jpg" title=" Nightscout Follow"/></a></center><br>
