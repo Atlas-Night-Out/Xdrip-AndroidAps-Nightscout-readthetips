@@ -121,6 +121,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://example.com/xdrip/xdrip%20-%20Base/</loc>
+         <lastmod>2022-10-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://example.com/xdrip/xdrip%20-%20Download/</loc>
          <lastmod>2022-10-01</lastmod>
          <changefreq>daily</changefreq>

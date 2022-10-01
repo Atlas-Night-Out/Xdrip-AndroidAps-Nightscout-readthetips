@@ -3,7 +3,9 @@ docs made by D.Galloway 2019- 2021-->
 <img width="860" height="615" border="0" align="center"  src="../../img/xdrip/xdrip+ original logo.jpg" title="Xdrip+"/></a><br>
 
 # **BASE_URL** <br>
-### xdrip+ Base_URL 
+
+### xdrip+ Base_URL <br>
+
 ### 1. **Set up xDrip to upload to your Nightscout** <br>
 This is what you need to do in xDrip on your master (Main)  phone.<br>
 #### a. Go to xDrip Settings −> Cloud Upload −> Nightscout Sync (REST-API)<br>
