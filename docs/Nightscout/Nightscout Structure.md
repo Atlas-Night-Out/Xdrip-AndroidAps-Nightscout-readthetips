@@ -20,7 +20,7 @@ For full Website content visit [The Diabetic Way](https://www.thediabeticway.co.
 ## Upcoming changes made:
 Process:old heroku accout to a new Turbo Fly_io Account. <br><br>
 
-<center><img width="auto" height="auto" border="0" align="center"  src="../img/Nightscout/Fly_io/Turbocharge your heroku app with fly.jpg" title="Turbocharge your Heroku App with Fly"/></a>	</center><br>
+<center><img width="auto" height="auto" border="0" align="center"  src="../../img/Nightscout/Fly_io/Turbocharge your heroku app with fly.jpg" title="Turbocharge your Heroku App with Fly"/></a>	</center><br>
 
 ### **So with all that, let’s set up a free Turbo Account on Fly_io <br>**
 You will need to keep to the free Tier for this setup to be free, in you having a nightscout site again totaly free. This could change and we are not fully knowing for how long it will be free, all we know is as long as you stick to the free tire Requirements it should be free. Lets hope for life.<br>
