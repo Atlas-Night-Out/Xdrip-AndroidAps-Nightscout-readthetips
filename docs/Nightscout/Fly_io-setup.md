@@ -11,7 +11,7 @@ Credit too:Big thanks to Robby,  for the idea, links putting it together, implem
 ## Upcoming changes made:
 Process:old heroku accout to a new Turbo Fly_io Account. <br><br>
 
-<center><img width="auto" height="auto" border="0" align="center"  src="/img/Nightscout/Fly_io/Turbocharge your heroku app with fly.jpg" title="Turbocharge your Heroku App with Fly"/></a>	</center><br>
+<center><img width="auto" height="auto" border="0" align="center"  src="../../img/Nightscout/Fly_io/Turbocharge your heroku app with fly.jpg" title="Turbocharge your Heroku App with Fly"/></a>	</center><br>
 
 ### **So with all that, let’s set up a free Turbo Account on Fly_io <br>**
 You will need to keep to the free Tier for this setup to be free, in you having a nightscout site again totaly free. This could change and we are not fully knowing for how long it will be free, all we know is as long as you stick to the free tire Requirements it should be free. Lets hope for life.<br>
@@ -20,7 +20,7 @@ You will need to keep to the free Tier for this setup to be free, in you having 
 
 #### 1.	Setup Fly_io Account: By going to https://fly.io/launch/heroku or <a href=" https://fly.io/launch/heroku" target="_blank" title="Account">Click Here</a>
 <a href="https://www.noip.com/" target="_blank">
-  <center><img width="auto" height="auto" border="0" align="center"  src="/img/Nightscout/Fly_io/my-heroku-app.jpg" title="sign up to Google cloud"/></center>
+  <center><img width="auto" height="auto" border="0" align="center"  src="../../img/Nightscout/Fly_io/my-heroku-app.jpg" title="sign up to Google cloud"/></center>
 </a><br>
 
 
@@ -28,11 +28,11 @@ You will need to keep to the free Tier for this setup to be free, in you having 
 You will then be asked to fill in your payment details
 Fill in your payment details, don't worry,you will not be charged if you keep to a free tier as outlined.
 <br>
-<center><img width="auto" height="auto" border="0" align="center"  src="/img/Nightscout/Fly_io/fly payment.jpg" title="Your hostname"/></a>	</center><br>
+<center><img width="auto" height="auto" border="0" align="center"  src="../../img/Nightscout/Fly_io/fly payment.jpg" title="Your hostname"/></a>	</center><br>
 
 ### 3. After filling in and setting up your payment details go back to the page you just come from before you filled in the payment details, and carry on the Deploying process  from the Heroku site. This can take a while to do..<br>
 
-<center><img width="auto" height="auto" border="0" align="center"  src="/img/Nightscout/Fly_io/Deploying.jpg" title="Deploying"/></a>	</center>
+<center><img width="auto" height="auto" border="0" align="center"  src="../../img/Nightscout/Fly_io/Deploying.jpg" title="Deploying"/></a>	</center>
 
 ### 4.  Sit back have another cuppa. <br>
 
@@ -53,16 +53,16 @@ We need to use Xdrip to upload are CGM readings to Nightscout and it will need y
 ### 6. **Set up xDrip to upload to your Nightscout** <br>
 This is what you need to do in xDrip on your master (Main)  phone.<br>
 #### a. Go to xDrip Settings −> Cloud Upload −> Nightscout Sync (REST-API)<br>
-<center><img width="250" height="Auto" border="0" align="center"  src="/img/Nightscout/Google Cloud/xdrip settings.jpg" title=" xdrip settings"/></a><img width="250" height="Auto" border="0" align="center"  src="/img/Nightscout/Google Cloud/xdrip cloud upload.jpg" title=" Cloud Upload"/></a><img width="250" height="Auto" border="0" align="center"  src="/img/Nightscout/Google Cloud/xdrip Nightscout Sync (REST-API).jpg" title=" Nightscout Sync (REST-API)"/></a></center><br>
+<center><img width="250" height="Auto" border="0" align="center"  src="../../img/Nightscout/Google Cloud/xdrip settings.jpg" title=" xdrip settings"/></a><img width="250" height="Auto" border="0" align="center"  src="../../img/Nightscout/Google Cloud/xdrip cloud upload.jpg" title=" Cloud Upload"/></a><img width="250" height="Auto" border="0" align="center"  src="../../img/Nightscout/Google Cloud/xdrip Nightscout Sync (REST-API).jpg" title=" Nightscout Sync (REST-API)"/></a></center><br>
 #### b. Select Enable at the top, if not already enabled.<br>
-<img width="400" height="Auto" border="0" align="center"  src="/img/Nightscout/Fly_io/Nightscout sync (REST-API).jpg" title=" Enable Nightscout Sync (REST-API)"/></a>
+<img width="400" height="Auto" border="0" align="center"  src="../../img/Nightscout/Fly_io/Nightscout sync (REST-API).jpg" title=" Enable Nightscout Sync (REST-API)"/></a>
 #### c. Tap on Base URL. Enter the following Url. Remeber yours will be different than what I show you here. You will need to add your Secret-API and your Host to the set out code!
 https://<span style="background-color: #FFFF00">**ThisIsyourSecret-API**</span>@<span style="background-color: #26AF06">**thisisyourHostName**</span>/api/v1/<br>
 If you  forgot or lose your secret-API it can be located at Heroku/ Settings/Config Vars and look down the list for API_SECRET<br>
 This will now be located in a differrent place now within Fly_io<br>
 
 Your Host name is located in your Fly_io Dashboard.
-<center><img width="Auto" height="Auto" border="0" align="center"  src="/img/Nightscout/Fly_io/example Base URL.jpg" title="Adding Your Base"/></a></center><br>
+<center><img width="Auto" height="Auto" border="0" align="center"  src="../../img/Nightscout/Fly_io/example Base URL.jpg" title="Adding Your Base"/></a></center><br>
 
 #### d. (Reminder)Tap on Base URL. Enter the following. https://API-Secret@hostname/api/v1/  <br>
 
@@ -72,10 +72,10 @@ If you do not see levels after 5 mins, triple check the way you have added your 
 ### 7. **Set up xDrip to go to your AndroidAPS** <br>
 This is the same has above except your Url will be your web address Fly_io Host address, not like xdrip's where it has Both Secret and Fly_io host on one line with the added api/v1<br>
 On AASP it is done seperatly you add your Nightscout Web URL and then add your Secret in NS API secret.<br>
-<center><img width="Auto" height="Auto" border="0" align="center"  src="/img/Nightscout/Fly_io/xdrip Adding Your Base.jpg" title="Adding Your Base"/></a></center><br>
+<center><img width="Auto" height="Auto" border="0" align="center"  src="../../img/Nightscout/Fly_io/xdrip Adding Your Base.jpg" title="Adding Your Base"/></a></center><br>
 
 <a href= https://console.cloud.google.com" target="_blank">
-  <img width="auto" height="auto" border="0" align="center"  src="/img/Nightscout/Google Cloud/google cloud.jpg" title=" Google cloud Console"/>
+  <img width="auto" height="auto" border="0" align="center"  src="../../img/Nightscout/Google Cloud/google cloud.jpg" title=" Google cloud Console"/>
 </a><br>
 
 
@@ -86,7 +86,7 @@ On AASP it is done seperatly you add your Nightscout Web URL and then add your S
 <center><img width="250" height="Auto" border="0" align="center"  src="/img/Nightscout/Google Cloud/xdrip settings.jpg" title=" xdrip settings"/><img width="250" height="Auto" border="0" align="center"  src="/img/Nightscout/Google Cloud/Hardware Data Source1.jpg" title=" Select Hardware Data Source"/></a><img width="250" height="Auto" border="0" align="center"  src="/img/Nightscout/Google Cloud/Hardware Data Source.jpg" title=" Nightscout Follow"/></a></center><br>
 
 Under “Nightscout Follow URL”, <br>
-<center><img width="250" height="auto" border="0" align="center"  src="/img/Nightscout/Google Cloud/nightscout follow url.jpg" title=" follow url"/></center><br>
+<center><img width="250" height="auto" border="0" align="center"  src="../../img/Nightscout/Google Cloud/nightscout follow url.jpg" title=" follow url"/></center><br>
 enter Token@hostname assuming “Token” is the token from the previous step,**28 e.**  and hostname is your noip.com hostname.<br>
 
 
