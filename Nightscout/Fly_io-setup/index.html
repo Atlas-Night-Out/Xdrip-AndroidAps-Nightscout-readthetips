@@ -1,0 +1,1420 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://example.com/Nightscout/Fly_io-setup/">
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.3.1, mkdocs-material-8.3.9">
+    
+    
+      
+        <title>Fly_io - Xdrip-Android-APS-Nightscout-readthetips</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.1d29e8d0.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.cbb835fc.min.css">
+        
+          
+          
+          <meta name="theme-color" content="#000000">
+        
+      
+      
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#fly_io-for-nightscout" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Xdrip-Android-APS-Nightscout-readthetips" class="md-header__button md-logo" aria-label="Xdrip-Android-APS-Nightscout-readthetips" data-md-component="logo">
+      
+  <img src="../../assets/images/T1_xDrip+logo_white_236x236.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Xdrip-Android-APS-Nightscout-readthetips
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Fly_io
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../.." class="md-tabs__link">
+      Home
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../Dexcom/Userguide/" class="md-tabs__link">
+        Dexcom
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../xdrip/usethedoc/" class="md-tabs__link">
+        Xdrip
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../Setting_up_Github_Account_part1/" class="md-tabs__link md-tabs__link--active">
+        Nightscout
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../watches/Watches/" class="md-tabs__link">
+        Watches
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../../Helpful/Helplinks/" class="md-tabs__link">
+      Helpful Links
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../../about/" class="md-tabs__link">
+      about
+    </a>
+  </li>
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Xdrip-Android-APS-Nightscout-readthetips" class="md-nav__button md-logo" aria-label="Xdrip-Android-APS-Nightscout-readthetips" data-md-component="logo">
+      
+  <img src="../../assets/images/T1_xDrip+logo_white_236x236.png" alt="logo">
+
+    </a>
+    Xdrip-Android-APS-Nightscout-readthetips
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2">
+          Dexcom
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Dexcom" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Dexcom
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Dexcom/Userguide/" class="md-nav__link">
+        Dexcom
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3">
+          Xdrip
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Xdrip" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Xdrip
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../xdrip/usethedoc/" class="md-nav__link">
+        Docs
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../xdrip/xdrip%20-%20Download/" class="md-nav__link">
+        Download
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../xdrip/xdrip%20-%20install/" class="md-nav__link">
+        Install
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../xdrip/Compatible%20Watches/" class="md-nav__link">
+        Compatible - Watches
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../xdrip/Xdrip%20Follower%20Setup/" class="md-nav__link">
+        Xdrip Follower
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4">
+          Nightscout
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Nightscout" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Nightscout
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Setting_up_Github_Account_part1/" class="md-nav__link">
+        Part 1 - Setting up Github
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Setting_up_Heroku_Account_part2/" class="md-nav__link">
+        Part 2 Setting up Heroku Account 
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Setting_up_Atlas_Account_part3/" class="md-nav__link">
+        Part 3 Setting up Atlas Account 
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Part%204%20-%20Fork%20and%20Deploy%20cgm%20remote%20monitory/" class="md-nav__link">
+        Part 4 - Fork and Deploy cgm remote monitory
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Nightscout%20Structure/" class="md-nav__link">
+        Nightscout Structure
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Compatible%20Watches/" class="md-nav__link">
+        Compatible - Watches
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Nightscout_Oracle%20Cloud%20-%20setup/" class="md-nav__link">
+        Oracle Cloud Setup
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Google%20Cloud_setup/" class="md-nav__link">
+        Google Cloud Setup
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Fly_io
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Fly_io
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#fly_io-for-nightscout" class="md-nav__link">
+    Fly_io for Nightscout
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#upcoming-changes-made" class="md-nav__link">
+    Upcoming changes made:
+  </a>
+  
+    <nav class="md-nav" aria-label="Upcoming changes made:">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#so-with-all-that-lets-set-up-a-free-turbo-account-on-fly_io" class="md-nav__link">
+    So with all that, let’s set up a free Turbo Account on Fly_io 
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fly_io-account" class="md-nav__link">
+    Fly_io Account
+  </a>
+  
+    <nav class="md-nav" aria-label="Fly_io Account">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-setup-fly_io-account-by-going-to-httpsflyiolaunchheroku-or-click-here" class="md-nav__link">
+    1. Setup Fly_io Account: By going to https://fly.io/launch/heroku or Click Here
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-fill-in-your-organization-name-pick-a-app-name-you-would-like-i-have-just-done-an-example-in-the-image-above-for-these-instruction-and-choose-your-heroku-app-you-used-on-heroku" class="md-nav__link">
+    2. Fill in your organization name, pick a App name you would like (I have just done an example in the image above for these instruction!) and choose your Heroku app you used on Heroku
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-after-filling-in-and-setting-up-your-payment-details-go-back-to-the-page-you-just-come-from-before-you-filled-in-the-payment-details-and-carry-on-the-deploying-process-from-the-heroku-site-this-can-take-a-while-to-do" class="md-nav__link">
+    3. After filling in and setting up your payment details go back to the page you just come from before you filled in the payment details, and carry on the Deploying process  from the Heroku site. This can take a while to do..
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-sit-back-have-another-cuppa" class="md-nav__link">
+    4.  Sit back have another cuppa. 
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-fly_io-dashboard" class="md-nav__link">
+    5.  Fly_io Dashboard 
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#we-now-need-to-setup-xdrip" class="md-nav__link">
+    We now need to setup Xdrip
+  </a>
+  
+    <nav class="md-nav" aria-label="We now need to setup Xdrip">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#6-set-up-xdrip-to-upload-to-your-nightscout" class="md-nav__link">
+    6. Set up xDrip to upload to your Nightscout 
+  </a>
+  
+    <nav class="md-nav" aria-label="6. Set up xDrip to upload to your Nightscout ">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#a-go-to-xdrip-settings-cloud-upload-nightscout-sync-rest-api" class="md-nav__link">
+    a. Go to xDrip Settings −&gt; Cloud Upload −&gt; Nightscout Sync (REST-API)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#b-select-enable-at-the-top-if-not-already-enabled" class="md-nav__link">
+    b. Select Enable at the top, if not already enabled.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c-tap-on-base-url-enter-the-following-url-remeber-yours-will-be-different-than-what-i-show-you-here-you-will-need-to-add-your-secret-api-and-your-host-to-the-set-out-code" class="md-nav__link">
+    c. Tap on Base URL. Enter the following Url. Remeber yours will be different than what I show you here. You will need to add your Secret-API and your Host to the set out code!
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#d-remindertap-on-base-url-enter-the-following-httpsapi-secrethostnameapiv1" class="md-nav__link">
+    d. (Reminder)Tap on Base URL. Enter the following. https://API-Secret@hostname/api/v1/  
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7-set-up-xdrip-to-go-to-your-androidaps" class="md-nav__link">
+    7. Set up xDrip to go to your AndroidAPS 
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#29-setting-up-xdrip-as-a-follower-like-your-dad-from-the-example-from-above" class="md-nav__link">
+    29. Setting up xDrip as a (follower) like your dad from the example from above
+  </a>
+  
+    <nav class="md-nav" aria-label="29. Setting up xDrip as a (follower) like your dad from the example from above">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-in-the-xdrip-data-source-settings-choose-nightscout-follower-as-the-hardware-data-source" class="md-nav__link">
+    1. In the xDrip Data Source Settings, choose “Nightscout Follower” as the hardware data source.
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#issues-or-concerns" class="md-nav__link">
+    Issues or Concerns
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5">
+          Watches
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Watches" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          Watches
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../watches/Watches/" class="md-nav__link">
+        CGM onto - Watches
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../watches/Compatible%20Watches/" class="md-nav__link">
+        Compatible - Watches
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../watches/TicWatch-Pro-3-side-load---xdrip/" class="md-nav__link">
+        TicWatch-Pro-3-Side-Load - Watches
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Helpful/Helplinks/" class="md-nav__link">
+        Helpful Links
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/" class="md-nav__link">
+        about
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#fly_io-for-nightscout" class="md-nav__link">
+    Fly_io for Nightscout
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#upcoming-changes-made" class="md-nav__link">
+    Upcoming changes made:
+  </a>
+  
+    <nav class="md-nav" aria-label="Upcoming changes made:">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#so-with-all-that-lets-set-up-a-free-turbo-account-on-fly_io" class="md-nav__link">
+    So with all that, let’s set up a free Turbo Account on Fly_io 
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fly_io-account" class="md-nav__link">
+    Fly_io Account
+  </a>
+  
+    <nav class="md-nav" aria-label="Fly_io Account">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-setup-fly_io-account-by-going-to-httpsflyiolaunchheroku-or-click-here" class="md-nav__link">
+    1. Setup Fly_io Account: By going to https://fly.io/launch/heroku or Click Here
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-fill-in-your-organization-name-pick-a-app-name-you-would-like-i-have-just-done-an-example-in-the-image-above-for-these-instruction-and-choose-your-heroku-app-you-used-on-heroku" class="md-nav__link">
+    2. Fill in your organization name, pick a App name you would like (I have just done an example in the image above for these instruction!) and choose your Heroku app you used on Heroku
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-after-filling-in-and-setting-up-your-payment-details-go-back-to-the-page-you-just-come-from-before-you-filled-in-the-payment-details-and-carry-on-the-deploying-process-from-the-heroku-site-this-can-take-a-while-to-do" class="md-nav__link">
+    3. After filling in and setting up your payment details go back to the page you just come from before you filled in the payment details, and carry on the Deploying process  from the Heroku site. This can take a while to do..
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-sit-back-have-another-cuppa" class="md-nav__link">
+    4.  Sit back have another cuppa. 
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-fly_io-dashboard" class="md-nav__link">
+    5.  Fly_io Dashboard 
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#we-now-need-to-setup-xdrip" class="md-nav__link">
+    We now need to setup Xdrip
+  </a>
+  
+    <nav class="md-nav" aria-label="We now need to setup Xdrip">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#6-set-up-xdrip-to-upload-to-your-nightscout" class="md-nav__link">
+    6. Set up xDrip to upload to your Nightscout 
+  </a>
+  
+    <nav class="md-nav" aria-label="6. Set up xDrip to upload to your Nightscout ">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#a-go-to-xdrip-settings-cloud-upload-nightscout-sync-rest-api" class="md-nav__link">
+    a. Go to xDrip Settings −&gt; Cloud Upload −&gt; Nightscout Sync (REST-API)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#b-select-enable-at-the-top-if-not-already-enabled" class="md-nav__link">
+    b. Select Enable at the top, if not already enabled.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c-tap-on-base-url-enter-the-following-url-remeber-yours-will-be-different-than-what-i-show-you-here-you-will-need-to-add-your-secret-api-and-your-host-to-the-set-out-code" class="md-nav__link">
+    c. Tap on Base URL. Enter the following Url. Remeber yours will be different than what I show you here. You will need to add your Secret-API and your Host to the set out code!
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#d-remindertap-on-base-url-enter-the-following-httpsapi-secrethostnameapiv1" class="md-nav__link">
+    d. (Reminder)Tap on Base URL. Enter the following. https://API-Secret@hostname/api/v1/  
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7-set-up-xdrip-to-go-to-your-androidaps" class="md-nav__link">
+    7. Set up xDrip to go to your AndroidAPS 
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#29-setting-up-xdrip-as-a-follower-like-your-dad-from-the-example-from-above" class="md-nav__link">
+    29. Setting up xDrip as a (follower) like your dad from the example from above
+  </a>
+  
+    <nav class="md-nav" aria-label="29. Setting up xDrip as a (follower) like your dad from the example from above">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-in-the-xdrip-data-source-settings-choose-nightscout-follower-as-the-hardware-data-source" class="md-nav__link">
+    1. In the xDrip Data Source Settings, choose “Nightscout Follower” as the hardware data source.
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#issues-or-concerns" class="md-nav__link">
+    Issues or Concerns
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+
+
+  <h1>Fly_io</h1>
+
+<!-- this is  on github live server!
+docs made by D.Galloway 2019- 2021-->
+
+<p>For full Website content visit <a href="https://www.thediabeticway.co.uk/index.php/en/">The Diabetic Way</a>.</p>
+<h3 id="fly_io-for-nightscout"><strong>Fly_io for Nightscout</strong><br></h3>
+<p>Credit too:Big thanks to Robby,  for the idea, links putting it together, implementing the installer, and testing everything with myself for the docs, and Robby for the tips.<br></p>
+<h2 id="upcoming-changes-made">Upcoming changes made:</h2>
+<p>Process:old heroku accout to a new Turbo Fly_io Account. <br><br></p>
+<p><center><img width="auto" height="auto" border="0" align="center"  src="/img/Nightscout/Fly_io/Turbocharge your heroku app with fly.jpg" title="Turbocharge your Heroku App with Fly"/></a> </center><br></p>
+<h3 id="so-with-all-that-lets-set-up-a-free-turbo-account-on-fly_io"><strong>So with all that, let’s set up a free Turbo Account on Fly_io <br></strong></h3>
+<p>You will need to keep to the free Tier for this setup to be free, in you having a nightscout site again totaly free. This could change and we are not fully knowing for how long it will be free, all we know is as long as you stick to the free tire Requirements it should be free. Lets hope for life.<br></p>
+<h2 id="fly_io-account"><strong>Fly_io Account</strong></h2>
+<h4 id="1-setup-fly_io-account-by-going-to-httpsflyiolaunchheroku-or-click-here">1. Setup Fly_io Account: By going to https://fly.io/launch/heroku or <a href=" https://fly.io/launch/heroku" target="_blank" title="Account">Click Here</a></h4>
+<p><a href="https://www.noip.com/" target="_blank">
+  <center><img width="auto" height="auto" border="0" align="center"  src="/img/Nightscout/Fly_io/my-heroku-app.jpg" title="sign up to Google cloud"/></center>
+</a><br></p>
+<h3 id="2-fill-in-your-organization-name-pick-a-app-name-you-would-like-i-have-just-done-an-example-in-the-image-above-for-these-instruction-and-choose-your-heroku-app-you-used-on-heroku">2. Fill in your organization name, pick a App name you would like (I have just done an example in the image above for these instruction!) and choose your Heroku app you used on Heroku<br></h3>
+<p>You will then be asked to fill in your payment details
+Fill in your payment details, don't worry,you will not be charged if you keep to a free tier as outlined.
+<br>
+<center><img width="auto" height="auto" border="0" align="center"  src="/img/Nightscout/Fly_io/fly payment.jpg" title="Your hostname"/></a> </center><br></p>
+<h3 id="3-after-filling-in-and-setting-up-your-payment-details-go-back-to-the-page-you-just-come-from-before-you-filled-in-the-payment-details-and-carry-on-the-deploying-process-from-the-heroku-site-this-can-take-a-while-to-do">3. After filling in and setting up your payment details go back to the page you just come from before you filled in the payment details, and carry on the Deploying process  from the Heroku site. This can take a while to do..<br></h3>
+<p><center><img width="auto" height="auto" border="0" align="center"  src="/img/Nightscout/Fly_io/Deploying.jpg" title="Deploying"/></a>   </center></p>
+<h3 id="4-sit-back-have-another-cuppa">4.  Sit back have another cuppa. <br></h3>
+<h3 id="5-fly_io-dashboard">5.  Fly_io Dashboard <br></h3>
+<p>You should now be able to see or be at your Fly_io Dashboard and be presented with your Hostname<br><br></p>
+<p><strong>Host Name</strong><center><img width="auto" height="auto" border="0" align="center"  src="/img/Nightscout/Fly_io/new heroku installation is ready url.jpg" title="Installation is Ready"/>   </center><br></p>
+<p><strong>Dashboard</strong><br></p>
+<p></a><img width="auto" height="auto" border="0" align="center"  src="/img/Nightscout/Fly_io/Dashboard_Hostname.jpg" title="Dashboard Host Name"/></a></p>
+<h2 id="we-now-need-to-setup-xdrip"><strong>We now need to setup Xdrip</strong></h2>
+<p>We need to use Xdrip to upload are CGM readings to Nightscout and it will need you to enter the correct URL in it's setting for Nightscout to start receiving readings from your CGM!<br> You may use other software other than Xdrip+ but for this tutorial I will be using xdrip+ you will have to excuse me if I just put xdrip as I keep forgetiing to put the + </p>
+<h3 id="6-set-up-xdrip-to-upload-to-your-nightscout">6. <strong>Set up xDrip to upload to your Nightscout</strong> <br></h3>
+<p>This is what you need to do in xDrip on your master (Main)  phone.<br></p>
+<h4 id="a-go-to-xdrip-settings-cloud-upload-nightscout-sync-rest-api">a. Go to xDrip Settings −&gt; Cloud Upload −&gt; Nightscout Sync (REST-API)<br></h4>
+<p><center><img width="250" height="Auto" border="0" align="center"  src="/img/Nightscout/Google Cloud/xdrip settings.jpg" title=" xdrip settings"/></a><img width="250" height="Auto" border="0" align="center"  src="/img/Nightscout/Google Cloud/xdrip cloud upload.jpg" title=" Cloud Upload"/></a><img width="250" height="Auto" border="0" align="center"  src="/img/Nightscout/Google Cloud/xdrip Nightscout Sync (REST-API).jpg" title=" Nightscout Sync (REST-API)"/></a></center><br></p>
+<h4 id="b-select-enable-at-the-top-if-not-already-enabled">b. Select Enable at the top, if not already enabled.<br></h4>
+<p><img width="400" height="Auto" border="0" align="center"  src="/img/Nightscout/Fly_io/Nightscout sync (REST-API).jpg" title=" Enable Nightscout Sync (REST-API)"/></a></p>
+<h4 id="c-tap-on-base-url-enter-the-following-url-remeber-yours-will-be-different-than-what-i-show-you-here-you-will-need-to-add-your-secret-api-and-your-host-to-the-set-out-code">c. Tap on Base URL. Enter the following Url. Remeber yours will be different than what I show you here. You will need to add your Secret-API and your Host to the set out code!</h4>
+<p>https://<span style="background-color: #FFFF00"><strong>ThisIsyourSecret-API</strong></span>@<span style="background-color: #26AF06"><strong>thisisyourHostName</strong></span>/api/v1/<br>
+If you  forgot or lose your secret-API it can be located at Heroku/ Settings/Config Vars and look down the list for API_SECRET<br>
+This will now be located in a differrent place now within Fly_io<br></p>
+<p>Your Host name is located in your Fly_io Dashboard.
+<center><img width="Auto" height="Auto" border="0" align="center"  src="/img/Nightscout/Fly_io/example Base URL.jpg" title="Adding Your Base"/></a></center><br></p>
+<h4 id="d-remindertap-on-base-url-enter-the-following-httpsapi-secrethostnameapiv1">d. (Reminder)Tap on Base URL. Enter the following. https://API-Secret@hostname/api/v1/  <br></h4>
+<p>That’s it. Your xDrip readings should now upload to your Nightscout web site.<br>
+If you do not see levels after 5 mins, triple check the way you have added your Base URL correctly, it is very case sensitive!with no spaces<br></p>
+<h3 id="7-set-up-xdrip-to-go-to-your-androidaps">7. <strong>Set up xDrip to go to your AndroidAPS</strong> <br></h3>
+<p>This is the same has above except your Url will be your web address Fly_io Host address, not like xdrip's where it has Both Secret and Fly_io host on one line with the added api/v1<br>
+On AASP it is done seperatly you add your Nightscout Web URL and then add your Secret in NS API secret.<br>
+<center><img width="Auto" height="Auto" border="0" align="center"  src="/img/Nightscout/Fly_io/xdrip Adding Your Base.jpg" title="Adding Your Base"/></a></center><br></p>
+<p><a href= https://console.cloud.google.com" target="_blank">
+  <img width="auto" height="auto" border="0" align="center"  src="/img/Nightscout/Google Cloud/google cloud.jpg" title=" Google cloud Console"/>
+</a><br></p>
+<h3 id="29-setting-up-xdrip-as-a-follower-like-your-dad-from-the-example-from-above">29. <strong>Setting up xDrip as a (follower) like your dad from the example from above</strong></h3>
+<h4 id="1-in-the-xdrip-data-source-settings-choose-nightscout-follower-as-the-hardware-data-source">1. In the xDrip Data Source Settings, choose “Nightscout Follower” as the hardware data source.</h4>
+<p><center><img width="250" height="Auto" border="0" align="center"  src="/img/Nightscout/Google Cloud/xdrip settings.jpg" title=" xdrip settings"/><img width="250" height="Auto" border="0" align="center"  src="/img/Nightscout/Google Cloud/Hardware Data Source1.jpg" title=" Select Hardware Data Source"/></a><img width="250" height="Auto" border="0" align="center"  src="/img/Nightscout/Google Cloud/Hardware Data Source.jpg" title=" Nightscout Follow"/></a></center><br></p>
+<p>Under “Nightscout Follow URL”, <br>
+<center><img width="250" height="auto" border="0" align="center"  src="/img/Nightscout/Google Cloud/nightscout follow url.jpg" title=" follow url"/></center><br>
+enter Token@hostname assuming “Token” is the token from the previous step,<strong>28 e.</strong>  and hostname is your noip.com hostname.<br></p>
+<h2 id="issues-or-concerns"><strong>Issues or Concerns</strong></h2>
+<p>If you have any issues or concerns please post your questions in the  <a href="https://www.facebook.com/groups/5390196001057776" target="_blank">
+  <img width="50" height="auto" border="0" align="center"  src="/img/facebook/facebook-logo-png-11.png" title="Facebook group xdrip uk"/></a> <a href=" https://www.facebook.com/groups/5390196001057776" target="_blank" title="Facebook xDrip - UK"> Facebook Group</a> or you can go to the <span style="background-color: #FFFF00"><strong>Discussions</strong></span> on <a href=" https://github.com/NightscoutFoundation/xDrip/discussions" target="_blank" title="Discussions"> Github</a><a href="https://www.facebook.com/groups/5390196001057776" target="_blank">
+  <img width="50" height="auto" border="0" align="center"  src="/img/github/github-logo-icon-16155.png" title="Github"/></a><br></p>
+<p>## To Be continued!</p>
+<p><br><br>
+<center><a href="https://www.diabetes.org.uk/" target="_blank">
+  <img width="auto" height="auto" border="0" align="center"  src="/my-project/img/Diabetesuk/pngarea.com_rutgers-logo-png-8467605.png" title="Diabetes UK"/>
+</a>Why Not take visit <a href="https://cycle.diabetes.org.uk/">UK Wide Cycle Ride - Diabetes.uk</a> or  <a href="https://swim22.diabetes.org.uk/">Swim22 - Diabetes.uk</a> for your Diabetes Needs!</center><br><br></p>
+<p></font></p>
+<!--
+
+<table width="1166" border="1" style="border-color: #000000; background-color: #ffffff;" cellpadding="1" cellspacing="1" height="98">
+<tbody>
+<tr style="height: 16px;">
+<td style="width: 1158px; border-color: #000000; background-color: #5B9BD5;" fff=""><span style="font-size: 14pt;"><span style="color: #ffffff;">Note!  If you prefer video, see below</span></span></td>
+</tr>
+<tr style="height: 56.4063px;">
+<td style="width: 1158px; border-color: #000000;"><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 14pt;">
+<iframe width="850" height="415" src="https://www.youtube.com/embed/gUEqZAfPEZ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  </span></td>
+</tr>
+</tbody>
+</table>
+
+
+-->
+
+<!--  
+  ******************************************************************************************************************
+  mkdocs.yml    # The configuration file.
+    docs/
+    index.md  # The documentation homepage.
+       ...       # Other markdown pages, images and other files.
+
+        *************************************************************************
+        center text**
+        ## <center>Now Do  </center><br>
+
+        *************************************************************
+
+********************************************
+    Adding exernal link to other a web sites
+**********************************************
+# <center>Part 2: <a href=" https://atlas-night-out.github.io/my-project/user-guide/Setting_up_Heroku_Account_part2/" target="_blank" title="Setting up Heroku Account">Setting up Heroku Account</a> </center>
+<br>
+**********************************************
+external link with image 
+<a href="https://www.facebook.com/groups/5390196001057776" target="_blank">
+  <img width="50" height="auto" border="0" align="center"  src="/img/github/github-logo-icon-16155.png" title="Github"/></a>
+
+
+<a href="http://nightscout.github.io/pages/update-fork/" target="_blank">
+  <img width="auto" height="auto" border="0" align="center"  src="/img/Nightscout/Time to Update Nightscout.png" title="Update Tool"/></a>      
+
+
+adding  Yellow Hightligher!!!!!!!!  with bold too
+<span style="background-color: #FFFF00">**Marked text**</span>
+
+adding  Green Hightligher!!!!!!!!   with bold too
+<span style="background-color: #26AF06">**Marked text**</span>
+
+<a>
+  <img width="auto" height="auto" border="0" align="center"  src="/img/Nightscout/Time to Update Nightscout.png" title="Update Tool"/></a>  
+
+
+
+
+Adding a image with link
+<a href="https://www.youtube.com/watch?v=MFsbm45b6YY" target="_blank">
+  <img width="auto" height="auto" border="0" align="center"  src="/img/Part 1 Setting up Github 2021/Github account details.jpg" title="github account details"/>
+</a><br>
+
+link
+<a href=" https://github.com/" target="_blank" title="First create a user account by going to">Click Here</a>
+
+  <img width="auto" height="auto" border="0" align="center"  src="/img/Fork and Deploy cgm remote monitory Part 4/warning_sign.png" title="Update Tool"/></a>   
+
+<img width="30" height="30" src="/img/Fork and Deploy cgm remote monitory Part 4/clipart2068155.png">
+
+Adding a image with link
+<a href="https://www.youtube.com/watch?v=MFsbm45b6YY" target="_blank">
+  <img width="auto" height="auto" border="0" align="center"  src="/img/Part 1 Setting up Github 2021/Github account details.jpg" title="github account details"/>
+</a><br>
+
+
+
+
+Adding Video
+
+<iframe width="850" height="415" src="https://www.youtube.com/embed/MFsbm45b6YY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+Adding an embeded video
+<iframe id="video3" width="560" height="315" src="https://www.youtube.com/embed/o7-T2IrDJ_A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+Note
+**Note:** a note is something that needs to be mentioned but is apart from the context.
+
+
+List
+This is a regular paragraph.
+
+Paragraph:
+
+1. **Now Open another tab**  to make a Mongodb Atlas** Account: <a href="https://www.mongodb.com/cloud/atlas" target="_blank" title="Click Start Free">See Here</a> 
+  and **click** Start Free
+ <img width="auto" height="auto" border="0" align="center"  src="/img/Atlas/MongoDB Atlas start free.jpg"Click Start"/>
+   2. Sub item two
+   3. Sub item three
+2. Item two
+
+
+
+font size
+<font size="4">
+
+</font>
+
+link
+<a href=" https://github.com/" target="_blank" title="First create a user account by going to">Click Here</a>
+
+
+Table
+| Syntax | Description |
+| ----------- | ----------- |
+| Header | Title |
+| Paragraph | Text |
+
+
+Video in a box border!
+
+<table width="1166" border="1" style="border-color: #000000; background-color: #ffffff;" cellpadding="1" cellspacing="1" height="98">
+<tbody>
+<tr style="height: 16px;">
+<td style="width: 1158px; border-color: #000000; background-color: #5B9BD5;" fff=""><span style="font-size: 14pt;"><span style="color: #ffffff;">video Instructions,</span></span></td>
+</tr>
+<tr style="height: 56.4063px;">
+<td style="width: 1158px; border-color: #000000;"><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 14pt;">
+ <iframe id="video3" width="860" height="515" src="https://www.youtube.com/embed/6o3AdkQBVog" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  </span></td>
+</tr>
+</tbody>
+</table>
+*****************************************************
+Warning Note<table width="1266" border="1" style="border-color: #000000; background-color: #ffffff;" cellpadding="1" cellspacing="1" height="98">
+<tbody>
+<tr style="height: 16px;">
+<td style="width: 1158px; border-color: #000000; background-color: #FF0000;" fff=""><span style="font-size: 14pt;"><strong><span style="color: #ffffff;">Warning!</span></strong></span></td>
+</tr>
+<tr style="height: 56.4063px;">
+<td style="width: 1158px; border-color: #000000;"><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 14pt;"> 1: Some new features, updates, or bug fixes may require that you clear your browser cache before you will see the changes taken effect<br/> 2: If you get no errors and no readings after a while see about doing a <a href="http://127.0.0.1:8000/user-guide/Redeploying%20your%20repository/" target="_blank" title="Redeploying your repository link">Redeploying your repository</a> </span></td>
+</tr>
+</tbody>
+</table>
+
+-->
+
+              
+            </article>
+            
+          </div>
+        </div>
+        
+          <a href="#" class="md-top md-icon" data-md-component="top" hidden>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+            Back to top
+          </a>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+    <nav class="md-footer__inner md-grid" aria-label="Footer" >
+      
+        
+        <a href="../Google%20Cloud_setup/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Google Cloud Setup" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Google Cloud Setup
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../../watches/Watches/" class="md-footer__link md-footer__link--next" aria-label="Next: CGM onto - Watches" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              CGM onto - Watches
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.tracking", "navigation.top", "search.suggest", "search.highlight", "content.code.annotate"], "search": "../../assets/javascripts/workers/search.b97dbffb.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.6c7ad80a.min.js"></script>
+      
+    
+  </body>
+</html>
