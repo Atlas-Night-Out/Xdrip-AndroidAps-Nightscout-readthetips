@@ -39,11 +39,11 @@ Fill in your payment details, don't worry,you will not be charged if you keep to
 ### 5.  Fly_io Dashboard <br>
 You should now be able to see or be at your Fly_io Dashboard and be presented with your Hostname<br><br>
 
-**Host Name**<center><img width="auto" height="auto" border="0" align="center"  src="/img/Nightscout/Fly_io/new heroku installation is ready url.jpg" title="Installation is Ready"/>	</center><br>
+**Host Name**<center><img width="auto" height="auto" border="0" align="center"  src="../../img/Nightscout/Fly_io/new heroku installation is ready url.jpg" title="Installation is Ready"/>	</center><br>
 
 **Dashboard**<br>
 
-</a><img width="auto" height="auto" border="0" align="center"  src="/img/Nightscout/Fly_io/Dashboard_Hostname.jpg" title="Dashboard Host Name"/></a>
+</a><img width="auto" height="auto" border="0" align="center"  src="../../img/Nightscout/Fly_io/Dashboard_Hostname.jpg" title="Dashboard Host Name"/></a>
 
 
 ##  **We now need to setup Xdrip**
