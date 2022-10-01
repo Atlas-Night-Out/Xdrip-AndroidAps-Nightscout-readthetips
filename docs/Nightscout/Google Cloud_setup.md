@@ -6,33 +6,38 @@ For full Website content visit [The Diabetic Way](https://www.thediabeticway.co.
 
 ###  **Nightscout on Google Cloud**<br>
 
-Credit:
-Thanks to jamorham, the current xDrip head developer, for the idea, putting it together, implementing the installer, and testing everything with myself and Navid.<br>
+Credit too:Big thanks to jamorham, the current xDrip head developer, for the idea, putting it together, implementing the installer, and testing everything with myself and Navid doing the documents.<br>
 
 Upcoming changes made:
-Added Terminal Process:old heroku accout to it. And 
+Added Terminal Process:old heroku accout to it. 
 
-### **So with that, let’s set up a free account on Google Cloud <br>**
+### **So with all that, let’s set up a free account on Google Cloud <br>**
+To have a nightscout site again totaly free as of 22 Sept 2022 this could change and we are not fully knowing for how long it will be free, all we know is as long as you stick to the free tire Requirements here, it should be free. Lets hope for life.<br>
 
-#### 1.	Sign up: By going to https://www.oracle.com/cloud/sign-in.html or <a href=" https://www.noip.com/" target="_blank" title="Sign up">Click Here</a>
+##  **Noip Account**
+
+#### 1.	Firt Sign up Noip: By going to https://www.noip.com/ or <a href=" https://www.noip.com/" target="_blank" title="Sign up Noip">Click Here</a>
 <a href="https://www.noip.com/" target="_blank">
   <img width="auto" height="auto" border="0" align="center"  src="/img/Nightscout/Google Cloud/noipsignin.jpg" title="sign up to Google cloud"/>
 </a><br>
 
 
-### 2. You need to enter your email address, choose a password, and choose a hostname. Make a note of all of it.<br>
-<center><img width="auto" height="auto" border="0" align="center"  src="/img/Nightscout/Google Cloud/hostname.jpg" title="Your hostname"/></a>	</center>
+#### 2. You need to enter your email address, choose a password, and choose a hostname. Make a note of all of it.test<br>
+<center><img width="auto" height="auto" border="0" align="center"  src="/img/Nightscout/Google Cloud/hostname2.jpg" title="Your hostname"/></a>	</center><Br>
 
 
-
-
-### 3.  Select the “Free Sign Up” not the  “Get Enhanced”.<br>
+#### 3.  Select the “Free Sign Up” not the  “Get Enhanced”.<br>
 <center><img width="auto" height="auto" border="0" align="center"  src="/img/Nightscout/Google Cloud/free signup.jpg" title="Free sign up"/></a>	</center><br>
 
-### 4.  Sit back have a cuppa and enjoy video waiting for your email to “Confirm Account” before you advance. <br>
+### 4.  Sit back have a cuppa and enjoy video waiting for your email to “Confirm Account” before you advance to the next section. <br>
 <center><img width="auto" height="auto" border="0" align="center"  src="/img/Nightscout/Google Cloud/confirm your account.jpg" title="wait for your email"/></a><img width="auto" height="auto" border="0" align="center"  src="/img/Nightscout/Google Cloud/confirm your account_email.jpg" title="Confirm email"/></a>		</center><br>
 
-##  **Google account**
+### 5. Host Name
+You will be given a Hostname, that you will use to go to your nightscout site later and also add it to your settings and other things like when you setup a Follower. I will show you an example Host below.<br>
+<center><img width="auto" height="auto" border="0" align="center"  src="/img/Nightscout/Google Cloud/noip_examplehost.jpg" title="Example Host"/></a>	</center><br>
+
+
+##  **Google Account**
 
 #### 1. You need a Google account to proceed. If you do not have one go to https://support.google.com/accounts/answer/27441?hl=en and sign up or <a href=" https://support.google.com/accounts/answer/27441?hl=en" target="_blank" title="Sign up">Click Here</a>
 <a href="https://support.google.com/accounts/answer/27441?hl=en" target="_blank">
@@ -182,8 +187,8 @@ I would also not use symbols characters within making your password, I don't thi
 
 ##  **Now We need to Set up Nightscout:** <br> 
 ### 25. **Set up Nightscout:**
-#### 1. Use a web browser and enter your hostname from noip. <br>
-<center><img width="auto" height="auto" border="0" align="center"  src="/img/Nightscout/Google Cloud/noip hostname.jpg" title="noip hostname"/></a></center><br>
+#### 1. Use a web browser and copy your hostname from noip. <br>
+<center><img width="auto" height="auto" border="0" align="center"  src="/img/Nightscout/Google Cloud/noip hostname.jpg" title="noip hostname"/></a></center><br>And Paste it into your browser.
 <center><img width="auto" height="auto" border="0" align="center"  src="/img/Nightscout/Google Cloud/add host to browser.jpg" title="add host to browser"/></a></center><br>
 (from when you registered at noip.com). <br>
  <center><img width="auto" height="auto" border="0" align="center"  src="/img/Nightscout/Google Cloud/noip hostname.jpg" title="noip hostname"/></a></center><br>
@@ -224,30 +229,64 @@ I did this setup running on a Hub 3.0 VMDG505/TG2492LG-VM
 
 ## Create Acess Tokens and Roll
 ### 28. **Set up Nightscout tokens for your followers and AndroidAPS** <br>
-#### 1. Go to your Web site Nightscout and verify again and verify API-Secret again if needed. See "Now We need to Set up Nightscout" above. And click on the top right menu button.<br>
+### a. Go to your Web site Nightscout and verify again and verify API-Secret again if needed. See "Now We need to Set up Nightscout" above. And click on the top right menu button.<br>
 <center><img width="auto" height="auto" border="0" align="center"  src="/img/Nightscout/Google Cloud/nightscout burger menu.jpg" title=" Burger Menu"/></a></center><br>
 
-#### 2. Click on "Admin Tools"<br>
+### b. Click on "Admin Tools"<br>
 <center><img width="auto" height="auto" border="0" align="center"  src="/img/Nightscout/Google Cloud/nightscout admins tool.jpg" title=" Admins Tool"/></a></center><br>
 
-#### 3. Click on "Add New Subject"
+
+### c. You will see seven predefined roles:<br>
+<center><img width="auto" height="auto" border="0" align="center"  src="/img/Nightscout/Google Cloud/nightscout predefined roles.jpg" title=" predefined roles"/></a></center><br>
+
+**Roles**
+
+- admin: full Access
+
+- Readable: read-only access; no ability to make CarePortal/treatment entries. This user can view reports and profile information.
+
+- Careportal: can view the site and make CarePortal/treatment entries
+  - Denied: no access (this role only works if the AUTH_DEFAULT_ROLES setting is also denied. You can’t have a site that is readable to everyone and create a “denied” token for a specific user.)
+
+- Devicestatus-upload: used by devices.<br>
+
+### d. **Make a Token**<br>
+Click the 'Add New Subject' 
+
 <center><img width="auto" height="auto" border="0" align="center"  src="/img/Nightscout/Google Cloud/nightscout Add New Subject.jpg" title=" Add New Subject"/></a></center><br>
 
-#### 4. In the form that opens, enter a name. under “Roles”, copy roles from the table below it. For example, for a follower that is only supposed to see readings and nothing else, only enter “readable”. You can enter a combination of different roles by separating them with “,”.
-You can add an optional comment and save. Take note of the access token.<br>
+### e. In the form that opens, enter a name. under “Roles”, copy roles from the table below it. For example, for your dad that is only supposed to see your readings and nothing not be able to enter any other details or do anything else, then enter 'readable' in the roles section. <br><br>
+<center><img width="auto" height="auto" border="0" align="center"  src="/img/Nightscout/Google Cloud/rolls blank edit subject.jpg" title=" edit subject"/></center><br>
+You can enter a combination of different roles by separating them with “,”<br>
+You can also add an optional comment if you like, and then click the save button.<br>
 
-You can create multiple tokens with specific permissions for each.
+### f. The token will be displayed. You can use it in two various ways:<br>
+<center><img width="auto" height="auto" border="0" align="center"  src="/img/Nightscout/Google Cloud/access token for role.jpg" title=" Access Token for Role Dad"/></center><br>
 
-#### 5. In the xDrip Data Source Settings, choose “Nightscout Follower” as the hardware data source.
-<center><img width="250" height="Auto" border="0" align="center"  src="/img/Nightscout/Google Cloud/Hardware Data Source1.jpg" title=" Select Hardware Data Source"/></a><img width="250" height="Auto" border="0" align="center"  src="/img/Nightscout/Google Cloud/Hardware Data Source.jpg" title=" Nightscout Follow"/></a></center><br>
+Now make sure to take a note of the access token, that you are given<br>
 
-Under “Nightscout Follow URL”, enter Token@hostname assuming “Token” is the token from the previous step, and hostname is your noip.com hostname.
+You can create multiple tokens with specific permissions for each.<br>
+
+### 29. **Setting up xDrip as a (follower) like your dad, from the example above**
+
+#### 1. In the xDrip Data Source Settings, choose “Nightscout Follower” as the hardware data source.
+<center><img width="250" height="Auto" border="0" align="center"  src="/img/Nightscout/Google Cloud/xdrip settings.jpg" title=" xdrip settings"/><img width="250" height="Auto" border="0" align="center"  src="/img/Nightscout/Google Cloud/Hardware Data Source1.jpg" title=" Select Hardware Data Source"/></a><img width="250" height="Auto" border="0" align="center"  src="/img/Nightscout/Google Cloud/Hardware Data Source.jpg" title=" Nightscout Follow"/></a></center><br>
+
+Under “Nightscout Follow URL”, <br>
+<center><img width="250" height="auto" border="0" align="center"  src="/img/Nightscout/Google Cloud/nightscout follow url.jpg" title=" follow url"/></center><br>
+enter Token@hostname assuming “Token” is the token from the previous step,**28 f.**  and hostname is your noip.com hostname.<br>
+
+If you have any issues or concerns please post your questions in the  <a href="https://www.facebook.com/groups/5390196001057776" target="_blank">
+  <img width="50" height="auto" border="0" align="center"  src="/img/facebook/facebook-logo-png-11.png" title="Facebook group xdrip uk"/></a> <a href=" https://www.facebook.com/groups/5390196001057776" target="_blank" title="Facebook xDrip - UK"> Facebook Group</a> or you can go to the <span style="background-color: #FFFF00">**Discussions**</span> on <a href=" https://github.com/NightscoutFoundation/xDrip/discussions" target="_blank" title="Discussions"> Github</a><a href="https://www.facebook.com/groups/5390196001057776" target="_blank">
+  <img width="50" height="auto" border="0" align="center"  src="/img/github/github-logo-icon-16155.png" title="Github"/></a>
 
 ## To Be continued!
 
+
+
 <br><br>
 <center><a href="https://www.diabetes.org.uk/" target="_blank">
-  <img width="auto" height="auto" border="0" align="center"  src="/img/Diabetesuk/pngarea.com_rutgers-logo-png-8467605.png" title="Diabetes UK"/>
+  <img width="auto" height="auto" border="0" align="center"  src="/my-project/img/Diabetesuk/pngarea.com_rutgers-logo-png-8467605.png" title="Diabetes UK"/>
 </a>Why Not take visit [UK Wide Cycle Ride - Diabetes.uk](https://cycle.diabetes.org.uk/) or  [Swim22 - Diabetes.uk](https://swim22.diabetes.org.uk/) for your Diabetes Needs!</center><br><br>
 
 

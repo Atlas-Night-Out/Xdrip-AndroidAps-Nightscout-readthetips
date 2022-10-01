@@ -33,9 +33,11 @@ nav:
         - 'Part 2 Setting up Heroku Account ': 'Nightscout/Setting_up_Heroku_Account_part2.md'
         - 'Part 3 Setting up Atlas Account ': 'Nightscout/Setting_up_Atlas_Account_part3.md'
         - 'Part 4 - Fork and Deploy cgm remote monitory': 'Nightscout/Part 4 - Fork and Deploy cgm remote monitory.md'
+        - 'Nightscout Structure': 'Nightscout/Nightscout Structure.md'
         - 'Compatible - Watches': 'Nightscout/Compatible Watches.md'
         - 'Oracle Cloud Setup': 'Nightscout/Nightscout_Oracle Cloud - setup.md'
         - 'Google Cloud Setup': 'Nightscout/Google Cloud_setup.md'
+        - 'Fly_io': 'Nightscout/Fly_io-setup.md'
      - Watches :
         - 'CGM onto - Watches': 'watches/Watches.md'
         - 'Compatible - Watches': 'watches/Compatible Watches.md'
