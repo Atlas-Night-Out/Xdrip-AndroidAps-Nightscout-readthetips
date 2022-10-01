@@ -70,14 +70,9 @@ That’s it. Your xDrip readings should now upload to your Nightscout web site.<
 If you do not see levels after 5 mins, triple check the way you have added your Base URL correctly, it is very case sensitive!with no spaces<br>
 
 ### 7. **Set up xDrip to go to your AndroidAPS** <br>
-This is the same has above except your Url will be your web address Fly_io Host address, not like xdrip's where it has Both Secret and Fly_io host on one line with the added api/v1<br>
-On AASP it is done seperatly you add your Nightscout Web URL and then add your Secret in NS API secret.<br>
-<center><img width="Auto" height="Auto" border="0" align="center"  src="../../img/Nightscout/Fly_io/xdrip Adding Your Base.jpg" title="Adding Your Base"/></a></center><br>
-
-<a href= https://console.cloud.google.com" target="_blank">
-  <img width="auto" height="auto" border="0" align="center"  src="../../img/Nightscout/Google Cloud/google cloud.jpg" title=" Google cloud Console"/>
-</a><br>
-
+This is the same has above except your Url will be your web address for Fly_io Host address, not like xdrip's where it has Both Secret and Fly_io host on one line with the added api/v1 at the end of it<br>
+On AASP it is done seperatly, you add your Nightscout Web URL and then add your Secret in NS API secret below.There is no api/v1 in it<br>
+<center><img width="350" height="Auto" border="0" align="center"  src="../../img/Nightscout/Fly_io/AAPS_Base URL.jpg" title="AAPS Base"/></a></center><br>
 
 
 ### 29. **Setting up xDrip as a (follower) like your dad from the example from above**

@@ -9,7 +9,7 @@ For full Website content visit [The Diabetic Way](https://www.thediabeticway.co.
 
 
    - MONGO_CONNECTION - Your mongo uri, for example: mongodb://dave:Davespass@ds099999.mongolab.com:99999/nightscout.<br>
-   You can see this at <a href=" https://atlas-night-out.github.io/my-project/user-guide/Nightscout/Setting_up_Atlas_Account_part3/" target="_blank" title="First create a user account by going to">Click Here</a> Section 17 [This link](#1.1-myfirst-link)ndfh
+   You can see this at <a href=" https://atlas-night-out.github.io/my-project/user-guide/Nightscout/Setting_up_Atlas_Account_part3/" target="_blank" title="First create a user account by going to">Click Here</a> Section 17 [This link](#1.1-my-header)ndfh
   -  DISPLAY_UNITS (mg/dl) - Choices: mg/dl and mmol. Setting to mmol puts the entire server into mmol mode by default, no further settings needed.
   -  BASE_URL - Used for building links to your sites api, ie pushover callbacks, usually the URL of your Nightscout site you may want https instead of http
 
@@ -32,7 +32,7 @@ You will need to keep to the free Tier for this setup to be free, in you having 
   <center><img width="auto" height="auto" border="0" align="center"  src="/img/Nightscout/Fly_io/my-heroku-app.jpg" title="sign up to Google cloud"/></center>
 </a><br>
 
-# 1.1 myfirst link
+# 1.1 my header
 
 ### 2. Fill in your organization name, pick a App name you would like (I have just done an example in the image above for these instruction!) and choose your Heroku app you used on Heroku<br>
 You will then be asked to fill in your payment details
