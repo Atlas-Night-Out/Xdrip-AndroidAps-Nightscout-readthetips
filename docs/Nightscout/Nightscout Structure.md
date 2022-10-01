@@ -6,11 +6,10 @@ For full Website content visit [The Diabetic Way](https://www.thediabeticway.co.
 
 ###  **Nightscout Setting Requirments**<br>
 
-https://atlas-night-out.github.io/my-project/user-guide/Nightscout/Setting_up_Atlas_Account_part3/
-Required
+
 
    - MONGO_CONNECTION - Your mongo uri, for example: mongodb://sally:sallypass@ds099999.mongolab.com:99999/nightscout.<br>
-   You can see this at <a href=" https://atlas-night-out.github.io/my-project/user-guide/Nightscout/Setting_up_Atlas_Account_part3/" target="_blank" title="First create a user account by going to">Click Here</a> Section 17 [This link](#1.1)
+   You can see this at <a href=" https://atlas-night-out.github.io/my-project/user-guide/Nightscout/Setting_up_Atlas_Account_part3/" target="_blank" title="First create a user account by going to">Click Here</a> Section 17 [This link](#1.1-myfirst-link)ndfh
   -  DISPLAY_UNITS (mg/dl) - Choices: mg/dl and mmol. Setting to mmol puts the entire server into mmol mode by default, no further settings needed.
   -  BASE_URL - Used for building links to your sites api, ie pushover callbacks, usually the URL of your Nightscout site you may want https instead of http
 
@@ -21,7 +20,7 @@ Required
 ## Upcoming changes made:
 Process:old heroku accout to a new Turbo Fly_io Account. <br><br>
 
-<center><img width="auto" height="auto" border="0" align="center"  src="/img/Nightscout/Fly_io/Turbocharge your heroku app with fly.jpg" title="Turbocharge your Heroku App with Fly"/></a>	</center><br>
+<center><img width="auto" height="auto" border="0" align="center"  src="/my-project/img/Nightscout/Fly_io/Turbocharge your heroku app with fly.jpg" title="Turbocharge your Heroku App with Fly"/></a>	</center><br>
 
 ### **So with all that, let’s set up a free Turbo Account on Fly_io <br>**
 You will need to keep to the free Tier for this setup to be free, in you having a nightscout site again totaly free. This could change and we are not fully knowing for how long it will be free, all we know is as long as you stick to the free tire Requirements it should be free. Lets hope for life.<br>
