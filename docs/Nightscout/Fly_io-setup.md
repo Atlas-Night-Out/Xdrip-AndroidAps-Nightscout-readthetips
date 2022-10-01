@@ -7,8 +7,6 @@ For full Website content visit [The Diabetic Way](https://www.thediabeticway.co.
 ###  **Fly_io for Nightscout**<br>
 
 
-[This link](#8-setting-up-xdrip-as-a-follower-like-for-your-dad-from-the-example-from-above)
-
 Credit too:Big thanks to Robby,  for the idea, links putting it together, implementing the installer, and testing everything with myself for the docs, and Robby for the tips.<br>
 
 ## Upcoming changes made:
@@ -80,8 +78,8 @@ On AASP it is done seperatly, you add your Nightscout Web URL and then add your 
 
 ### 8. **Setting up xDrip as a (follower) like for your dad from the example from above**
 This will be on your <span style="background-color: #FFFF00">**followers mobile phone,**</span> not your own.
-#### 1. In the xDrip Data Source Settings, choose “Nightscout Follower” as the hardware data source.
-<center><img width="250" height="Auto" border="0" align="center"  src="../..//img/Nightscout/Google Cloud/xdrip settings.jpg" title=" xdrip settings"/><img width="250" height="Auto" border="0" align="center"  src="../..//img/Nightscout/Google Cloud/Hardware Data Source1.jpg" title=" Select Hardware Data Source"/></a><img width="250" height="Auto" border="0" align="center"  src="../..//img/Nightscout/Google Cloud/Hardware Data Source.jpg" title=" Nightscout Follow"/></a></center><br>
+#### 1. In the xDrip Settings / Hardware Data Source, choose “Nightscout Follower” as the hardware data source.
+<center><img width="250" height="Auto" border="0" align="center"  src="../../img/Nightscout/Google Cloud/xdrip settings.jpg" title=" xdrip settings"/><img width="250" height="Auto" border="0" align="center"  src="../..//img/Nightscout/Google Cloud/Hardware Data Source1.jpg" title=" Select Hardware Data Source"/></a><img width="250" height="Auto" border="0" align="center"  src="../../img/Nightscout/Google Cloud/Hardware Data Source.jpg" title=" Nightscout Follow"/></a></center><br>
 
 Under “Nightscout Follow URL”, <br>
 <center><img width="250" height="auto" border="0" align="center"  src="../../img/Nightscout/Google Cloud/nightscout follow url.jpg" title=" follow url"/></center><br>

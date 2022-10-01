@@ -6,7 +6,7 @@ For full Website content visit [The Diabetic Way](https://www.thediabeticway.co.
 
 ###  **Nightscout Setting Requirments**<br>
 
-#### You Must have this setting for Nightscout to work!
+#### You Must have these setting for Nightscout to work!
 
    - MONGO_CONNECTION - Your mongo uri, for example: mongodb://dave:Davespass@ds099999.mongolab.com:99999/nightscout.<br>
    You can see this at [Part 3 Setting up Atlas Account ](./Setting_up_Atlas_Account_part3.md#17-i-will-try-to-give-you-an-example-about-the-way-to-do-it-below) <br>
