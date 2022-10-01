@@ -7,7 +7,7 @@ For full Website content visit [The Diabetic Way](https://www.thediabeticway.co.
 ###  **Fly_io for Nightscout**<br>
 
 
-[This link](#7-set-up-xdrip-to-go-to-your-androidaps)
+[This link](#8-setting-up-xdrip-as-a-follower-like-for-your-dad-from-the-example-from-above)
 
 Credit too:Big thanks to Robby,  for the idea, links putting it together, implementing the installer, and testing everything with myself for the docs, and Robby for the tips.<br>
 
