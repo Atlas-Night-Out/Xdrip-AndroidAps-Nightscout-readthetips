@@ -23,7 +23,7 @@ nav:
      - Dexcom :
         - 'Dexcom': 'Dexcom/Userguide.md'
      - Xdrip :
-        - 'Settings': 'xdrip/settings.md'
+        - 'xdrip Settings': 'xdrip/settings.md'
         - 'Download': 'xdrip/xdrip - Download.md'
         - 'Install': 'xdrip/xdrip - install.md'
         - 'Base URL': 'xdrip/xdrip - Base.md'
