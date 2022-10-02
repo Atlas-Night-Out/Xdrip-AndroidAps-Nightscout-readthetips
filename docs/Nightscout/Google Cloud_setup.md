@@ -255,7 +255,7 @@ Click the 'Add New Subject'
 
 <center><img width="auto" height="auto" border="0" align="center"  src="/img/Nightscout/Google Cloud/nightscout Add New Subject.jpg" title=" Add New Subject"/></a></center><br>
 
-### e. In the form that opens, enter a name. under “Roles”, copy roles from the table below it. For example, for your dad that is only supposed to see your readings and nothing not be able to enter any other details or do anything else, then enter 'readable' in the roles section. <br><br>
+### e. In the form that opens, enter a name. Then under “Roles”, copy a role from the table. For example, for your dad that is only supposed to see your readings and nothing else and not be able to enter any other details or do anything else, then enter 'readable' in the roles section. <br><br>
 <center><img width="auto" height="auto" border="0" align="center"  src="/img/Nightscout/Google Cloud/rolls blank edit subject.jpg" title=" edit subject"/></center><br>
 You can enter a combination of different roles by separating them with “,”<br>
 You can also add an optional comment if you like, and then click the save button.<br>
@@ -266,6 +266,19 @@ You can also add an optional comment if you like, and then click the save button
 Now make sure to take a note of the access token, that you are given<br>
 
 You can create multiple tokens with specific permissions for each.<br>
+
+<table width="1166" Height="185 border="1" style="border-color: #000000; background-color: #ffffff;" cellpadding="1" cellspacing="1" height="98">
+<tbody>
+<tr style="height: 16px;">
+<td style="width: 1158px; border-color: #000000; background-color: #db4e12;" fff=""><span style="font-size: 14pt;"><strong><span style="color: #ffffff;">Note!</span></strong></span></td>
+</tr>
+<tr style="height: 56.4063px;">
+<td style="width: 1158px; border-color: #000000;"><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 14pt;">Now make sure to take a note of the access token, that you are given.<br><br>
+
+You can create multiple tokens with specific permissions for each.<br></span></td>
+</tr>
+</tbody>
+</table><br>
 
 ### 29. **Setting up xDrip as a (follower) like your dad, from the example above**
 

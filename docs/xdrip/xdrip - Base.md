@@ -38,6 +38,7 @@ On AASP it is done seperatly, you add your Nightscout Web URL and then add your 
 <center>Fly_io<img width="300" height="Auto" border="0" align="center"  src="../../img/Nightscout/Fly_io/AAPS_Base URL.jpg" title="Fly_io Base"/></a>Heroku<img width="300" height="Auto" border="0" align="center"  src="../../img/Heroku/AAPS Heroku URL (2).jpg" title="AAPS Heroku Base"/></a></center><br>
 
 ### Adding a Follower
+
 ### 1. **Setting up xDrip as a (follower) for your dad**
 This will be on your <span style="background-color: #FFFF00">**followers mobile phone,**</span> not your own.
 #### a. In the xDrip Settings / Hardware Data Source, choose “Nightscout Follower” as the hardware data source.
@@ -47,11 +48,54 @@ Under “Nightscout Follow URL”, <br>
 <center><img width="250" height="auto" border="0" align="center"  src="../../img/Nightscout/Google Cloud/nightscout follow url.jpg" title=" follow url"/><br>Fly_io<img width="250" height="auto" border="0" align="center"  src="../../img/xdrip/fly nightscout followers url.jpg" title=" fly nightscout followers url"/>Heroku<img width="250" height="auto" border="0" align="center"  src="../../img/xdrip/heroku nightscout followers url.jpg" title=" Heroku nightscout followers url"/></center><br>
 
 Add your Fly_io Host address into it or your Heroku Name URL depending on which one you are using.<br>
-This will only be setting a follower up giving them the full URL Address but with no Secret Password for it like yourself would have.<br>
+This will only be setting up a follower, giving them the full URL Address but they will not have a Secret Password for it like yourself would have.<br>
+
+### Token
+
 There are a few other ways to add followers and will be needing for you to setup a Token in Nightscout admin section. <br>
 
-You can also add a Token and email it to some one to follow you.<br>
+You can also add a Token and email it to one of your follows.<br>
 
+### 1. **Make a Token**<br>
+Click the 'Add New Subject' 
+
+<center><img width="auto" height="auto" border="0" align="center"  src="/img/Nightscout/Google Cloud/nightscout Add New Subject.jpg" title=" Add New Subject"/></a></center><br>
+
+### a. In the form that opens, enter a name. Then under “Roles”, copy a role from the table. For example, for your dad that is only supposed to see your readings and nothing else and not be able to enter any other details or do anything else, then enter 'readable' in the roles section. <br><br>
+<center><img width="auto" height="auto" border="0" align="center"  src="/img/Nightscout/Google Cloud/rolls blank edit subject.jpg" title=" edit subject"/></center><br>
+You can enter a combination of different roles by separating them with “,”<br>
+You can also add an optional comment if you like, and then click the save button.<br>
+
+
+### b. The token will be displayed at the top. You can use it now to give to your follower:<br>
+<center><img width="auto" height="auto" border="0" align="center"  src="/img/Nightscout/Google Cloud/access token for role.jpg" title=" Access Token for Role Dad"/></center><br>
+
+<table width="1166" Height="185 border="1" style="border-color: #000000; background-color: #ffffff;" cellpadding="1" cellspacing="1" height="98">
+<tbody>
+<tr style="height: 16px;">
+<td style="width: 1158px; border-color: #000000; background-color: #db4e12;" fff=""><span style="font-size: 14pt;"><strong><span style="color: #ffffff;">Note!</span></strong></span></td>
+</tr>
+<tr style="height: 56.4063px;">
+<td style="width: 1158px; border-color: #000000;"><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 14pt;">Now make sure to take a note of the access token, that you are given.<br><br>
+
+You can create multiple tokens with specific permissions for each.<br></span></td>
+</tr>
+</tbody>
+</table><br>
+
+### c. You will need to copy the Token URL from the top, by right clicking it and copy the Link. see video!<br>
+
+### <a href=" https://youtu.be/-Y0ow7IDlKY" target="_blank" title="First create a user account by going to">Adding Follower Pt1 Video</a>
+
+<iframe id="video10" width="760" height="515" src="https://www.youtube.com/embed/-Y0ow7IDlKY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+Now email the person who is to follow you, and paste the URL into the email, and send it to them. They can now add it to there xdrip+ and have a Nightscout Desktop Icon on there Desktop for easy access to Nightscout.<br> They will need to go to there Settings/Nightscout Follow URL to do that.<br>
+
+### <a href=" https://youtube.com/shorts/XeC-rVt8hn8" target="_blank" title="First create a user account by going to">Adding Follower Pt2 Video</a>
+<iframe id="video10" width="392" height="697" src="https://www.youtube.com/embed/XeC-rVt8hn8" title="Adding Follower email  Token into Xdrip" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### <a href=" https://youtu.be/-Y0ow7IDlKY" target="_blank" title="First create a user account by going to">Adding Follower Pt3 Video</a>
+
+### d.
 
 
 
