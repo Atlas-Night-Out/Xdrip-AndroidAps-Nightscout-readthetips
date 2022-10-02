@@ -26,11 +26,9 @@ You might find it easier to follow if you [switch your xDrip+ to English](../../
 
 ### My Typo, error, missing information or changes 
 
-You're welcome to feedback opening an [issue](https://github.com/Atlas-Night-Out/Xdrip-AndroidAps-Nightscout-Docs/issues) in GitHub.
-
-You're welcome to contribute creating a [pull request](https://github.com/Atlas-Night-Out/Xdrip-AndroidAps-Nightscout-Docs/pulls) in the main repository.
-
-You can also [Contact Us](mailto:diabetes.uk@outlook.com) me at  or join me in [Discord](https://discord.gg/ZG7QKjgS) (Discord recommended though).
+If you have any issues or concerns please post your questions in the  <a href="https://www.facebook.com/groups/5390196001057776" target="_blank">
+  <img width="50" height="auto" border="0" align="center"  src="../../img/facebook/facebook-logo-png-11.png" title="Facebook group xdrip uk"/></a> <a href=" https://www.facebook.com/groups/5390196001057776" target="_blank" title="Facebook xDrip - UK"> Facebook Group</a> or you can go to the <span style="background-color: #FFFF00">**Discussions**</span> on <a href=" https://github.com/NightscoutFoundation/xDrip/discussions" target="_blank" title="Discussions"> Github</a><a href="https://www.facebook.com/groups/5390196001057776" target="_blank">
+  <img width="50" height="auto" border="0" align="center"  src="../../img/Github/github-logo-icon-16155.png" title="Github"/></a><br>
 
 </br>
 
