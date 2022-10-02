@@ -59,16 +59,16 @@ You can also add a Token and email it to one of your follows.<br>
 ### 1. **Make a Token**<br>
 Click the 'Add New Subject' 
 
-<center><img width="auto" height="auto" border="0" align="center"  src="/img/Nightscout/Google Cloud/nightscout Add New Subject.jpg" title=" Add New Subject"/></a></center><br>
+<center><img width="auto" height="auto" border="0" align="center"  src="../../img/Nightscout/Google Cloud/nightscout Add New Subject.jpg" title=" Add New Subject"/></a></center><br>
 
 ### a. In the form that opens, enter a name. Then under “Roles”, copy a role from the table. For example, for your dad that is only supposed to see your readings and nothing else and not be able to enter any other details or do anything else, then enter 'readable' in the roles section. <br><br>
-<center><img width="auto" height="auto" border="0" align="center"  src="/img/Nightscout/Google Cloud/rolls blank edit subject.jpg" title=" edit subject"/></center><br>
+<center><img width="auto" height="auto" border="0" align="center"  src="../../img/Nightscout/Google Cloud/rolls blank edit subject.jpg" title=" edit subject"/></center><br>
 You can enter a combination of different roles by separating them with “,”<br>
 You can also add an optional comment if you like, and then click the save button.<br>
 
 
 ### b. The token will be displayed at the top. You can use it now to give to your follower:<br>
-<center><img width="auto" height="auto" border="0" align="center"  src="/img/Nightscout/Google Cloud/access token for role.jpg" title=" Access Token for Role Dad"/></center><br>
+<center><img width="auto" height="auto" border="0" align="center"  src="../../img/Nightscout/Google Cloud/access token for role.jpg" title=" Access Token for Role Dad"/></center><br>
 
 <table width="1166" Height="185 border="1" style="border-color: #000000; background-color: #ffffff;" cellpadding="1" cellspacing="1" height="98">
 <tbody>
@@ -102,7 +102,7 @@ Now email the person who is to follow you, and paste the URL into the email, and
 ##  **Issues or Concerns** 
 
 If you have any issues or concerns please post your questions in the  <a href="https://www.facebook.com/groups/5390196001057776" target="_blank">
-  <img width="50" height="auto" border="0" align="center"  src="/img/facebook/facebook-logo-png-11.png" title="Facebook group xdrip uk"/></a> <a href=" https://www.facebook.com/groups/5390196001057776" target="_blank" title="Facebook xDrip - UK"> Facebook Group</a> or you can go to the <span style="background-color: #FFFF00">**Discussions**</span> on <a href=" https://github.com/NightscoutFoundation/xDrip/discussions" target="_blank" title="Discussions"> Github</a><a href="https://www.facebook.com/groups/5390196001057776" target="_blank">
+  <img width="50" height="auto" border="0" align="center"  src="../../img/facebook/facebook-logo-png-11.png" title="Facebook group xdrip uk"/></a> <a href=" https://www.facebook.com/groups/5390196001057776" target="_blank" title="Facebook xDrip - UK"> Facebook Group</a> or you can go to the <span style="background-color: #FFFF00">**Discussions**</span> on <a href=" https://github.com/NightscoutFoundation/xDrip/discussions" target="_blank" title="Discussions"> Github</a><a href="https://www.facebook.com/groups/5390196001057776" target="_blank">
   <img width="50" height="auto" border="0" align="center"  src="../../img/github/github-logo-icon-16155.png" title="Github"/></a><br>
 
 
