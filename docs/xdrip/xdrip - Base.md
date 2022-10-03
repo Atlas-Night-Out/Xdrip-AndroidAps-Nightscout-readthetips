@@ -85,16 +85,16 @@ You can create multiple tokens with specific permissions for each.<br></span></t
 
 ### c. You will need to copy the Token URL from the top, by right clicking it and copy the Link. see video!<br>
 
-### <a href=" https://youtu.be/-Y0ow7IDlKY" target="_blank" title="First create a user account by going to">Adding Follower Pt1 Video</a>
+### <a href=" https://youtu.be/-Y0ow7IDlKY" target="_blank" title="First create a user account by going to">Copy Access Token Nightscout for Follower Pt1 Video</a>
 
 <iframe id="video10" width="760" height="515" src="https://www.youtube.com/embed/-Y0ow7IDlKY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
 Now email the person who is to follow you, and paste the URL into the email, and send it to them. They can now add it to there xdrip+ and have a Nightscout Desktop Icon on there Desktop for easy access to Nightscout.<br> They will need to go to there Settings/Nightscout Follow URL to do that.<br>
 
-### <a href=" https://youtube.com/shorts/XeC-rVt8hn8" target="_blank" title="First create a user account by going to">Adding Follower Pt2 Video</a>
+### <a href=" https://youtube.com/shorts/XeC-rVt8hn8" target="_blank" title="First create a user account by going to">Adding Follower email  Token into Xdrip Pt2 Video</a>
 <iframe id="video10" width="392" height="697" src="https://www.youtube.com/embed/XeC-rVt8hn8" title="Adding Follower email  Token into Xdrip" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### <a href=" https://youtu.be/-Y0ow7IDlKY" target="_blank" title="First create a user account by going to">Adding Follower Pt3 Video</a>
-
+### <a href=" https://youtu.be/Pt4r42xXckQ" target="_blank" title="First create a user account by going to">Adding Nightscout to your Mobile Desktop Pt3 Video</a>
+<iframe id="video10" width="560" height="315" src="https://www.youtube.com/embed/Pt4r42xXckQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
 ### d.
 
 

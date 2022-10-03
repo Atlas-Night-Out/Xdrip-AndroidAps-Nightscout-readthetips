@@ -14,7 +14,7 @@ Added Terminal Process:old heroku accout to it.
 ### **So with all that, let’s set up a free account on Google Cloud <br>**
 To have a nightscout site again totaly free as of 22 Sept 2022 this could change and we are not fully knowing for how long it will be free, all we know is as long as you stick to the free tire Requirements here, it should be free. Lets hope for life.<br>
 
-## **<a href=" https://www.noip.com/" target="_blank" title="Noip Account">Noip Account</a>**
+## **1. <a href=" https://www.noip.com/" target="_blank" title="Noip Account">Noip Account</a>**
 
 #### a.	First Sign up Noip: By going to https://www.noip.com/ or <a href=" https://www.noip.com/" target="_blank" title="Sign up Noip">Noip</a>
 <a href="https://www.noip.com/" target="_blank">
@@ -36,7 +36,7 @@ To have a nightscout site again totaly free as of 22 Sept 2022 this could change
 You will be given a Hostname, that you will use to go to your nightscout site later and also add it to your settings and other things like when you setup a Follower. I will show you an example Host below.<br>
 <center><img width="auto" height="auto" border="0" align="center"  src="../../img/Nightscout/Google Cloud/noip_examplehost.jpg" title="Example Host"/></a>	</center><br>
 
-## **<a href=" https://support.google.com/accounts/answer/27441?hl=en" target="_blank" title="Google Account">Google Account</a>**
+## 2. **<a href=" https://support.google.com/accounts/answer/27441?hl=en" target="_blank" title="Google Account">Google Account</a>**
 
 #### a. You need a Google account to proceed. If you do not have one go to https://support.google.com/accounts/answer/27441?hl=en and sign up or <a href=" https://support.google.com/accounts/answer/27441?hl=en" target="_blank" title="Sign up">Google Account</a>
 <a href="https://support.google.com/accounts/answer/27441?hl=en" target="_blank">
@@ -46,7 +46,7 @@ You will be given a Hostname, that you will use to go to your nightscout site la
 
 Go to
 
-## <a href=" https://console.cloud.google.com" target="_blank" title="Log into Google Cloud">Google Cloud</a> <br>
+## 3. <a href=" https://console.cloud.google.com" target="_blank" title="Log into Google Cloud">Google Cloud</a> <br>
 
 Google Cloud console, and sign in with your Google Account<br>
 
@@ -151,7 +151,7 @@ You might get a pop up preventing you from opening the terminal window. If you d
 <center><img width="auto" height="auto" border="0" align="center"  src="../../img/Nightscout/Google Cloud/allow popup.jpg" title="Allow Popup"/></a><br></center><br>
 
 
-## **Now Wrap up Linux installation ** <br>
+## 4. **Now Wrap up Linux installation ** <br>
 
 ### a. If you get an error message that says <span style="background-color: #FFFF00">**(EINTEGRITY) ending with (0 bytes)**</span> and it hangs, just press CTRL and C keys at the same time to interrupt. Then, re-run the curl bootstrap command above that you have just entered into it again. You can use the up arrow on the terminal to go back to the previous command entries.<br>
 
@@ -188,53 +188,90 @@ I would also not use symbols characters within making your password, I don't thi
 
 <center><img width="auto" height="auto" border="0" align="center"  src="../../img/Nightscout/Google Cloud/change the API secret.jpg" title="Change the API secret"/></a></center><br>
 
-### d. **Installation is Complete:** <br> When you see the following, the installation is complete and you can close the terminal by clicking on X at the top right corner of the terminal window.<br>
+###  **Installation is Complete:** <br> When you see the following, the installation is complete and you can close the terminal by clicking on X at the top right corner of the terminal window.<br>
 <center><img width="auto" height="auto" border="0" align="center"  src="../../img/Nightscout/Google Cloud/Installation is Complete.jpg" title="Installation is Complete"/></a></center><br>
 
-##  **Now We need to Set up Nightscout:** <br> 
-### 25. **Set up Nightscout:**
-#### 1. Use a web browser and copy your hostname from noip. <br>
+##  5. **Now We need to Set up Nightscout:** <br> 
+###  **Set up Nightscout:**<br>
+#### a. Use a web browser and copy your hostname from noip. <br>
 <center><img width="auto" height="auto" border="0" align="center"  src="../../img/Nightscout/Google Cloud/noip hostname.jpg" title="noip hostname"/></a></center><br>And Paste it into your browser.
 <center><img width="auto" height="auto" border="0" align="center"  src="../../img/Nightscout/Google Cloud/add host to browser.jpg" title="add host to browser"/></a></center><br>
 (from when you registered at noip.com). <br>
  <center><img width="auto" height="auto" border="0" align="center"  src="../../img/Nightscout/Google Cloud/noip hostname.jpg" title="noip hostname"/></a></center><br>
-#### 2. This will bring up your Nightscout. It will ask you for a password. Enter your API-Secret you did earlier in the Google Cloud terminal.<br>
+#### b. This will bring up your Nightscout. It will ask you for a password. Enter your API-Secret you did earlier in the Google Cloud terminal.<br>
 Check “Remember this device” checkbox to avoid having to re-enter it.<br>
 
 <center><img width="auto" height="auto" border="0" align="center"  src="../../img/Nightscout/Google Cloud/Enter your API-Secret.jpg" title="Enter your API-Secret"/></a></center><br>
-#### 3. On first time, Nightscout will ask you to set up a profile for sensitivity etc. Either enter real values or just click save and then use close button on top right of the screen. You may need to do this twice<br>
+#### c. On first time, Nightscout will ask you to set up a profile for sensitivity etc. Either enter real values or just click save and then use close button on top right of the screen. You may need to do this twice<br>
 
 <center><img width="auto" height="auto" border="0" align="center"  src="../../img/Nightscout/Google Cloud/nightscout profile editor.jpg" title="Nightscout Profile Editor"/></a></center><br>
 
-### 26. **Set up xDrip to upload to your Nightscout** <br>
+## 6.  **Set up xDrip to upload to your Nightscout** <br>
 This is what you need to do in xDrip on your master (Main)  phone.<br>
-#### 1. Go to xDrip Settings −> Cloud Upload −> Nightscout Sync (REST-API).<br>
+#### a. Go to xDrip Settings −> Cloud Upload −> Nightscout Sync (REST-API).<br>
 <center><img width="250" height="Auto" border="0" align="center"  src="../../img/Nightscout/Google Cloud/xdrip settings.jpg" title=" xdrip settings"/></a><img width="250" height="Auto" border="0" align="center"  src="../../img/Nightscout/Google Cloud/xdrip cloud upload.jpg" title=" Cloud Upload"/></a><img width="250" height="Auto" border="0" align="center"  src="../../img/Nightscout/Google Cloud/xdrip Nightscout Sync (REST-API).jpg" title=" Nightscout Sync (REST-API)"/></a></center><br>
-#### 2. Select Enable at the top.<br>
+#### b. Select Enable at the top.<br>
 <img width="250" height="Auto" border="0" align="center"  src="../../img/Nightscout/Google Cloud/xdrip enable Rest-API.jpg" title=" Enable Nightscout Sync (REST-API)"/></a>
-#### 3. Let’s say the hostname you chose when you signed up for noip.com was hostname. And let’s say you set the API secret, while finalizing the installation as explained in the previous section, to API-Secret.<br>
+#### c. Let’s say the hostname you chose when you signed up for noip.com was hostname. And let’s say you set the API secret, while finalizing the installation as explained in the previous section, to API-Secret.<br>
 <center><img width="Auto" height="Auto" border="0" align="center"  src="../../img/Nightscout/Google Cloud/xdrip Adding Your Base.jpg" title="Adding Your Base"/></a></center><br>
-#### 4. Tap on Base URL. Enter the following. https://API-Secret@hostname/api/v1/  <br>
+#### d. Tap on Base URL. Enter the following. https://API-Secret@hostname/api/v1/  <br>
 
 That’s it. Your xDrip readings should now upload to your Nightscout on Google Cloud.<br>
 If not triple check the way you have added your Base URL correctly, it is very case sensitive!<br>
-### 27. **Set up xDrip to go to your AndroidAPS** <br>
-This is the same has above except your Url will be your web address noip Host address, not like xdrip's where it has Both Secret and Noip host with the added api/v1<br>
-<center><img width="Auto" height="Auto" border="0" align="center"  src="../../img/Nightscout/Google Cloud/xdrip Adding Your Base.jpg" title="Adding Your Base"/></a></center><br>
+## 7.  **Set up xDrip uploader to go to your AndroidAPS** <br>
 
-## How to Configure DDNS (Dynamic DNS) in a Router 
-#### 1. Is another issue some of you may face if you do not have a static Ip address. There is software available for you to download from noip called a <a href=" https://my.noip.com/dynamic-dns/duc" target="_blank" title="Dynamic update client">Dynamic update client</a>. <br>
-<iframe width="860" height="615" src="https://www.youtube.com/embed/gNWuYJs3suY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+#### Basic settings for Most CGM <br>
+
+
+<table width="1166" height="150" border="1" style="border-color: #000000; background-color: #ffffff;" cellpadding="1" cellspacing="1" height="98">
+<tbody>
+<tr style="height: 16px;">
+<td style="width: 1158px; border-color: #000000; background-color: #FF0000;" fff=""><span style="font-size: 14pt;"><strong><span style="color: #ffffff;">Warning!</span></strong></span></td>
+</tr>
+<tr style="height: 56.4063px;">
+<td style="width: 1158px; border-color: #000000;"><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 14pt;">(I have not tested this bit on AndroidAPS so please report any issues if you have any. Links are at the bottom of the page!)
+</span></td>
+</tr>
+</tbody>
+</table>
+
+
+This is the same has above except your Url will be your web address noip Host address, not like xdrip's where it has Both Secret and Noip host on one line, with the added api/v1 at the end of it.<br>
+In AASP it is done separately, you add your Nightscout Web URL and then add your Secret in NS API secret below. There is no api/v1 in it at all.
+<br>
+<center><img width="350" height="Auto" border="0" align="center"  src="../../img/Nightscout/Google Cloud/AAPS_Base URL googlecloud.jpg" title="AAPS Base URL"/></a></center><br>
+
+### a. Set your Nightscout URL e.g. https://yoursitesname.ddns.net<br>
+
+### b. You will also need to Disable <span style="background-color: #FFFF00">**Upload treatments**</span> and <span style="background-color: #FFFF00">**Back-fill data**</span> from xDrip+, or else treatments can be doubled in AAPS leading to false COB and IOB.<br>
+
+### c. <span style="background-color: #FFFF00">**Alert on failures**</span> should also be deactivated.<br>
+
+These are in your settings/Cloud Upload/Nightscout Sync (REST-API) / Extra Options.<br>
+
+<center><img width="300" height="Auto" border="0" align="center"  src="../../img/xdrip/Disable Upload treatments.jpg" title="Disable Upload treatments,Alert on failures,Back-fill data"/></a></center><br>
+
+### d. Also Disable <span style="background-color: #FFFF00">**Automatic Calibration**</span> you can enable it for the first time but then after that it will need to be Disabled.<br> you can do this by selecting the Download treatments  to switch Automatic calibration (on/Off)
+
+You can do this at: Settings/Cloud Upload/Nightscout Sync (REST-API) /<br>
+
+<center><img width="300" height="Auto" border="0" align="center"  src="../../img/xdrip/Disable Automatic Calibration.jpg" title="Disable Automatic Calibration"/></a></center><br>
+
+## 8. How to Configure DDNS (Dynamic DNS) in a Router 
+### a. Is another issue some of you may face if you do not have a static Ip address. There is software available for you to download from noip called a <a href=" https://my.noip.com/dynamic-dns/duc" target="_blank" title="Dynamic update client">Dynamic update client</a>. <br>
+<iframe width="860" height="615" src="https://www.youtube.com/embed/gNWuYJs3suY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+
 Which can be ok during the day while your computer is running but not so good at night if you wish to be saving power and turning your computer off, has this can and will stop your nightscout from running if your ip changes while your computer is off, making it an unsafe process for nightscout at night. <br>
-#### 2. The next video  method is good for them that are able to use these router's but again some of us cannot use these methods and these kinds of router with a DHCP some are on routers that only have a DHCU
 
-#### 3. This I found very frustrating to have to go through all of this due to some Service providers preventing you having a static Ip address. And this process I hope will help resolve a lot of them for you. But again, a cost in having to buy a second router! 
+### b. The next video  method is good for them that are able to use these router's but again some of us cannot use these methods and these kinds of router with a DHCP some are on routers that only have a DHCU<br>
+
+### c. This I found very frustrating to have to go through all of this due to some Service providers preventing you having a static Ip address. And this process I hope will help resolve a lot of them for you. But again, a cost in having to buy a second router! <br>
 
 I did this setup running on a Hub 3.0 VMDG505/TG2492LG-VM
 <center><img width="auto" height="auto" border="0" align="center"  src="../../img/Nightscout/Google Cloud/virgin hub 3.0.jpg" title="virgin hub 3.0"/></a></center><br>
 
-## Create Acess Tokens and Roll
-### 28. **Set up Nightscout tokens for your followers and AndroidAPS** <br>
+## 9. Create Acess Tokens and Roll
+###  **Set up Nightscout tokens for your followers and AndroidAPS** <br>
 ### a. Go to your Web site Nightscout and verify again and verify API-Secret again if needed. See "Now We need to Set up Nightscout" above. And click on the top right menu button.<br>
 <center><img width="auto" height="auto" border="0" align="center"  src="../../img/Nightscout/Google Cloud/nightscout burger menu.jpg" title=" Burger Menu"/></a></center><br>
 
@@ -286,14 +323,12 @@ You can create multiple tokens with specific permissions for each.<br></span></t
 </tbody>
 </table><br>
 
-### 29. **Setting up xDrip as a (follower) like your dad, from the example above**
+## 10.  **Setting up xDrip as a (follower) like your dad, from the example above**
 
-#### 1. In the xDrip Data Source Settings, choose “Nightscout Follower” as the hardware data source.
+### a. In the xDrip Data Source Settings, choose “Nightscout Follower” as the hardware data source. See [xdrip - Base URL](../xdrip/xdrip%20-%20Base.md#1-setting-up-xdrip-as-a-follower-for-your-dad) for more information<br>
 <center><img width="250" height="Auto" border="0" align="center"  src="../../img/Nightscout/Google Cloud/xdrip settings.jpg" title=" xdrip settings"/><img width="250" height="Auto" border="0" align="center"  src="../../img/Nightscout/Google Cloud/Hardware Data Source1.jpg" title=" Select Hardware Data Source"/></a><img width="250" height="Auto" border="0" align="center"  src="../../img/Nightscout/Google Cloud/Hardware Data Source.jpg" title=" Nightscout Follow"/></a></center><br>
 
-Under “Nightscout Follow URL”, <br>
-<center><img width="250" height="auto" border="0" align="center"  src="../../img/Nightscout/Google Cloud/nightscout follow url.jpg" title=" follow url"/></center><br>
-enter Token@hostname assuming “Token” is the token from the previous step,**28 f.**  and hostname is your noip.com hostname.<br>
+
 
 If you have any issues or concerns please post your questions in the  <a href="https://www.facebook.com/groups/5390196001057776" target="_blank">
   <img width="50" height="auto" border="0" align="center"  src="../../img/facebook/facebook-logo-png-11.png" title="Facebook group xdrip uk"/></a> <a href=" https://www.facebook.com/groups/5390196001057776" target="_blank" title="Facebook xDrip - UK"> Facebook Group</a> or you can go to the <span style="background-color: #FFFF00">**Discussions**</span> on <a href=" https://github.com/NightscoutFoundation/xDrip/discussions" target="_blank" title="Discussions"> Github</a><a href="https://www.facebook.com/groups/5390196001057776" target="_blank">

@@ -70,20 +70,36 @@ Your Host name is located in your Fly_io Dashboard.
 That’s it. Your xDrip readings should now upload to your Nightscout web site.<br>
 If you do not see levels after 5 mins, triple check the way you have added your Base URL correctly, it is very case sensitive!with no spaces<br>
 
-### 7. **Set up xDrip to go to your AndroidAPS** <br>
+### 7. **Set up xDrip uploader to go to your AndroidAPS** <br>
+#### Basic settings for Most CGM 
 This is the same has above except your Url will be your web address for Fly_io Host address, not like xdrip's where it has Both Secret and Fly_io host on one line with the added api/v1 at the end of it<br>
 On AASP it is done seperatly, you add your Nightscout Web URL and then add your Secret in NS API secret below.There is no api/v1 in it<br>
 <center><img width="350" height="Auto" border="0" align="center"  src="../../img/Nightscout/Fly_io/AAPS_Base URL.jpg" title="AAPS Base"/></a></center><br>
 
+#### a. Set your Nightscout URL e.g. https://yoursitesname.fly.dev/<br>
+
+#### b. You will also need to Disable <span style="background-color: #FFFF00">**Upload treatments**</span> and <span style="background-color: #FFFF00">**Back-fill data**</span> from xDrip+, or else treatments can be doubled in AAPS leading to false COB and IOB.<br>
+
+#### c. <span style="background-color: #FFFF00">**Alert on failures**</span> should also be deactivated.<br>
+
+These are in your settings/Cloud Upload/Nightscout Sync (REST-API) / Extra Options.<br>
+
+<center><img width="300" height="Auto" border="0" align="center"  src="../../img/xdrip/Disable Upload treatments.jpg" title="Disable Upload treatments,Alert on failures,Back-fill data"/></a></center><br>
+
+#### d. Also Disable <span style="background-color: #FFFF00">**Automatic Calibration**</span> you can enable it for the first time but then after that it will need to be Disabled.<br> you can do this by selecting the Download treatments  to switch Automatic calibration (on/Off)
+
+You can do this at: Settings/Cloud Upload/Nightscout Sync (REST-API) /<br>
+
+<center><img width="300" height="Auto" border="0" align="center"  src="../../img/xdrip/Disable Automatic Calibration.jpg" title="Disable Automatic Calibration"/></a></center><br>
+
+
+
 
 ### 8. **Setting up xDrip as a (follower) like for your dad from the example from above**
-This will be on your <span style="background-color: #FFFF00">**followers mobile phone,**</span> not your own.
-#### 1. In the xDrip Settings / Hardware Data Source, choose “Nightscout Follower” as the hardware data source.
-<center><img width="250" height="Auto" border="0" align="center"  src="../../img/Nightscout/Google Cloud/xdrip settings.jpg" title=" xdrip settings"/><img width="250" height="Auto" border="0" align="center"  src="../..//img/Nightscout/Google Cloud/Hardware Data Source1.jpg" title=" Select Hardware Data Source"/></a><img width="250" height="Auto" border="0" align="center"  src="../../img/Nightscout/Google Cloud/Hardware Data Source.jpg" title=" Nightscout Follow"/></a></center><br>
 
-Under “Nightscout Follow URL”, <br>
-<center><img width="250" height="auto" border="0" align="center"  src="../../img/Nightscout/Google Cloud/nightscout follow url.jpg" title=" follow url"/></center><br>
-enter Token@hostname assuming “Token” is the token from the previous step,**28 e.**  and hostname is your noip.com hostname.<br>
+This will be on your <span style="background-color: #FFFF00">**followers mobile phone,**</span> not your own.
+#### 1. In the xDrip Settings / Hardware Data Source, choose “Nightscout Follower” as the hardware data source. See  [xdrip - Base URL](../xdrip/xdrip%20-%20Base.md#1-setting-up-xdrip-as-a-follower-for-your-dad) for more information<br>
+<center><img width="250" height="Auto" border="0" align="center"  src="../../img/Nightscout/Google Cloud/xdrip settings.jpg" title=" xdrip settings"/><img width="250" height="Auto" border="0" align="center"  src="../..//img/Nightscout/Google Cloud/Hardware Data Source1.jpg" title=" Select Hardware Data Source"/></a><img width="250" height="Auto" border="0" align="center"  src="../../img/Nightscout/Google Cloud/Hardware Data Source.jpg" title=" Nightscout Follow"/></a></center><br>
 
 
 ##  **Issues or Concerns** 
