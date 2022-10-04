@@ -52,7 +52,7 @@ You should now be able to see or be at your Fly_io Dashboard and be presented wi
 We need to use Xdrip to upload are CGM readings to Nightscout and it will need you to enter the correct URL in it's setting for Nightscout to start receiving readings from your CGM!<br> You may use other software other than Xdrip+ but for this tutorial I will be using xdrip+ you will have to excuse me if I just put xdrip as I keep forgetiing to put the + 
 
 ### 6. **Set up xDrip to upload to your Nightscout** <br>
-Also see here if you like other wise carry on<br>
+Also see here if you like other wise carry on below!S<br>
  [Base URL - Set up xDrip to upload to your Nightscout ±](../xdrip/xdrip%20-%20Base.md#1-set-up-xdrip-to-upload-to-your-nightscout) <br>
 
 This is what you need to do in xDrip on your master (Main)  phone.<br>
