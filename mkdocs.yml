@@ -24,7 +24,7 @@ nav:
         - 'Dexcom': 'Dexcom/Userguide.md'
      - Xdrip :
         - 'xdrip± Settings': 'xdrip/settings.md'
-        - 'xdrip Settings listing': 'xdrip/xdrip-settingslisting.md'
+        - 'xdrip Hamburger Menu': 'xdrip/xdrip-settingslisting.md'
         - 'xdrip± Copy Settings': 'xdrip/Copy-settings.md'
         - 'Download': 'xdrip/xdrip - Download.md'
         - 'Install': 'xdrip/xdrip - install.md'

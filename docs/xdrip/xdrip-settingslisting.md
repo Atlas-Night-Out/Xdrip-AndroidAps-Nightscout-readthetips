@@ -1,11 +1,33 @@
 
 
-## [xdrip - Settings±](../xdrip/settings.md#3-xdrip-settings-list) <br>
-<img width="300" height="auto" border="0" align="center"  src="../../img/xdrip/settings list.jpg" title="Settings± "/></a><br>
+
+## [xdrip± Home](../xdrip/xdrip-settingslisting.md#home)<br>
+Hamburger Menu
+<img width="auto" height="auto" border="0" align="center"  src="../../img/xdrip/handburger menu.jpg" title="Hamburger Menu "/></a><br>
+
+
 ## [xdrip± Settings List](../xdrip/settings.md#3-xdrip-settings-list)<br>
 
 ## [xdrip - Add Calibration±](../xdrip/xdrip-settingslisting.md#xdrip-add-calibration) <br>
 <img width="300" height="auto" border="0" align="center"  src="../../img/xdrip/add calibration.jpg" title="Hamburger Menu "/></a><br>
+
+## Stop Sensor
+
+## System Status
+
+## Level Alerts
+
+## Snooze Alert
+
+## Note Search
+
+## Statistics
+
+## History
+
+## [xdrip - Settings±](../xdrip/settings.md#3-xdrip-settings-list) <br>
+<img width="300" height="auto" border="0" align="center"  src="../../img/xdrip/settings list.jpg" title="Settings± "/></a><br>
+
 
 ## [xdrip± Copy settings](../xdrip/Copy-settings.md) <br>
 xDrip+ provides an easy way to copy settings from one Mobile to another.<br>
@@ -98,6 +120,9 @@ Adding a image with link
 <a href="https://www.youtube.com/watch?v=MFsbm45b6YY" target="_blank">
   <img width="auto" height="auto" border="0" align="center"  src="/img/Part 1 Setting up Github 2021/Github account details.jpg" title="github account details"/>
 </a><br>
+
+Base MD to MD filr
+[xdrip - Settings±]() <br>
 
 
 Adding Video
