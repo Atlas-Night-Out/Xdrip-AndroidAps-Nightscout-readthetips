@@ -13,7 +13,7 @@ To get to your settings <br>
 
 Go to Hamburger/ Settings/Show Settings QR codes/Share Settings via QR code<br>
 
-<img width="600" height="auto" border="0" align="center"  src="/img/xdrip/left Hamburger bar.jpg" title="Hamburger Menu "/></a><br>
+<img width="600" height="auto" border="0" align="center"  src="../../img/xdrip/left Hamburger bar.jpg" title="Hamburger Menu "/></a><br>
 
 ## Settings<br>
 <img width="300" height="auto" border="0" align="center"  src="/img/xdrip/settings list.jpg" title="Hamburger Menu "/></a><br>
