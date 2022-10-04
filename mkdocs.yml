@@ -23,14 +23,14 @@ nav:
      - Dexcom :
         - 'Dexcom': 'Dexcom/Userguide.md'
      - Xdrip :
-        - 'xdrip Settings': 'xdrip/settings.md'
-        - 'xdrip Copy Settings': 'xdrip/Copy-settings.md'
+        - 'xdrip± Settings': 'xdrip/settings.md'
+        - 'xdrip± Copy Settings': 'xdrip/Copy-settings.md'
         - 'Download': 'xdrip/xdrip - Download.md'
         - 'Install': 'xdrip/xdrip - install.md'
         - 'Base URL': 'xdrip/xdrip - Base.md'
         - 'Hardware Data Source': 'xdrip/xdrip - hardwaredatasource.md'
         - 'Compatible - Watches': 'xdrip/Compatible Watches.md'
-        - 'Xdrip Follower': 'xdrip/Xdrip Follower Setup.md'
+        - 'Xdrip± Follower': 'xdrip/Xdrip Follower Setup.md'
      - Nightscout :
         - 'Part 1 - Setting up Github': 'Nightscout/Setting_up_Github_Account_part1.md'
         - 'Part 2 Setting up Heroku Account ': 'Nightscout/Setting_up_Heroku_Account_part2.md'

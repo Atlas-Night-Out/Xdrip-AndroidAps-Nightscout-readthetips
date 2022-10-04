@@ -24,33 +24,33 @@ The documentation is only available in English for now.
 You might find it easier to follow if you [switch your xDrip+ to English](../../use/display/#language) and read it using and automatic translation with Google.<br>
 
 
-## 1. [xdrip - Hamburger Menu ±](../xdrip/settings.md#1-xdrip-hamburger-menu) <br>
+## 1. [xdrip±  Hamburger Menu](../xdrip/settings.md#1-xdrip-hamburger-menu) <br>
 To get to your settings click on the left Hamburger bar at the top.<br>
 <img width="600" height="auto" border="0" align="center"  src="../../img/xdrip/left Hamburger bar.jpg" title="Hamburger Menu "/></a><br>
 
-## 2. [xdrip - Settings Search ±](../xdrip/settings.md#2-xdrip-settings) <br>
+## 2. [xdrip±  Settings Search](../xdrip/settings.md#2-xdrip-settings) <br>
 There are lots of settings in xDrip+, So a search for things by looking for, use the search bar at the top right and enter the keyword you're looking for.<br>
 <img width="300" height="auto" border="0" align="center"  src="../../img/xdrip/settings list.jpg" title="Settings List"/><img width="300" height="auto" border="0" align="center"  src="../../img/xdrip/settings search1.jpg" title="Settings List"/></a></a><br>
 
-## 3. [xdrip - Settings List ±](../xdrip/settings.md#2-xdrip-settings) <br>
+## 3. [xdrip±  Settings List ](../xdrip/settings.md#2-xdrip-settings) <br>
 There are lots of settings in xDrip+, So a search for things by looking for, use the search bar at the top right and enter the keyword you're looking for.<br>
 <img width="300" height="auto" border="0" align="center"  src="../../img/xdrip/settings list.jpg" title="Settings List"/><br>
 
-## 4. [xdrip - Glucose Units ±](../xdrip/settings.md#3-xdrip-glucose-units) <br>
+## 4. [xdrip±  Glucose Units](../xdrip/settings.md#3-xdrip-glucose-units) <br>
 In this menu you can select the units used by xDrip+ (mg/dl or mmol/l) and set high and low targets.
 These two targets will decide when the graph BG dots change colour above or below target.
 <br>
 <img width="500" height="auto" border="0" align="center"  src="../../img/xdrip/Glucose Units.jpg" title="Glucose Units"/></a><br>
 
-## 5. [xdrip - Alarm and Alerts ±](../xdrip/settings.md#4-xdrip-alarm-and-alerts)
+## 5. [xdrip±  Alarm and Alerts](../xdrip/settings.md#4-xdrip-alarm-and-alerts)
 
 <img width="500" height="auto" border="0" align="center"  src="../../img/xdrip/Alarm and Alerts.jpg" title="Alarm and Alerts"/></a><br>
 
-## 6. [xdrip - Hardware Data Source ±](../xdrip/xdrip%20-%20hardwaredatasource.md#xdrip-data-source)<br>
+## 6. [xdrip±  Hardware Data Source](../xdrip/xdrip%20-%20hardwaredatasource.md#xdrip-data-source)<br>
 These settings vary on the data source selected.<br>
 <img width="500" height="auto" border="0" align="center"  src="../../img/xdrip/Hardware Data Source.jpg" title="Hardware Data Source"/></a><br>
 
-## 7. [xdrip - Auto Configure ±](../xdrip/Copy-settings.md#xdrip-auto-configure)<br>
+## 7. [xdrip±  Auto Configure](../xdrip/Copy-settings.md#xdrip-auto-configure)<br>
 Auto configure helps you copy settings between two xDrip+ apps installed on different Mobiles.<br>
 <img width="500" height="auto" border="0" align="center"  src="../../img/xdrip/Data Synce Auto Configure.jpg" title="Auto Configure"/></a><br>
 
