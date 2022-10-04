@@ -1,54 +1,33 @@
 
 
+## [xdrip - Settings±](../xdrip/settings.md#3-xdrip-settings-list) <br>
+<img width="300" height="auto" border="0" align="center"  src="../../img/xdrip/settings list.jpg" title="Settings± "/></a><br>
+## [xdrip± Settings List](../xdrip/settings.md#3-xdrip-settings-list)<br>
 
-## [xdrip± Settings List](../xdrip/settings.md#3-xdrip-settings-list)
+## [xdrip - Add Calibration±](../xdrip/xdrip-settingslisting.md#xdrip-add-calibration) <br>
+<img width="300" height="auto" border="0" align="center"  src="../../img/xdrip/add calibration.jpg" title="Hamburger Menu "/></a><br>
+
 ## [xdrip± Copy settings](../xdrip/Copy-settings.md) <br>
 xDrip+ provides an easy way to copy settings from one Mobile to another.<br>
 <br>
-## [xdrip±  Show Settings QR Code](../xdrip/Copy-settings.md#show-settings-qr-codes) <br>
-Will Show settings QR code displays a QR code containing xDrip+ settings.<br>
-<br>
-## [xdrip±  share-settings-via-qr-code](../xdrip/Copy-settings.md#share-settings-via-qr-code) <br>
-To get to your settings <br>
-
-Go to Hamburger/ Settings/Show Settings QR codes/Share Settings via QR code<br>
-
-<img width="600" height="auto" border="0" align="center"  src="../../img/xdrip/left Hamburger bar.jpg" title="Hamburger Menu "/></a><br>
-
-## Settings<br>
-<img width="300" height="auto" border="0" align="center"  src="../../img/xdrip/settings list.jpg" title="Hamburger Menu "/></a><br>
-
-## show settings QR codes<br>
+## [xdrip±  Show Settings QR Code](../xdrip/xdrip-settingslisting.md#xdrip-show-settings-qr-code) <br>
+Will how settings QR code displays a QR code containing xDrip+ settings.<br>
 <img width="600" height="auto" border="0" align="center"  src="../../img/xdrip/show settings QR codes.jpg" title="show settings QR codes "/></a><br>
 
-## Share Settings via QR code<br>
+## [xdrip±  share-settings-via-qr-code](../xdrip/xdrip-settingslisting.md#xdrip-share-settings-via-qr-code) <br>
 <img width="600" height="auto" border="0" align="center"  src="../../img/xdrip/share settings via qr code.jpg" title="share settings via QR code "/></a><br>
 
-xDrip Plus security key is used for xDrip+ Sync, if you only want to share a follower code (that is difficult to copy manually) use this.<br>
-
-Show General and collection settings include general settings and your hardware data source settings.<br>
-
-Copy All Settings include all (not alarms you need to recreate them manually).<br>
-
-This will obtain you a QR code that you can scan with Auto Set up on another Mobile.
-<img width="600" height="auto" border="0" align="center"  src="../../img/xdrip/EXAMPLE SCAN CODE.jpg" title="EXAMPLE SCAN CODE"/></a>	<br>
 
 
-## [xdrip± Auto Configure](../xdrip/settings.md#3-xdrip-settings-list)
-Auto configure permits you to import settings from another Mobiles QR code.<br><br>
 
-To get to your settings click on the left Hamburger bar at the top.<br>
-<img width="600" height="auto" border="0" align="center"  src="../../img/xdrip/left Hamburger bar.jpg" title="Hamburger Menu "/></a><br>
-<img width="300" height="auto" border="0" align="center"  src="../../img/xdrip/settings list.jpg" title="Settings List"/><br>
+
+## [xdrip± Auto Configure](../xdrip/xdrip-settingslisting.md#xdrip-auto-configure)
+Auto configure permits you to import settings from another Mobiles QR code.
 <img width="500" height="auto" border="0" align="center"  src="../../img/xdrip/Data Synce Auto Configure.jpg" title="Auto Configure"/></a><br>
 
-You need to permit xDrip+ to access the phone camera.
-You can then scan the QR code displayed on another phone in order to copy the settings you selected when displaying it as explained at [xdrip - Show Settings QR Code](#xdrip-show-settings-qr-code) above.
 
-<img width="auto" height="auto" border="0" align="center"  src="../../img/xdrip/Auto Configure_viewfinder.jpg" title="Auto Configure viewfinder "/></a><br>
 
-Current settings will be overwritten.<br>
-Restart your phone to apply the changes.<br>
+
 
 
 ## **To Be continued!** <br>
