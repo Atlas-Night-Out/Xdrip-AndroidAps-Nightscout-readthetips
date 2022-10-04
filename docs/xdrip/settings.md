@@ -26,7 +26,7 @@ You might find it easier to follow if you [switch your xDrip+ to English](../../
 
 ## 1. [xdrip - Hamburger Menu ±](../xdrip/settings.md#1-xdrip-hamburger-menu) <br>
 To get to your settings click on the left Hamburger bar at the top.<br>
-<img width="600" height="auto" border="0" align="center"  src="/../..img/xdrip/left Hamburger bar.jpg" title="Hamburger Menu "/></a><br>
+<img width="600" height="auto" border="0" align="center"  src="../..img/xdrip/left Hamburger bar.jpg" title="Hamburger Menu "/></a><br>
 
 ## 2. [xdrip - Settings Search ±](../xdrip/settings.md#2-xdrip-settings) <br>
 There are lots of settings in xDrip+, So a search for things by looking for, use the search bar at the top right and enter the keyword you're looking for.<br>
