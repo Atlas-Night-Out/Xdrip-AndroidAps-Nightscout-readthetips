@@ -1,67 +1,66 @@
-These docs are based on the [latest Nightly Build](https://github.com/NightscoutFoundation/xDrip/releases) Which you can download from there. (allow a few days for update to take effect).  
-**If you're already using xDrip+** and don't find a feature documented here and want it, you might need to [update](../../use/update) your xDrip+ app. <br> 
-
-See at the bottom of each page the version at which it was written, if you have an older version it might not include the feature.
-
-**If you're completely new to xDrip+** 
-and you want to install it for the first time continue to <a href="https://atlas-night-out.github.io/Xdrip-AndroidAps-Nightscout-readthetips/xdrip/xdrip%20-%20Download/">Download xdrip</a> Or <a href="https://atlas-night-out.github.io/Xdrip-AndroidAps-Nightscout-readthetips/xdrip/xdrip%20-%20install/">Install xdrip</a>
-</br>
-</br>
-
-### **Specifications**
-
-You need an Android phone.
-
-* Minimum supported Android version is 4.4 but 6 and above is recommended.<br>
-* If you will connect xDrip+ to a sensor your phone must support Bluetooth Low Energy (BLE): you can use utilities like this one to check.<br>
-* If you want to use the embedded master - follower function of xDrip+ (called xDrip+ Sync) both phones must have the Google Play Services installed.<br>
-* In order to use NFC scanning features for Libre 1 and 2 (EU only) sensors, or to connect directly to a Libre 2 (EU) sensor your phone needs a compatible NFC reader.<br>
-* If using Android 10 and above make sure you use a recent version of xDrip+ (at least the latest release, we'll talk about it later: continue reading).
-
-### Translation
-
-The documentation is only available in English for now.  
-You might find it easier to follow if you [switch your xDrip+ to English](../../use/display/#language) and read it using and automatic translation with Google.<br>
 
 
-## 1. [xdrip - Hamburger Menu ±](../xdrip/settings.md#1-xdrip-hamburger-menu) <br>
-To get to your settings click on the left Hamburger bar at the top.<br>
+
+## [xdrip - Settings List ±](../xdrip/settings.md#3-xdrip-settings-list)
+## [xdrip - Copy settings ±](../xdrip/Copy-settings.md) <br>
+xDrip+ provides an easy way to copy settings from one Mobile to another.<br>
+<br>
+## [xdrip - Show Settings QR Code ±](../xdrip/Copy-settings.md#show-settings-qr-codes) <br>
+Will Show settings QR code displays a QR code containing xDrip+ settings.<br>
+<br>
+## [xdrip - share-settings-via-qr-code ±](../xdrip/Copy-settings.md#share-settings-via-qr-code) <br>
+To get to your settings <br>
+
+Go to Hamburger/ Settings/Show Settings QR codes/Share Settings via QR code<br>
+
 <img width="600" height="auto" border="0" align="center"  src="/img/xdrip/left Hamburger bar.jpg" title="Hamburger Menu "/></a><br>
 
-## 2. [xdrip - Settings Search ±](../xdrip/settings.md#2-xdrip-settings) <br>
-There are lots of settings in xDrip+, So a search for things by looking for, use the search bar at the top right and enter the keyword you're looking for.<br>
-<img width="300" height="auto" border="0" align="center"  src="/img/xdrip/settings list.jpg" title="Settings List"/><img width="300" height="auto" border="0" align="center"  src="/img/xdrip/settings search1.jpg" title="Settings List"/></a></a><br>
+## Settings<br>
+<img width="300" height="auto" border="0" align="center"  src="/img/xdrip/settings list.jpg" title="Hamburger Menu "/></a><br>
 
-## 3. [xdrip - Settings List ±](../xdrip/settings.md#2-xdrip-settings) <br>
-There are lots of settings in xDrip+, So a search for things by looking for, use the search bar at the top right and enter the keyword you're looking for.<br>
+## show settings QR codes<br>
+<img width="600" height="auto" border="0" align="center"  src="/img/xdrip/show settings QR codes.jpg" title="show settings QR codes "/></a><br>
+
+## Share Settings via QR code<br>
+<img width="600" height="auto" border="0" align="center"  src="/img/xdrip/share settings via qr code.jpg" title="share settings via QR code "/></a><br>
+
+xDrip Plus security key is used for xDrip+ Sync, if you only want to share a follower code (that is difficult to copy manually) use this.<br>
+
+Show General and collection settings include general settings and your hardware data source settings.<br>
+
+Copy All Settings include all (not alarms you need to recreate them manually).<br>
+
+This will obtain you a QR code that you can scan with Auto Set up on another Mobile.
+<img width="600" height="auto" border="0" align="center"  src="/img/xdrip/EXAMPLE SCAN CODE.jpg" title="EXAMPLE SCAN CODE"/></a>	<br>
+
+
+## [xdrip - Auto Configure ±](../xdrip/settings.md#3-xdrip-settings-list)
+Auto configure permits you to import settings from another Mobiles QR code.<br><br>
+
+To get to your settings click on the left Hamburger bar at the top.<br>
+<img width="600" height="auto" border="0" align="center"  src="/img/xdrip/left Hamburger bar.jpg" title="Hamburger Menu "/></a><br>
 <img width="300" height="auto" border="0" align="center"  src="/img/xdrip/settings list.jpg" title="Settings List"/><br>
-
-## 4. [xdrip - Glucose Units ±](../xdrip/settings.md#3-xdrip-glucose-units) <br>
-In this menu you can select the units used by xDrip+ (mg/dl or mmol/l) and set high and low targets.
-These two targets will decide when the graph BG dots change colour above or below target.
-<br>
-<img width="500" height="auto" border="0" align="center"  src="/img/xdrip/Glucose Units.jpg" title="Glucose Units"/></a><br>
-
-## 5. [xdrip - Alarm and Alerts ±](../xdrip/settings.md#4-xdrip-alarm-and-alerts)
-
-<img width="500" height="auto" border="0" align="center"  src="/img/xdrip/Alarm and Alerts.jpg" title="Alarm and Alerts"/></a><br>
-
-## 6. [xdrip - Hardware Data Source ±](../xdrip/xdrip%20-%20hardwaredatasource.md#xdrip-data-source)<br>
-These settings vary on the data source selected.<br>
-<img width="500" height="auto" border="0" align="center"  src="/img/xdrip/Hardware Data Source.jpg" title="Hardware Data Source"/></a><br>
-
-## 7. [xdrip - Auto Configure ±](../xdrip/Copy-settings.md#xdrip-auto-configure)<br>
-Auto configure helps you copy settings between two xDrip+ apps installed on different Mobiles.<br>
 <img width="500" height="auto" border="0" align="center"  src="/img/xdrip/Data Synce Auto Configure.jpg" title="Auto Configure"/></a><br>
 
-## To Be continued!<br>
+You need to permit xDrip+ to access the phone camera.
+You can then scan the QR code displayed on another phone in order to copy the settings you selected when displaying it as explained at [xdrip - Show Settings QR Code](#xdrip-show-settings-qr-code) above.
 
+<img width="600" height="auto" border="0" align="center"  src="/img/xdrip/Auto Configure_viewfinder.jpg" title="Auto Configure viewfinder "/></a><br>
+
+Current settings will be overwritten.<br>
+Restart your phone to apply the changes.<br>
+
+
+## **To Be continued!** <br>
+<br>
 
 ### My Typo, error, missing information or changes 
 
 If you have any issues or concerns please post your questions in the  <a href="https://www.facebook.com/groups/5390196001057776" target="_blank">
   <img width="50" height="auto" border="0" align="center"  src="../../img/facebook/facebook-logo-png-11.png" title="Facebook group xdrip uk"/></a> <a href=" https://www.facebook.com/groups/5390196001057776" target="_blank" title="Facebook xDrip - UK"> Facebook Group</a> or you can go to the <span style="background-color: #FFFF00">**Discussions**</span> on <a href=" https://github.com/NightscoutFoundation/xDrip/discussions" target="_blank" title="Discussions"> Github</a><a href="https://www.facebook.com/groups/5390196001057776" target="_blank">
   <img width="50" height="auto" border="0" align="center"  src="../../img/Github/github-logo-icon-16155.png" title="Github"/></a><br>
+
+
 
 
 
@@ -112,7 +111,8 @@ adding 	Yellow Hightligher!!!!!!!!	with bold too
 <a>
   <img width="auto" height="auto" border="0" align="center"  src="/img/Nightscout/Time to Update Nightscout.png" title="Update Tool"/></a>	
 
-
+just an image!
+  <img width="auto" height="auto" border="0" align="center"  src="/img/Fork and Deploy cgm remote monitory Part 4/warning_sign.png" title="Update Tool"/></a>	
 
 
 Adding a image with link

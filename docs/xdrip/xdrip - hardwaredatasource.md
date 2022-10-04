@@ -1,24 +1,30 @@
 <!-- this is not on github server its local only and run my mkdocs server!
 docs made by D.Galloway 2019- 2021-->
-<img width="860" height="615" border="0" align="center"  src="/my-project/img/Hardware Data Source/Hardware Data Source.jpg" title="Data Source"/></a><br>
-# **Data Source** <br>
+<img width="860" height="615" border="0" align="center"  src="/img/xdrip/Hardware Data Source_header.jpg" title="Data Source"/></a><br>
+
+## [xdrip - Settings  ±](../xdrip/settings.md)
+## [xdrip - Data Source  ±](../xdrip/xdrip%20-%20datasource.md#xdrip-data-source) <br>
+<img width="500" height="auto" border="0" align="center"  src="/img/xdrip/choose data source.png" title="choose data source"/></a>If you don't see this<br>
+
 This is where you will be selecting your Device or Transmitter to work with xdrip.<br>
 
 You will need to go to choose your data source you will be using.
 To do this you should have a start source setup wizard on your main screen from installation.<br>
 
-<img width="500" height="auto" border="0" align="center"  src="/my-project/img/Hardware Data Source/start source setup wizard.jpg" title="Start Source setup wizard"/></a><br>
+<img width="500" height="auto" border="0" align="center"  src="/img/xdrip/start source setup wizard.jpg" title="Start Source setup wizard"/></a><br>
+
 If you do not have one do a long press on the xdrip+ image at the top of your main screen.<br>
 
-<img width="auto" height="auto" border="0" align="center"  src="/my-project/img/Hardware Data Source/xdrip image logo.jpg" title="xdrip+ image logo"/></a><br>
+<img width="auto" height="auto" border="0" align="center"  src="/img/xdrip/xdrip+ image.jpg" title="xdrip+ image logo"/></a><br>
 
 And turn on your Source Wizard Button.<br>
-<img width="auto" height="auto" border="0" align="center"  src="/my-project/img/Hardware Data Source/source wizard button.jpg" title="Source Wizard Button"/></a><br>
+
+<img width="500" height="auto" border="0" align="center"  src="/img/xdrip/source wizard button2.jpg" title="Source Wizard Button"/></a><br>
 
 Or you can go to the Burger icon in top left then /settings/Harware Data Source<br>
 <iframe id="video294" width="860" height="615" src="https://www.youtube.com/embed/8OnjK3BYeCA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br>
 You will see a long list of options to chose from. In this example I will be showing on how to add a Dexcom G6 or Dexcom One CGM Transmitter.<br>
-<center><img width="auto" height="400" border="0" align="center"  src="/my-project/img/Hardware Data Source/list Harware data source.jpg" title="list Harware data source"/></a></center><br>
+<center><img width="auto" height="400" border="0" align="center"  src="/img/xdrip/list Harware data source.jpg" title=" Harware data source list"/></a></center><br>
 
 <table width="1166" height="148" border="1" style="border-color: #000000; background-color: #ffffff;" cellpadding="1" cellspacing="1" height="98">
 <tbody>
@@ -35,7 +41,7 @@ Do not use your mobiles auto Bluetooth connection to pair your Transmitter! If i
 </table><br>
 Unpair if already connected.<br>
 
-<center><img width="350" height="auto" border="0" align="center"  src="/my-project/img/Hardware Data Source/bluetooth unpair.jpg" title="bluetooth unpair"/><img width="350" height="auto" border="0" align="center"  src="/my-project/img/Hardware Data Source/Dexcom unpair.jpg" title="Dexcom unpair"/></a></a></center><br>
+<center><img width="350" height="auto" border="0" align="center"  src="/img/xdrip/bluetooth unpair.jpg" title="bluetooth unpair"/><img width="350" height="auto" border="0" align="center"  src="/img/xdrip/Dexcom unpair.jpg" title="Dexcom unpair"/></a></a></center><br>
 
 
 <table width="1166" height="297" border="1" style="border-color: #000000; background-color: #ffffff;" cellpadding="1" cellspacing="1" height="98">

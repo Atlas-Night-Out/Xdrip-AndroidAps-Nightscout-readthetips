@@ -17,9 +17,9 @@ Process:old heroku accout to a new Turbo Fly_io Account. <br><br>
 ### **So with all that, let’s set up a free Turbo Account on Fly_io <br>**
 You will need to keep to the free Tier for this setup to be free, in you having a nightscout site again totaly free. This could change and we are not fully knowing for how long it will be free, all we know is as long as you stick to the free tire Requirements it should be free. Lets hope for life.<br>
 
-##  **Fly_io Account**
+## [Fly_io Account ±]() <br>
 
-#### 1.	Setup Fly_io Account: By going to https://fly.io/launch/heroku or <a href=" https://fly.io/launch/heroku" target="_blank" title="Account">Click Here</a>
+#### 1.	Setup Fly_io Account: By going to https://fly.io/launch/heroku or <a href=" https://fly.io/launch/heroku" target="_blank" title="Account">Fly_io Account</a>
 <a href="https://www.noip.com/" target="_blank">
   <center><img width="auto" height="auto" border="0" align="center"  src="../../img/Nightscout/Fly_io/my-heroku-app.jpg" title="sign up to Google cloud"/></center>
 </a><br>
@@ -52,6 +52,9 @@ You should now be able to see or be at your Fly_io Dashboard and be presented wi
 We need to use Xdrip to upload are CGM readings to Nightscout and it will need you to enter the correct URL in it's setting for Nightscout to start receiving readings from your CGM!<br> You may use other software other than Xdrip+ but for this tutorial I will be using xdrip+ you will have to excuse me if I just put xdrip as I keep forgetiing to put the + 
 
 ### 6. **Set up xDrip to upload to your Nightscout** <br>
+Also see here if you like other wise carry on<br>
+ [Base URL - Set up xDrip to upload to your Nightscout ±](../xdrip/xdrip%20-%20Base.md#1-set-up-xdrip-to-upload-to-your-nightscout) <br>
+
 This is what you need to do in xDrip on your master (Main)  phone.<br>
 #### a. Go to xDrip Settings −> Cloud Upload −> Nightscout Sync (REST-API)<br>
 <center><img width="250" height="Auto" border="0" align="center"  src="../../img/Nightscout/Google Cloud/xdrip settings.jpg" title=" xdrip settings"/></a><img width="250" height="Auto" border="0" align="center"  src="../../img/Nightscout/Google Cloud/xdrip cloud upload.jpg" title=" Cloud Upload"/></a><img width="250" height="Auto" border="0" align="center"  src="../../img/Nightscout/Google Cloud/xdrip Nightscout Sync (REST-API).jpg" title=" Nightscout Sync (REST-API)"/></a></center><br>

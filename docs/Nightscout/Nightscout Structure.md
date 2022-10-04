@@ -12,7 +12,7 @@ For full Website content visit [The Diabetic Way](https://www.thediabeticway.co.
    You can see this at [Part 3 Setting up Atlas Account ](./Setting_up_Atlas_Account_part3.md#17-i-will-try-to-give-you-an-example-about-the-way-to-do-it-below) <br>
 
   -  DISPLAY_UNITS (mg/dl) - Choices: mg/dl and mmol. Setting to mmol puts the entire server into mmol mode by default, no further settings needed.<br>
-You can see this at [Part4-Fork and Deploy cgm remote monitory](./Part 4 - Fork and Deploy cgm remote monitory.md#10-select-the-units-youre-using-in-display_units-the-acceptable-choices-are-mgdl-or-mmoll-or-just-mmol-when-entering-it)<br>
+You can see this at [Part4-Fork and Deploy cgm remote monitory](./Part 4 - Fork and Deploy cgm remote monitory.md#10-select-the-units-youre-using-in-display_units-the-acceptable-choices-are-mgdl-or-mmoll-or-just-mmol-when-entering-it)<br> or see [xdrip - Glucose Units ±](../xdrip/settings.md#4-xdrip-glucose-units) <br>
   
   -  BASE_URL - Used for building links to your sites api, ie pushover callbacks, usually the URL of your Nightscout site you may want https instead of http<br>
   You can see this at [xdrip - Base URL](../xdrip/xdrip%20-%20Base.md#1-set-up-xdrip-to-upload-to-your-nightscout) <br>

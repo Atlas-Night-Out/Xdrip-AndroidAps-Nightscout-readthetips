@@ -204,7 +204,7 @@ Check “Remember this device” checkbox to avoid having to re-enter it.<br>
 <center><img width="auto" height="auto" border="0" align="center"  src="../../img/Nightscout/Google Cloud/Enter your API-Secret.jpg" title="Enter your API-Secret"/></a></center><br>
 #### c. On first time, Nightscout will ask you to set up a profile for sensitivity etc. Either enter real values or just click save and then use close button on top right of the screen. You may need to do this twice<br>
 
-<center><img width="auto" height="auto" border="0" align="center"  src="../../img/Nightscout/Google Cloud/nightscout profile editor.jpg" title="Nightscout Profile Editor"/></a></center><br>
+<center><img width="300" height="auto" border="0" align="center"  src="../../img/Nightscout/Google Cloud/nightscout profile editor1.jpg" title="Nightscout Profile Editor"/></a><img width="300" height="auto" border="0" align="center"  src="../../img/Nightscout/Google Cloud/nightscout profile editor2.jpg" title="Nightscout Profile Editor close"/></a></center><br>
 
 ## 6.  **Set up xDrip to upload to your Nightscout** <br>
 This is what you need to do in xDrip on your master (Main)  phone.<br>
@@ -334,7 +334,7 @@ If you have any issues or concerns please post your questions in the  <a href="h
   <img width="50" height="auto" border="0" align="center"  src="../../img/facebook/facebook-logo-png-11.png" title="Facebook group xdrip uk"/></a> <a href=" https://www.facebook.com/groups/5390196001057776" target="_blank" title="Facebook xDrip - UK"> Facebook Group</a> or you can go to the <span style="background-color: #FFFF00">**Discussions**</span> on <a href=" https://github.com/NightscoutFoundation/xDrip/discussions" target="_blank" title="Discussions"> Github</a><a href="https://www.facebook.com/groups/5390196001057776" target="_blank">
   <img width="50" height="auto" border="0" align="center"  src="../../img/Github/github-logo-icon-16155.png" title="Github"/></a>
 
-## To Be continued!
+
 
 
 
