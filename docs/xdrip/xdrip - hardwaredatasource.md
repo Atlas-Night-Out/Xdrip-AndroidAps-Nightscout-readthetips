@@ -11,7 +11,7 @@ This is where you will be selecting your Device or Transmitter to work with xdri
 You will need to go to choose your data source you will be using.
 To do this you should have a start source setup wizard on your main screen from installation.<br>
 
-<img width="500" height="auto" border="0" align="center"  src="/img/xdrip/start source setup wizard.jpg" title="Start Source setup wizard"/></a><br>
+<img width="500" height="auto" border="0" align="center"  src="../../img/xdrip/start source setup wizard.jpg" title="Start Source setup wizard"/></a><br>
 
 If you do not have one do a long press on the xdrip+ image at the top of your main screen.<br>
 
