@@ -28,7 +28,7 @@ nav:
         - 'Download': 'xdrip/xdrip - Download.md'
         - 'Install': 'xdrip/xdrip - install.md'
         - 'Base URL': 'xdrip/xdrip - Base.md'
-        - 'Hardware Data Source': 'xdrip/xdrip - hardwaredatasource.md'
+        - 'Hardware Data Source': 'xdrip - hardwaredatasource.md'
         - 'Compatible - Watches': 'xdrip/Compatible Watches.md'
         - 'Xdrip Follower': 'xdrip/Xdrip Follower Setup.md'
      - Nightscout :
