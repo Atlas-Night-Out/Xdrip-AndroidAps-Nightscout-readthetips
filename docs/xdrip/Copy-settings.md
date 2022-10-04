@@ -45,7 +45,7 @@ To get to your settings click on the left Hamburger bar at the top.<br>
 You need to permit xDrip+ to access the phone camera.
 You can then scan the QR code displayed on another phone in order to copy the settings you selected when displaying it as explained at [xdrip - Show Settings QR Code](#xdrip-show-settings-qr-code) above.
 
-<img width="600" height="auto" border="0" align="center"  src="../..img/xdrip/Auto Configure_viewfinder.jpg" title="Auto Configure viewfinder "/></a><br>
+<img width="auto" height="auto" border="0" align="center"  src="../..img/xdrip/Auto Configure_viewfinder.jpg" title="Auto Configure viewfinder "/></a><br>
 
 Current settings will be overwritten.<br>
 Restart your phone to apply the changes.<br>
