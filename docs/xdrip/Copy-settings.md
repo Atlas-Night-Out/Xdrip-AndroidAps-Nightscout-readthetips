@@ -1,14 +1,14 @@
 
 
 
-## [xdrip± - Settings List](../xdrip/settings.md#3-xdrip-settings-list)
-## [xdrip± - Copy settings](../xdrip/Copy-settings.md) <br>
+## [xdrip± Settings List](../xdrip/settings.md#3-xdrip-settings-list)
+## [xdrip± Copy settings](../xdrip/Copy-settings.md) <br>
 xDrip+ provides an easy way to copy settings from one Mobile to another.<br>
 <br>
-## [xdrip± - Show Settings QR Code](../xdrip/Copy-settings.md#show-settings-qr-codes) <br>
+## [xdrip±  Show Settings QR Code](../xdrip/Copy-settings.md#show-settings-qr-codes) <br>
 Will Show settings QR code displays a QR code containing xDrip+ settings.<br>
 <br>
-## [xdrip± - share-settings-via-qr-code](../xdrip/Copy-settings.md#share-settings-via-qr-code) <br>
+## [xdrip±  share-settings-via-qr-code](../xdrip/Copy-settings.md#share-settings-via-qr-code) <br>
 To get to your settings <br>
 
 Go to Hamburger/ Settings/Show Settings QR codes/Share Settings via QR code<br>
@@ -34,7 +34,7 @@ This will obtain you a QR code that you can scan with Auto Set up on another Mob
 <img width="600" height="auto" border="0" align="center"  src="../../img/xdrip/EXAMPLE SCAN CODE.jpg" title="EXAMPLE SCAN CODE"/></a>	<br>
 
 
-## [xdrip± - Auto Configure](../xdrip/settings.md#3-xdrip-settings-list)
+## [xdrip± Auto Configure](../xdrip/settings.md#3-xdrip-settings-list)
 Auto configure permits you to import settings from another Mobiles QR code.<br><br>
 
 To get to your settings click on the left Hamburger bar at the top.<br>
