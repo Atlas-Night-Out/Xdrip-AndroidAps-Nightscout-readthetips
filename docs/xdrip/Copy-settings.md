@@ -1,59 +1,47 @@
+<!-- this is not on github server its local only and run my mkdocs server!
+docs made by D.Galloway 2019- 2021-->
+<img width="860" height="615" border="0" align="center"  src="../../img/xdrip/xdrip+ original logo.jpg" title="Xdrip+"/></a><br>
 
 
+## Copy settings
+xDrip± provides an easy way to copy settings from one Mobile to another.
 
-## [xdrip± Home](../xdrip/xdrip-settingslisting.md#home)<br>
-Hamburger Menu
-<img width="auto" height="auto" border="0" align="center"  src="../../img/xdrip/handburger menu.jpg" title="Hamburger Menu "/></a><br>
+Show Settings QR Code
+Will Show settings QR code displays a QR code containing xDrip+ settings.
+Go to Hamburger/ Settings/Show Settings QR codes/Share Settings via QR code
+<img width="500" height="auto" border="0" align="center"  src="/img/xdrip/left Hamburger bar.jpg" title="Hamburger Menu"/></a><br>
 
+<img width="500" height="auto" border="0" align="center"  src="/img/xdrip/show settings QR codes.jpg" title="Show settings QR codes"/></a><BR>
 
-## [xdrip± Settings List](../xdrip/settings.md#3-xdrip-settings-list)<br>
+<img width="500" height="auto" border="0" align="center"  src="/img/xdrip/share settings via qr code.jpg" title="Share Settings Via QR Code"/></a>
+ 
 
-## [xdrip - Add Calibration±](../xdrip/xdrip-settingslisting.md#xdrip-add-calibration) <br>
-<img width="300" height="auto" border="0" align="center"  src="../../img/xdrip/add calibration.jpg" title="Hamburger Menu "/></a><br>
+  
+  
+xDrip+ security key is used for xDrip+ Sync, if you only want to share a follower code (that is difficult to copy manually) use this.
 
-## Stop Sensor
+Show General and collection settings include general settings and your hardware data source settings.<br>
 
-## System Status
+Copy All Settings include all (not alarms you need to recreate them manually).<br>
 
-## Level Alerts
+This will obtain you a QR code that you can scan with Auto Set up on another Mobile.
+ <img width="500" height="auto" border="0" align="center"  src="/img/xdrip/EXAMPLE SCAN CODE.jpg" title="Share Settings Via QR Code"/></a>
 
-## Snooze Alert
-
-## Note Search
-
-## Statistics
-
-## History
-
-## [xdrip - Settings±](../xdrip/settings.md#3-xdrip-settings-list) <br>
-<img width="300" height="auto" border="0" align="center"  src="../../img/xdrip/settings list.jpg" title="Settings± "/></a><br>
-
-
-## [xdrip± Copy settings](../xdrip/Copy-settings.md#copy-settings) <br>
-xDrip+ provides an easy way to copy settings from one Mobile to another.<br>
-<br>
-## [xdrip±  Show Settings QR Code](../xdrip/xdrip-settingslisting.md#xdrip-show-settings-qr-code) <br>
-Will how settings QR code displays a QR code containing xDrip+ settings.<br>
-<img width="600" height="auto" border="0" align="center"  src="../../img/xdrip/show settings QR codes.jpg" title="show settings QR codes "/></a><br>
-
-## [xdrip±  share-settings-via-qr-code](../xdrip/xdrip-settingslisting.md#xdrip-share-settings-via-qr-code) <br>
-<img width="600" height="auto" border="0" align="center"  src="../../img/xdrip/share settings via qr code.jpg" title="share settings via QR code "/></a><br>
-
-
-
-
-
-## [xdrip± Auto Configure](../xdrip/xdrip-settingslisting.md#xdrip-auto-configure)
+## Auto Configure ±
 Auto configure permits you to import settings from another Mobiles QR code.
-<img width="500" height="auto" border="0" align="center"  src="../../img/xdrip/Data Synce Auto Configure.jpg" title="Auto Configure"/></a><br>
+ <img width="500" height="auto" border="0" align="center"  src="/img/xdrip/handburger menu.jpg" title="Handburger Menu"/></a>
+ <img width="300" height="auto" border="0" align="center"  src="/img/xdrip/Setting main.jpg" title="Settings"/></a><br>
+ <img width="500" height="auto" border="0" align="center"  src="/img/xdrip/Data Synce Auto Configure.jpg" title="Data Synce/ Auto Configure"/></a>
+ 
+You need to permit xDrip+ to access the Mobiles camera.
+You can then scan the QR code displayed on another phone in order to copy the settings you selected when displaying it as explained at [xdrip - Show Settings QR Code](#xdrip-show-settings-qr-code) above.<br>
+<img width="auto" height="auto" border="0" align="center"  src="/img/xdrip/Auto Configure_viewfinder.jpg" title="Auto Configure Viewfinder"/></a>
+ 
+Current settings will be overwritten.
+Restart your phone to apply the changes.
 
+## **To Be continued!**<br>
 
-
-
-
-
-## **To Be continued!** <br>
-<br>
 
 ### My Typo, error, missing information or changes 
 
@@ -65,16 +53,11 @@ If you have any issues or concerns please post your questions in the  <a href="h
 
 
 
-</br>
-
-[*Last modified now*](https://github.com/NightscoutFoundation/xDrip/releases)
-
-
-
-
-
-
-
+<br>
+<a href="https://www.diabetes.org.uk/" target="_blank">
+ <center> <img width="auto" height="auto" border="0" align="center"  src="../../img/Diabetesuk/pngarea.com_rutgers-logo-png-8467605.png" title="Diabetes UK"/>
+</a>               Why Not take visit [UK Wide Cycle Ride - Diabetes.uk](https://cycle.diabetes.org.uk/) <span style="background-color: #FFFF00">**or**</span>  [Swim22 - Diabetes.uk](https://swim22.diabetes.org.uk/) <span style="background-color: #FFFF00">**or**</span> [Month of Miles - Diabetes.uk](https://monthofmiles.diabetes.org.uk/?gclid=CjwKCAjwz5iMBhAEEiwAMEAwGO2_OoOGRQdN3BDD3NUQ8WoYAsJsxd1YUJN8dSVJowD1E4AjJ1RdVxoC9bgQAvD_BwE) for all of your Diabetes Needs!
+</center>
 
 
 <!--  
@@ -89,17 +72,7 @@ If you have any issues or concerns please post your questions in the  <a href="h
 		## <center>Now Do  </center><br>
 		
 		*************************************************************
-		hearer link!
-## 3. <a href=" https://console.cloud.google.com" target="_blank" title="Log into Google Cloud">Google Cloud</a> <br>
-
-
-********************************************
-    Adding exernal link to other a web sites
-**********************************************
-# <center>Part 2: <a href=" https://atlas-night-out.github.io/my-project/user-guide/Setting_up_Heroku_Account_part2/" target="_blank" title="Setting up Heroku Account">Setting up Heroku Account</a> </center>
-<br>
-**********************************************
-
+		
 		
 <a href="http://nightscout.github.io/pages/update-fork/" target="_blank">
   <img width="auto" height="auto" border="0" align="center"  src="/img/Nightscout/Time to Update Nightscout.png" title="Update Tool"/></a>		
@@ -112,17 +85,13 @@ adding 	Yellow Hightligher!!!!!!!!	with bold too
 <a>
   <img width="auto" height="auto" border="0" align="center"  src="/img/Nightscout/Time to Update Nightscout.png" title="Update Tool"/></a>	
 
-just an image!
-  <img width="auto" height="auto" border="0" align="center"  src="/img/Fork and Deploy cgm remote monitory Part 4/warning_sign.png" title="Update Tool"/></a>	
+
 
 
 Adding a image with link
 <a href="https://www.youtube.com/watch?v=MFsbm45b6YY" target="_blank">
   <img width="auto" height="auto" border="0" align="center"  src="/img/Part 1 Setting up Github 2021/Github account details.jpg" title="github account details"/>
 </a><br>
-
-Base MD to MD filr
-[xdrip - Settings±]() <br>
 
 
 Adding Video
@@ -194,3 +163,4 @@ Warning Note<table width="1266" border="1" style="border-color: #000000; backgro
 </table>
 
 -->
+
