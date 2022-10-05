@@ -111,6 +111,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://example.com/xdrip/Copy-settings/</loc>
+         <lastmod>2022-10-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://example.com/xdrip/Xdrip%20Follower%20Setup/</loc>
          <lastmod>2022-10-05</lastmod>
          <changefreq>daily</changefreq>
