@@ -334,6 +334,8 @@ If you have any issues or concerns please post your questions in the  <a href="h
   <img width="50" height="auto" border="0" align="center"  src="../../img/facebook/facebook-logo-png-11.png" title="Facebook group xdrip uk"/></a> <a href=" https://www.facebook.com/groups/5390196001057776" target="_blank" title="Facebook xDrip - UK"> Facebook Group</a> or you can go to the <span style="background-color: #FFFF00">**Discussions**</span> on <a href=" https://github.com/NightscoutFoundation/xDrip/discussions" target="_blank" title="Discussions"> Github</a><a href="https://www.facebook.com/groups/5390196001057776" target="_blank">
   <img width="50" height="auto" border="0" align="center"  src="../../img/Github/github-logo-icon-16155.png" title="Github"/></a>
 
+Hamburger barφ
+To get to your settings click on the left Hamburger bar at the top.
 
 
 
@@ -412,6 +414,7 @@ Adding a image with link
 link
 <a href=" https://github.com/" target="_blank" title="First create a user account by going to">Click Here</a>
 
+just an image!
   <img width="auto" height="auto" border="0" align="center"  src="/img/Fork and Deploy cgm remote monitory Part 4/warning_sign.png" title="Update Tool"/></a>	
 
 <img width="30" height="30" src="/img/Fork and Deploy cgm remote monitory Part 4/clipart2068155.png">
