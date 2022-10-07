@@ -1,7 +1,7 @@
 
 
 
-## [xdrip± Home](../xdrip/xdrip-settingslisting.md#home)<br>
+## [xdrip± Home](../xdrip/xdrip-HamburgerMenu.md#xdrip-home)<br>
 Hamburger Menu
 <img width="auto" height="auto" border="0" align="center"  src="../../img/xdrip/handburger menu.jpg" title="Hamburger Menu "/></a><br>
 
@@ -9,7 +9,7 @@ Hamburger Menu
 ## [xdrip± Main Settings List](../xdrip/settings.md#3-xdrip-settings-list)<br>
 <img width="300" height="auto" border="0" align="center"  src="../../img/xdrip/Setting main.jpg" title="Main Settings List"/></a><br>
 
-## [xdrip - Add Calibration±](../xdrip/xdrip-settingslisting.md#xdrip-add-calibration) <br>
+## [xdrip - Add Calibration±](../xdrip/xdrip-HamburgerMenu.md#xdrip-add-calibration) <br>
 <img width="300" height="auto" border="0" align="center"  src="../../img/xdrip/add calibration.jpg" title="Hamburger Menu "/></a><br>
 
 ## Stop Sensor
@@ -30,23 +30,20 @@ Hamburger Menu
 <img width="250" height="auto" border="0" align="center"  src="../../img/xdrip/xdrip Settings_list.jpg" title="Settings list± "/></a><br>
 
 
-## [xdrip± Copy settings](../xdrip/Copy-settings.md#copy-settings) <br>
+## [xdrip± Copy settings](../xdrip/xdrip-HamburgerMenu.md#xdrip-copy-settings) <br>
 xDrip+ provides an easy way to copy settings from one Mobile to another.<br>
 <br>
 <img width="500" height="auto" border="0" align="center"  src="../../img/xdrip/copy setting2.jpg" title="Copy Settings"/></a><br>
 
-## [xdrip±  Show Settings QR Code](../xdrip/xdrip-settingslisting.md#xdrip-show-settings-qr-code) <br>
+## [xdrip±  Show Settings QR Code](../xdrip/xdrip-HamburgerMenu.md#xdrip-show-settings-qr-code) <br>
 Will how settings QR code displays a QR code containing xDrip+ settings.<br>
 <img width="600" height="auto" border="0" align="center"  src="../../img/xdrip/show settings QR codes.jpg" title="show settings QR codes "/></a><br>
 
-## [xdrip±  share-settings-via-qr-code](../xdrip/xdrip-settingslisting.md#xdrip-share-settings-via-qr-code) <br>
+## [xdrip±  share-settings-via-qr-code](../xdrip/xdrip-HamburgerMenu.md#xdrip-share-settings-via-qr-code) <br>
 <img width="600" height="auto" border="0" align="center"  src="../../img/xdrip/share settings via qr code.jpg" title="share settings via QR code "/></a><br>
 
 
-
-
-
-## [xdrip± Auto Configure](../xdrip/xdrip-settingslisting.md#xdrip-auto-configure)
+## [xdrip± Auto Configure](../xdrip/xdrip-HamburgerMenu.md#xdrip-auto-configure)
 Auto configure permits you to import settings from another Mobiles QR code.
 <img width="500" height="auto" border="0" align="center"  src="../../img/xdrip/Data Synce Auto Configure.jpg" title="Auto Configure"/></a><br>
 

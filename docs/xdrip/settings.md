@@ -28,21 +28,21 @@ You might find it easier to follow if you [switch your xDrip+ to English](../../
 To get to your settings click on the left Hamburger bar at the top.<br>
 <img width="600" height="auto" border="0" align="center"  src="../../img/xdrip/left Hamburger bar.jpg" title="Hamburger Menu "/></a><br>
 
-## 2. [xdrip±  Settings Search](../xdrip/settings.md#2-xdrip-settings) <br>
+## 2. [xdrip±  Settings Search](../xdrip/settings.md#2-xdrip-settings-search) <br>
 There are lots of settings in xDrip+, So a search for things by looking for, use the search bar at the top right and enter the keyword you're looking for.<br>
 <img width="300" height="auto" border="0" align="center"  src="../../img/xdrip/Setting main.jpg" title="Settings List"/><img width="300" height="auto" border="0" align="center"  src="../../img/xdrip/settings search1.jpg" title="Settings List"/></a></a><br>
 
-## 3. [xdrip±  Settings List ](../xdrip/xdrip-settingslisting.md#xdrip-settings) <br>
+## 3. [xdrip±  Settings List ](../xdrip/settings.md#3-xdrip-settings-list) <br>
 There are lots of settings in xDrip+, So a search for things by looking for, use the search bar at the top right and enter the keyword you're looking for.<br>
 <img width="250" height="auto" border="0" align="center"  src="../../img/xdrip/xdrip Settings_list.jpg" title="Settings List"/><br>
 
-## 4. [xdrip±  Glucose Units](../xdrip/settings.md#3-xdrip-glucose-units) <br>
+## 4. [xdrip±  Glucose Units](../xdrip/settings.md#4-xdrip-glucose-units) <br>
 In this menu you can select the units used by xDrip+ (mg/dl or mmol/l) and set high and low targets.
 These two targets will decide when the graph BG dots change colour above or below target.
 <br>
 <img width="500" height="auto" border="0" align="center"  src="../../img/xdrip/Glucose Units.jpg" title="Glucose Units"/></a><br>
 
-## 5. [xdrip±  Alarm and Alerts](../xdrip/settings.md#4-xdrip-alarm-and-alerts)
+## 5. [xdrip±  Alarm and Alerts](../xdrip/settings.md#5-xdrip-alarm-and-alerts)
 
 <img width="500" height="auto" border="0" align="center"  src="../../img/xdrip/Alarm and Alerts.jpg" title="Alarm and Alerts"/></a><br>
 
