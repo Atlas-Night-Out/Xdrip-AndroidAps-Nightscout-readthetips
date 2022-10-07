@@ -6,27 +6,27 @@ For full Website content visit [The Diabetic Way](https://www.thediabeticway.co.
 
 ###  **Nightscout on Google Cloud**<br>
 
-Credit too:Big thanks to jamorham, the current xDrip head developer, for the idea, putting it together, implementing the installer, and testing everything with myself and Navid doing the documents.<br>
+Credit too:Big thanks go to jamorham, the current xDrip head developer, for the idea, putting it together, implementing the installer, and testing everything with myself and Navid doing the documents with me David!.<br>
 
 Upcoming changes made:
 Added Terminal Process:old heroku accout to it. 
 
 ### **So with all that, let’s set up a free account on Google Cloud <br>**
-To have a nightscout site again totaly free as of 22 Sept 2022 this could change and we are not fully knowing for how long it will be free, all we know is as long as you stick to the free tire Requirements here, it should be free. Lets hope for life.<br>
+
 
 ## **1. <a href=" https://www.noip.com/" target="_blank" title="Noip Account">Noip Account</a>**
 
-#### a.	First Sign up Noip: By going to https://www.noip.com/ or <a href=" https://www.noip.com/" target="_blank" title="Sign up Noip">Noip</a>
+### a.	First Sign up Noip: By going to https://www.noip.com/ or <a href=" https://www.noip.com/" target="_blank" title="Sign up Noip">Noip</a>
 <a href="https://www.noip.com/" target="_blank">
   <img width="auto" height="auto" border="0" align="center"  src="../../img/Nightscout/Google Cloud/noipsignin.jpg" title="sign up to Google cloud"/>
 </a><br>
 
 
-#### b. You need to enter your email address, choose a password, and choose a hostname. Make a note of all of it.test<br>
+### b. You need to enter your email address, choose a password, and choose a hostname. Make a note of all of it.test<br>
 <center><img width="auto" height="auto" border="0" align="center"  src="../../img/Nightscout/Google Cloud/hostname2.jpg" title="Your hostname"/></a>	</center><Br>
 
 
-#### c.  Select the “Free Sign Up” not the  “Get Enhanced”.<br>
+### c.  Select the “Free Sign Up” not the  “Get Enhanced”.<br>
 <center><img width="auto" height="auto" border="0" align="center"  src="../../img/Nightscout/Google Cloud/free signup.jpg" title="Free sign up"/></a>	</center><br>
 
 ### d.  Sit back have a cuppa and enjoy video waiting for your email to “Confirm Account” before you advance to the next section. <br>
@@ -38,7 +38,7 @@ You will be given a Hostname, that you will use to go to your nightscout site la
 
 ## 2. **<a href=" https://support.google.com/accounts/answer/27441?hl=en" target="_blank" title="Google Account">Google Account</a>**
 
-#### a. You need a Google account to proceed. If you do not have one go to https://support.google.com/accounts/answer/27441?hl=en and sign up or <a href=" https://support.google.com/accounts/answer/27441?hl=en" target="_blank" title="Sign up">Google Account</a>
+### a. You need a Google account to proceed. If you do not have one go to https://support.google.com/accounts/answer/27441?hl=en and sign up or <a href=" https://support.google.com/accounts/answer/27441?hl=en" target="_blank" title="Sign up">Google Account</a>
 <a href="https://support.google.com/accounts/answer/27441?hl=en" target="_blank">
   <img width="auto" height="auto" border="0" align="center"  src="../../img/Nightscout/Google Cloud/create a google account.jpg" title="sign up for a Google Account"/><br><br>
   
@@ -49,8 +49,6 @@ Go to
 ## 3. <a href=" https://console.cloud.google.com" target="_blank" title="Log into Google Cloud">Google Cloud</a> <br>
 
 Google Cloud console, and sign in with your Google Account<br>
-
-
 
 <a href= https://console.cloud.google.com" target="_blank">
   <img width="auto" height="auto" border="0" align="center"  src="../../img/Nightscout/Google Cloud/google cloud.jpg" title=" Google cloud Console"/>
@@ -334,15 +332,14 @@ If you have any issues or concerns please post your questions in the  <a href="h
   <img width="50" height="auto" border="0" align="center"  src="../../img/facebook/facebook-logo-png-11.png" title="Facebook group xdrip uk"/></a> <a href=" https://www.facebook.com/groups/5390196001057776" target="_blank" title="Facebook xDrip - UK"> Facebook Group</a> or you can go to the <span style="background-color: #FFFF00">**Discussions**</span> on <a href=" https://github.com/NightscoutFoundation/xDrip/discussions" target="_blank" title="Discussions"> Github</a><a href="https://www.facebook.com/groups/5390196001057776" target="_blank">
   <img width="50" height="auto" border="0" align="center"  src="../../img/Github/github-logo-icon-16155.png" title="Github"/></a>
 
-Hamburger barφ
-To get to your settings click on the left Hamburger bar at the top.
+
 
 
 
 
 <br><br>
 <center><a href="https://www.diabetes.org.uk/" target="_blank">
-  <img width="auto" height="auto" border="0" align="center"  src="/my-project/img/Diabetesuk/pngarea.com_rutgers-logo-png-8467605.png" title="Diabetes UK"/>
+  <img width="auto" height="auto" border="0" align="center"  src="../../img/Diabetesuk/pngarea.com_rutgers-logo-png-8467605.png" title="Diabetes UK"/>
 </a>Why Not take visit [UK Wide Cycle Ride - Diabetes.uk](https://cycle.diabetes.org.uk/) or  [Swim22 - Diabetes.uk](https://swim22.diabetes.org.uk/) for your Diabetes Needs!</center><br><br>
 
 

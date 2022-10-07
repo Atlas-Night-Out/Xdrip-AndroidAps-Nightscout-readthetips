@@ -23,13 +23,16 @@ nav:
      - Dexcom :
         - 'Dexcom': 'Dexcom/Userguide.md'
      - Xdrip :
-        - 'xdrip± Settings': 'xdrip/settings.md'
-        - 'xdrip Hamburger Menu': 'xdrip/xdrip-settingslisting.md'
-        - 'xdrip± Copy Settings': 'xdrip/Copy-settings.md'
         - 'Download': 'xdrip/xdrip - Download.md'
         - 'Install': 'xdrip/xdrip - install.md'
-        - 'Base URL': 'xdrip/xdrip - Base.md'
+        - 'xdrip± Settings': 'xdrip/settings.md'
         - 'Hardware Data Source': 'xdrip/xdrip - hardwaredatasource.md'
+        - 'xdrip Hamburger Menu': 'xdrip/xdrip-settingslisting.md'
+        - 'xdrip± Copy Settings': 'xdrip/Copy-settings.md'
+        
+        
+        - 'Base URL': 'xdrip/xdrip - Base.md'
+        
         - 'Compatible - Watches': 'xdrip/Compatible Watches.md'
         - 'Xdrip± Follower': 'xdrip/Xdrip Follower Setup.md'
      - Nightscout :
@@ -40,7 +43,7 @@ nav:
         - 'Nightscout Structure': 'Nightscout/Nightscout Structure.md'
         - 'Compatible - Watches': 'Nightscout/Compatible Watches.md'
         - 'Oracle Cloud Setup': 'Nightscout/Nightscout_Oracle Cloud - setup.md'
-        - 'Google Cloud Setup': 'Nightscout/Google Cloud_setup.md'
+        - 'Google Cloud Server Setup': 'Nightscout/Google Cloud_setup.md'
         - 'Fly_io': 'Nightscout/Fly_io-setup.md'
      - Watches :
         - 'CGM onto - Watches': 'watches/Watches.md'

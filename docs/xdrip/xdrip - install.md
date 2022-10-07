@@ -1,32 +1,59 @@
 <!-- this is not on github server its local only and run my mkdocs server!
 docs made by D.Galloway 2019- 2021-->
-<img width="860" height="615" border="0" align="center"  src="../../img/xdrip/xdrip+ original logo.jpg" title="Xdrip+"/></a><br>
+<img width="460" height="315" border="0" align="center"  src="../../img/xdrip/xdrip+ original logo.jpg" title="Xdrip+"/></a>
 # **Install xDrip** <br>
-This installation process is a little old now and the video really needs to be updated, which I will do as soon as get time to.
 
-But for now, it’s still a good help for you to set up xdrip+ onto your mobile. Just turn off the music if it’s not to your tastes :-) 
+This video installation process is a little old now and the video really needs to be updated, which I will do as soon as I get time to.
+
+But for now, it’s still a good help for you to set up with xdrip+ onto your mobile. Just turn off the music if it’s not to your tastes :-) 
 You do not need to have Nightscout installed for xdrip+ to work as mentioned in the video!
-You can get your reading from your CGM direct from xdrip+.
-
-
-## **PC Download**
-[<img src="../../img/xdrip/xdrip pc download.jpg">](https://github.com/NightscoutFoundation/xDrip/releases)
+You can get your reading from your CGM direct from within xdrip+.
 <br>
-
-## **Mobile download**
-[<img src="../../img/xdrip/xdrip mobile download.jpg">](https://jamorham.github.io/#xdrip-plus)
-<br>
-
 
 ### **Install Xdrip+** 
 
-<iframe id="video29564" width="860" height="615" src="https://www.youtube.com/embed/7Qwr4HrchTU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe id="video29564" width="860" height="615" src="https://www.youtube.com/embed/7Qwr4HrchTU" target="_blank" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <br>
-<a href="https://www.diabetes.org.uk/" target="_blank">
- <center> <img width="auto" height="auto" border="0" align="center"  src="../../img/Diabetesuk/pngarea.com_rutgers-logo-png-8467605.png" title="Diabetes UK"/>
-</a>               Why Not take visit [UK Wide Cycle Ride - Diabetes.uk](https://cycle.diabetes.org.uk/) <span style="background-color: #FFFF00">**or**</span>  [Swim22 - Diabetes.uk](https://swim22.diabetes.org.uk/) <span style="background-color: #FFFF00">**or**</span> [Month of Miles - Diabetes.uk](https://monthofmiles.diabetes.org.uk/?gclid=CjwKCAjwz5iMBhAEEiwAMEAwGO2_OoOGRQdN3BDD3NUQ8WoYAsJsxd1YUJN8dSVJowD1E4AjJ1RdVxoC9bgQAvD_BwE) for all of your Diabetes Needs!
-</center>
+
+After you have installed Your Apk and xdrip+ its time to install a few other options within xdrip.<br>
+
+### **Authorize background activity**<br>
+xDrip+ must have the right to be used in the background, and it must be white-listed for battery optimization. 
+This is necessary for the correct functioning of xdrip+.<br>
+
+It should ask you to allow these authorizations. If it doesn't or you need to look this up later, check it in your phone settings <span style="background-color: #FFFF00">**Settings - Apps - xDrip+.**</span> Consult your mobile documents as they will vary on Android software version and manufacturers.<br>
+For me on a Samsung I swiped down and click on the gear icon to get to my settings.<br>
+APPS/xDrip+/Battery<br>
+
+<center><img src="../../img/xdrip/settings.jpg" alt="alt text" width="300" height="auto"><img src="../../img/xdrip/2_Apps.jpg" alt="alt text" width="300" height="auto"><br></center><br>   <center><img src="../../img/xdrip/3_Apps_xdrip+.jpg" alt="alt text" width="300" height="auto"><img src="../../img/xdrip/Battery.jpg" alt="alt text" width="300" height="auto"></center><br>
+
+<center> <span style="background-color: #FFFF00">**And select Battery Unrestricted.**</span><br><br>
+
+<img src="../../img/xdrip/Battery_unrestrcted.jpg" alt="alt text" width="300" height="auto"></center><br>
+
+## <center>**Making sure xDrip+ will not be put in to sleep mode and enabled permissions**</center><br>
+Make sure these settings are checked, but still make sure they are exactly like shown below. 
+Every time your Mobile updates or you re-install, check again: disable and enable checkboxes that should be enabled to enforce the settings.<br>
+Go to <center><span style="background-color: #FFFF00">**Other misc options**</span><br>
+<span style="background-color: #FFFF00">**/ Settings / Less Common Settings / Other misc options**</span></center><br><br>
+
+And make sure these are selected!<br>
+<center><img src="../../img/xdrip/Other misc options.jpg" alt="alt text" width="300" height="auto"></center><br><br>
+
+## **Enable location & other XDRIP+ Permissions**<br>
+
+From Android versions <a href="https://en.wikipedia.org/wiki/Android_version_history#Android_6.0_Marshmallow" target="_blank" title="Android version 6 Marshmallow">(6 Marshmallow (and above),</a> location is required to allow Bluetooth Low Energy connection.<br>
+If you will be using xDrip+ with a Bluetooth sensor or bridge you must enable location and allow xDrip+ to access it. See your mobiles instructions as it will depend on Android version and manufacturer in my case I’m using a Samsung Note10+
+See My video on all the permissions I have allowed Xdrip+ too have on my mobile.
+
+
+<iframe id="video294" width="860" height="615" src="https://www.youtube.com/embed/yHv86lZ2s58" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br>
+<center>
+## Next:see<br>
+### <a href=" https://atlas-night-out.github.io/my-project/user-guide/xdrip/xdrip%20-%20datasource/" target="_blank" title="Adding your Data Source">Adding your Data Source</a> <br><br></center>
+
+
 
 
 <!--  

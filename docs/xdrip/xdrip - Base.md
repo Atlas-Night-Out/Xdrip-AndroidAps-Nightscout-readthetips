@@ -1,9 +1,9 @@
 <!-- this is not on github server its local only and run my mkdocs server!
 docs made by D.Galloway 2019- 2021-->
-<img width="860" height="615" border="0" align="center"  src="../../img/xdrip/xdrip+ original logo.jpg" title="Xdrip+"/></a><br>
+<img width="460" height="315" border="0" align="center"  src="../../img/xdrip/xdrip+ original logo.jpg" title="Xdrip+"/></a>
 
-# **BASE_URL** <br>
-
+# **BASE_URL**
+             
 ### xdrip+ Base_URL <br>
 
 ### 1. **Set up xDrip to upload to your Nightscout** <br>
@@ -95,7 +95,7 @@ Now email the person who is to follow you, and paste the URL into the email, and
 
 ### <a href=" https://youtu.be/Pt4r42xXckQ" target="_blank" title="First create a user account by going to">Adding Nightscout to your Mobile Desktop Pt3 Video</a>
 <iframe id="video10" width="560" height="315" src="https://www.youtube.com/embed/Pt4r42xXckQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
-### d.
+### 
 
 
 

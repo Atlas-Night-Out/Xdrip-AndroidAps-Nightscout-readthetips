@@ -159,10 +159,7 @@ By <a href="https://apps.garmin.com/en-US/developer/b2d30711-2708-4f3a-8e83-009c
   <img width="auto" height="auto" border="0" align="center"  src="../../img/Diabetesuk/pngarea.com_rutgers-logo-png-8467605.png" title="Diabetes UK"/>
 </a>               Why Not take visit [UK Wide Cycle Ride - Diabetes.uk](https://cycle.diabetes.org.uk/) or  [Swim22 - Diabetes.uk](https://swim22.diabetes.org.uk/) for your Diabetes Needs! 
 
-If you would like to donate to me for helping with these documents please visit where I try to attempt to do one of the challenge each year to raise funds for Diabetes UK I'm yet again doing one on the 1st September 2021 (Thank you for your kind donations!)  
 
-<a href="https://cycle.diabetes.org.uk/fundraising/david-galloway2023" target="_blank">
-  <img width="auto" height="auto" border="0" align="center"  src="../../img/Diabetesuk/uk_wide_cycle_ride_.jpg" title="Diabetes UK Wide cycle Ride"/>
 
 
 
