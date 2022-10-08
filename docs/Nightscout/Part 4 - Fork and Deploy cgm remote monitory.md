@@ -243,9 +243,9 @@ e) Verify the master branch is selected and click <span style="background-color:
 f) Your site will <span style="background-color: #FFFF00">**update automatically**</span> every time you update the GitHub repository now.<br><br>
 <img width="auto" height="auto" border="0" align="center"  src="../../img/Fork and Deploy cgm remote monitory Part 4/Verify the master branch_2.jpg" title="Verify the master branch"/></a>	<br><br>
 
-## If you have any issues or concerns please post your questions in the  <a href="https://www.facebook.com/groups/5390196001057776" target="_blank">
+## If you have any issues or concerns please post your questions in the  <center><a href="https://www.facebook.com/groups/5390196001057776" target="_blank">
   <img width="50" height="auto" border="0" align="center"  src="../../img/facebook/facebook-logo-png-11.png" title="Facebook group xdrip uk"/></a> <a href=" https://www.facebook.com/groups/5390196001057776" target="_blank" title="Facebook xDrip - UK"> Facebook Group</a> or you can go to the <span style="background-color: #FFFF00">**Discussions**</span> on <a href=" https://github.com/NightscoutFoundation/xDrip/discussions" target="_blank" title="Discussions"> Github</a><a href="https://www.facebook.com/groups/5390196001057776" target="_blank">
-  <img width="50" height="auto" border="0" align="center"  src="../../img/Github/github-logo-icon-16155.png" title="Github"/></a><br>
+  <img width="50" height="auto" border="0" align="center"  src="../../img/Github/github-logo-icon-16155.png" title="Github"/></a><br></center>
 
 <br>
 
