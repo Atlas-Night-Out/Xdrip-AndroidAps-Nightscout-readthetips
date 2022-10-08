@@ -6,7 +6,7 @@ For full Website content visit [The Diabetic Way](https://www.thediabeticway.co.
 
 ###  **Nightscout on Google Cloud**<br>
 
-<img width="600" height="auto" border="0" align="center"  src="../../img/Nightscout/Google Cloud/Google Cloude_setup_.jpg" title="Google Cloude_setup"/></a>	
+<img width="auto" height="auto" border="0" align="center"  src="../../img/Nightscout/Google Cloud/Google Cloude_setup_.jpg" title="Google Cloude_setup"/></a>	
 
 
 Credit too:Big thanks go to jamorham, the current xDrip head developer, for the idea, putting it together, implementing the installer, and testing everything with myself and Navid doing the documents with myself Dave!.<br>
