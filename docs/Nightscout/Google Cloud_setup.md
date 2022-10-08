@@ -6,11 +6,15 @@ For full Website content visit [The Diabetic Way](https://www.thediabeticway.co.
 
 ###  **Nightscout on Google Cloud**<br>
 
-<img width="auto" height="auto" border="0" align="center"  src="../../img/Nightscout/Google Cloud/Google Cloude_setup_.jpg" title="Google Cloude_setup"/></a>	
+<img width="600" height="auto" border="0" align="center"  src="../../img/Nightscout/Google Cloud/Google Cloude_setup_.jpg" title="Google Cloude_setup"/></a>	
 
-Credit too:Big thanks go to jamorham, the current xDrip head developer, for the idea, putting it together, implementing the installer, and testing everything with myself and Navid doing the documents with me David!.<br>
 
-I have not fully tested this so please let us all know how you go on with it! Thank you!
+Credit too:Big thanks go to jamorham, the current xDrip head developer, for the idea, putting it together, implementing the installer, and testing everything with myself and Navid doing the documents with myself Dave!.<br>
+
+If you already have a working Nightscout site working, there is no rush to switch to this yet.
+It is  still in  testing stages and improving this if we can. It’s not fully finished yet, but on my testing it seems ok butI was not able to use AndroidAPS with it as of yet!<br>
+
+I have not fully tested this so please let us all know how you go on with it! Thanks!<br>
 
 Upcoming changes made:
 Added Terminal Process:old heroku accout to it. 
