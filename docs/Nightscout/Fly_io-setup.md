@@ -55,7 +55,7 @@ We need to use Xdrip to upload are CGM readings to Nightscout and it will need y
 Also see here if you like other wise carry on below!S<br>
  [Base URL - Set up xDrip to upload to your Nightscout ±](../xdrip/xdrip%20-%20Base.md#1-set-up-xdrip-to-upload-to-your-nightscout) <br>
 
-This is what you need to do in xDrip on your master (Main)  phone.<br>
+This is what you need to do in xDrip on your master (Main) Mobile.<br>
 #### a. Go to xDrip Settings −> Cloud Upload −> Nightscout Sync (REST-API)<br>
 <center><img width="250" height="Auto" border="0" align="center"  src="../../img/Nightscout/Google Cloud/xdrip settings.jpg" title=" xdrip settings"/></a><img width="250" height="Auto" border="0" align="center"  src="../../img/Nightscout/Google Cloud/xdrip cloud upload.jpg" title=" Cloud Upload"/></a><img width="250" height="Auto" border="0" align="center"  src="../../img/Nightscout/Google Cloud/xdrip Nightscout Sync (REST-API).jpg" title=" Nightscout Sync (REST-API)"/></a></center><br>
 #### b. Select Enable at the top, if not already enabled.<br>

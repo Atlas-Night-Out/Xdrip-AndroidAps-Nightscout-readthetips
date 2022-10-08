@@ -8,7 +8,8 @@ xDrip± provides an easy way to copy settings from one Mobile to another.
 
 Show Settings QR Code
 Will Show settings QR code displays a QR code containing xDrip+ settings.
-Go to Hamburger/ Settings/Show Settings QR codes/Share Settings via QR code
+Go to Hamburger/ Settings/Show Settings QR codes/Share Settings via QR code<br>
+
 <img width="500" height="auto" border="0" align="center"  src="../../img/xdrip/left Hamburger bar.jpg" title="Hamburger Menu"/></a><br>
 
 <img width="500" height="auto" border="0" align="center"  src="../../img/xdrip/show settings QR codes.jpg" title="Show settings QR codes"/></a><BR>
@@ -38,12 +39,16 @@ You can then scan the QR code displayed on another phone in order to copy the se
 <img width="auto" height="auto" border="0" align="center"  src="../../img/xdrip/Auto Configure_viewfinder.jpg" title="Auto Configure Viewfinder"/></a>
  
 Current settings will be overwritten.
-Restart your phone to apply the changes.
+Restart your phone to apply the changes.<br>
+
+Your follower should now be able to see your Readings. You can check this by going to your System Status Followers page, you will need to swipe to the left or right! <br>
+
+<img width="500 height="auto" border="0" align="center"  src="../../img/xdrip/System Status Followers.jpg" title="System Status Followers"/></a>
 
 ## **To Be continued!**<br>
 
 
-### My Typo, error, missing information or changes 
+### Any Typo, error, missing information or changes 
 
 If you have any issues or concerns please post your questions in the  <a href="https://www.facebook.com/groups/5390196001057776" target="_blank">
   <img width="50" height="auto" border="0" align="center"  src="../../img/facebook/facebook-logo-png-11.png" title="Facebook group xdrip uk"/></a> <a href=" https://www.facebook.com/groups/5390196001057776" target="_blank" title="Facebook xDrip - UK"> Facebook Group</a> or you can go to the <span style="background-color: #FFFF00">**Discussions**</span> on <a href=" https://github.com/NightscoutFoundation/xDrip/discussions" target="_blank" title="Discussions"> Github</a><a href="https://www.facebook.com/groups/5390196001057776" target="_blank">

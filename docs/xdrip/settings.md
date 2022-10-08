@@ -50,7 +50,7 @@ These two targets will decide when the graph BG dots change colour above or belo
 These settings vary on the data source selected.<br>
 <img width="500" height="auto" border="0" align="center"  src="../../img/xdrip/Hardware Data Source.jpg" title="Hardware Data Source"/></a><br>
 
-## 7. [xdrip±  Auto Configure](../xdrip/Copy-settings.md#xdrip-auto-configure)<br>
+## 7. [xdrip±  Auto Configure](../xdrip/settings.md#7-xdrip-auto-configure)<br>
 Auto configure helps you copy settings between two xDrip+ apps installed on different Mobiles.<br>
 <img width="500" height="auto" border="0" align="center"  src="../../img/xdrip/Data Synce Auto Configure.jpg" title="Auto Configure"/></a><br>
 
