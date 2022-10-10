@@ -6,16 +6,20 @@ For full Website content visit [The Diabetic Way](https://www.thediabeticway.co.
 
 ###  **Fly_io for Nightscout**<br>
 
+<img width="600" height="auto" border="0" align="center"  src="../../img/Nightscout/Fly_io/Fly Setup_1665402118863.jpg" title="Turbocharge your Heroku App with Fly"/></a><br>	
 
-Credit too:Big thanks to Robby,  for the idea, links putting it together, implementing the installer, and testing everything with myself for the docs, and Robby for the tips.<br>
+Credit too: Big thanks to Robby,  for the idea, links putting it together, implementing the installer, and testing everything with myself for the docs, and Robby for the tips.<br>
 
 ## Upcoming changes made:
-Process:old heroku accout to a new Turbo Fly_io Account. <br><br>
+Process:old heroku account  to a new Turbo Fly_io Account. <br><br>
+
+If you already have a working Nightscout site working, there is no rush to switch to this yet.
+It is  still in  testing stages and improving this if we can. On testing this setup was easy and trouble free to me, only issues is on how to change your details of you need to as in your Config vars and secret password, which I will be looking into for you all!<br><br>
 
 <center><img width="auto" height="auto" border="0" align="center"  src="../../img/Nightscout/Fly_io/Turbocharge your heroku app with fly.jpg" title="Turbocharge your Heroku App with Fly"/></a>	</center><br>
 
 ### **So with all that, let’s set up a free Turbo Account on Fly_io <br>**
-You will need to keep to the free Tier for this setup to be free, in you having a nightscout site again totaly free. This could change and we are not fully knowing for how long it will be free, all we know is as long as you stick to the free tire Requirements it should be free. Lets hope for life.<br>
+You will need to keep to the free Tier for this setup to be free, in you having a Nightscout site again totally free. This could change and we are not fully knowing for how long it will be free; all we know is as long as you stick to the free tire Requirements it should be free. Let’s hope for life.<br>
 
 ## [Fly_io Account ±]() <br>
 
@@ -27,11 +31,11 @@ You will need to keep to the free Tier for this setup to be free, in you having 
 
 ### 2. Fill in your organization name, pick a App name you would like (I have just done an example in the image above for these instruction!) and choose your Heroku app you used on Heroku<br>
 You will then be asked to fill in your payment details
-Fill in your payment details, don't worry,you will not be charged if you keep to a free tier as outlined.
+Fill in your payment details, don't worry, you will not be charged if you keep to a free tier as outlined.
 <br>
 <center><img width="auto" height="auto" border="0" align="center"  src="../../img/Nightscout/Fly_io/fly payment.jpg" title="Your hostname"/></a>	</center><br>
 
-### 3. After filling in and setting up your payment details go back to the page you just come from before you filled in the payment details, and carry on the Deploying process  from the Heroku site. This can take a while to do..<br>
+### 3. After filling in and setting up your payment details go back to the page you just come from before you filled in the payment details and  carry on the Deploying process  from the Heroku site. This can take a while to do.<br>
 
 <center><img width="auto" height="auto" border="0" align="center"  src="../../img/Nightscout/Fly_io/Deploying.jpg" title="Deploying"/></a>	</center>
 
@@ -49,10 +53,10 @@ You should now be able to see or be at your Fly_io Dashboard and be presented wi
 
 ##  **We now need to setup Xdrip**
 
-We need to use Xdrip to upload are CGM readings to Nightscout and it will need you to enter the correct URL in it's setting for Nightscout to start receiving readings from your CGM!<br> You may use other software other than Xdrip+ but for this tutorial I will be using xdrip+ you will have to excuse me if I just put xdrip as I keep forgetiing to put the + 
+We need to use Xdrip to upload are CGM readings to Nightscout and it will need you to enter the correct URL in it's setting for Nightscout to start receiving readings from your CGM!<br> You may use other software other than Xdrip+ but for this tutorial I will be using xdrip+ you will have to excuse me if I just put xdrip as I keep forgetting to put the + 
 
 ### 6. **Set up xDrip to upload to your Nightscout** <br>
-Also see here if you like other wise carry on below!S<br>
+You can also see the link below if you like other wise carry on below it!<br>
  [Base URL - Set up xDrip to upload to your Nightscout ±](../xdrip/xdrip%20-%20Base.md#1-set-up-xdrip-to-upload-to-your-nightscout) <br>
 
 This is what you need to do in xDrip on your master (Main) Mobile.<br>
@@ -60,10 +64,10 @@ This is what you need to do in xDrip on your master (Main) Mobile.<br>
 <center><img width="250" height="Auto" border="0" align="center"  src="../../img/Nightscout/Google Cloud/xdrip settings.jpg" title=" xdrip settings"/></a><img width="250" height="Auto" border="0" align="center"  src="../../img/Nightscout/Google Cloud/xdrip cloud upload.jpg" title=" Cloud Upload"/></a><img width="250" height="Auto" border="0" align="center"  src="../../img/Nightscout/Google Cloud/xdrip Nightscout Sync (REST-API).jpg" title=" Nightscout Sync (REST-API)"/></a></center><br>
 #### b. Select Enable at the top, if not already enabled.<br>
 <img width="400" height="Auto" border="0" align="center"  src="../../img/Nightscout/Fly_io/Nightscout sync (REST-API).jpg" title=" Enable Nightscout Sync (REST-API)"/></a>
-#### c. Tap on Base URL. Enter the following Url. Remeber yours will be different than what I show you here. You will need to add your Secret-API and your Host to the set out code!
+#### c. Tap on Base URL. Enter the following URL. Remember yours will be different than what I show you here. You will need to add your Secret-API and your Host to the set out code!
 https://<span style="background-color: #FFFF00">**ThisIsyourSecret-API**</span>@<span style="background-color: #26AF06">**thisisyourHostName**</span>/api/v1/<br>
 If you  forgot or lose your secret-API it can be located at Heroku/ Settings/Config Vars and look down the list for API_SECRET<br>
-This will now be located in a differrent place now within Fly_io<br>
+This can now be located in a different place now within Fly_io<br>
 
 Your Host name is located in your Fly_io Dashboard.
 <center><img width="Auto" height="Auto" border="0" align="center"  src="../../img/Nightscout/Fly_io/example Base URL.jpg" title="Adding Your Base"/></a></center><br>
@@ -71,15 +75,15 @@ Your Host name is located in your Fly_io Dashboard.
 #### d. (Reminder)Tap on Base URL. Enter the following. https://API-Secret@hostname/api/v1/  <br>
 
 That’s it. Your xDrip readings should now upload to your Nightscout web site.<br>
-If you do not see levels after 5 mins, triple check the way you have added your Base URL correctly, it is very case sensitive!with no spaces<br>
+If you do not see levels after 5 mins, triple check the way you have added your Base URL correctly, it is very case sensitive! With no spaces<br>
 
 ### 7. **Set up xDrip uploader to go to your AndroidAPS** <br>
 #### Basic settings for Most CGM 
-This is the same has above except your Url will be your web address for Fly_io Host address, not like xdrip's where it has Both Secret and Fly_io host on one line with the added api/v1 at the end of it<br>
-On AASP it is done seperatly, you add your Nightscout Web URL and then add your Secret in NS API secret below.There is no api/v1 in it<br>
+This is the same has above except your URL will be your web address for Fly_io Host address, not like xdrip's where it has Both Secret and Fly_io host on one line with the added api/v1 at the end of it<br>
+On AASP it is done separately, you add your Nightscout Web URL and then add your Secret in NS API secret below. There is no api/v1 in it<br>
 <center><img width="350" height="Auto" border="0" align="center"  src="../../img/Nightscout/Fly_io/AAPS_Base URL.jpg" title="AAPS Base"/></a></center><br>
 
-#### a. Set your Nightscout URL e.g. https://yoursitesname.fly.dev/<br>
+#### a. Set your Nightscout URL e.g.,  https://yoursitesname.fly.dev/<br>
 
 #### b. You will also need to Disable <span style="background-color: #FFFF00">**Upload treatments**</span> and <span style="background-color: #FFFF00">**Back-fill data**</span> from xDrip+, or else treatments can be doubled in AAPS leading to false COB and IOB.<br>
 
@@ -100,10 +104,11 @@ You can do this at: Settings/Cloud Upload/Nightscout Sync (REST-API) /<br>
 
 ### 8. **Setting up xDrip as a (follower) like for your dad from the example from above**
 
-This will be on your <span style="background-color: #FFFF00">**followers mobile phone,**</span> not your own.
+This will be on your <span style="background-color: #FFFF00">**follower’s mobile phone,**</span> not your own.
 #### 1. In the xDrip Settings / Hardware Data Source, choose “Nightscout Follower” as the hardware data source. See  [xdrip - Base URL](../xdrip/xdrip%20-%20Base.md#1-setting-up-xdrip-as-a-follower-for-your-dad) for more information<br>
-<center><img width="250" height="Auto" border="0" align="center"  src="../../img/Nightscout/Google Cloud/xdrip settings.jpg" title=" xdrip settings"/><img width="250" height="Auto" border="0" align="center"  src="../..//img/Nightscout/Google Cloud/Hardware Data Source1.jpg" title=" Select Hardware Data Source"/></a><img width="250" height="Auto" border="0" align="center"  src="../../img/Nightscout/Google Cloud/Hardware Data Source.jpg" title=" Nightscout Follow"/></a></center><br>
+<center><img width="250" height="Auto" border="0" align="center"  src="../../img/Nightscout/Google Cloud/xdrip settings.jpg" title=" xdrip settings"/><img width="250" height="Auto" border="0" align="center"  src="../../img/Nightscout/Google Cloud/Hardware Data Source1.jpg" title=" Select Hardware Data Source"/></a><img width="250" height="Auto" border="0" align="center"  src="../../img/Nightscout/Google Cloud/Hardware Data Source.jpg" title=" Nightscout Follow"/></a></center><br>
 
+## To Be continued!
 
 ##  **Issues or Concerns** 
 
@@ -111,7 +116,7 @@ If you have any issues or concerns please post your questions in the  <a href="h
   <img width="50" height="auto" border="0" align="center"  src="../../img/facebook/facebook-logo-png-11.png" title="Facebook group xdrip uk"/></a> <a href=" https://www.facebook.com/groups/5390196001057776" target="_blank" title="Facebook xDrip - UK"> Facebook Group</a> or you can go to the <span style="background-color: #FFFF00">**Discussions**</span> on <a href=" https://github.com/NightscoutFoundation/xDrip/discussions" target="_blank" title="Discussions"> Github</a><a href="https://www.facebook.com/groups/5390196001057776" target="_blank">
   <img width="50" height="auto" border="0" align="center"  src="../../img/Github/github-logo-icon-16155.png" title="Github"/></a>
 
-  ## To Be continued!
+  
 
 	
 
@@ -180,6 +185,7 @@ adding 	Yellow Hightligher!!!!!!!!	with bold too
 adding 	Green Hightligher!!!!!!!!	with bold too
 <span style="background-color: #26AF06">**Marked text**</span>
 
+Image
 <a>
   <img width="auto" height="auto" border="0" align="center"  src="/img/Nightscout/Time to Update Nightscout.png" title="Update Tool"/></a>	
 
