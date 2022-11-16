@@ -1,13 +1,13 @@
 <!-- this is not on github server its local only and run my mkdocs server!
-docs made by tunasalad 2019- 2021-->
+docs made by tunasalad 2019- 2023-->
 
 For full Website content visit [The Diabetic Way](https://www.thediabeticway.co.uk/index.php/en/).
 <br>
 <br>
 Thank you Julie! 
-<img width="auto" height="auto" border="0" align="center"  src="../../img/Xdrip - Setting up Glucose Meters/Contour Next one_logo.jpg"Contour Next One Logo"/>
+<img width="auto" height="auto" border="0" align="center"  src="../../img/Xdrip - Setting up a Glucose Meters/Contour Next one_logo.jpg"Contour Next One Logo"/>
 
-## <span style="color:#111478">Xdrip - Setting up Glucose Meters</span> <br> 
+## <span style="color:#111478"> Setting up CONTOUR®NEXT ONE Meter onto Xdrip+</span> <br> 
 
 ## video instructions
 <table width="1166" height="500" border="1" style="border-color: #000000; background-color: #ffffff;" cellpadding="1" cellspacing="1" height="98">
