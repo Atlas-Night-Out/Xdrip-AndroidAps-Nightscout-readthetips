@@ -48,7 +48,7 @@ nav:
         - 'System Status': 'xdrip/xdrip - System Status.md'
         - 'Start Sensor': 'xdrip/xdrip - Start Sensor.md'
         - 'Connection issues – How to Fix': 'xdrip/Xdrip connection Problem fix.md'
-        - 'Setting up Glucose Meters': 'xdrip/Xdrip - Setting up Glucose Meters.md'
+        - 'Setting up Glucose Meter': 'xdrip/Xdrip - Setting up Glucose Meters.md'
      - Nightscout :
         - 'Part 1 - Setting up Github': 'Nightscout/Setting_up_Github_Account_part1.md'
         - 'Part 2 Setting up Heroku Account ': 'Nightscout/Setting_up_Heroku_Account_part2.md'
