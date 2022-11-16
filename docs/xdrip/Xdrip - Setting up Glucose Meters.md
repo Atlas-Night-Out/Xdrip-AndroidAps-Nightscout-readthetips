@@ -5,7 +5,7 @@ For full Website content visit [The Diabetic Way](https://www.thediabeticway.co.
 <br>
 <br>
 Thank you Julie! 
-<img width="auto" height="auto" border="0" align="center"  src="../../img/Xdrip - Setting up a Glucose Meters/Contour Next one_logo.jpg"Contour Next One Logo"/>
+<img width="auto" height="auto" border="0" align="center"  src="../../img/Xdrip - Setting up Glucose Meters/Contour Next one_logo.jpg"Contour Next One Logo"/><br>
 
 ## <span style="color:#111478"> Setting up CONTOUR®NEXT ONE Meter onto Xdrip+</span> <br> 
 
