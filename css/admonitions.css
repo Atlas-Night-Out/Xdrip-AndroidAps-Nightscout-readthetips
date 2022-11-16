@@ -1,0 +1,114 @@
+/* Common styles for all types */
+.admonition {
+  padding: 10px;
+  margin: 20px 0;
+  border: 1px solid #eee;
+  border-left-width: 8px;
+  border-radius: 3px;
+  background-color: #fCfCfc;
+}
+.admonition .admonition-title {
+  margin-top: 0;
+  padding-top: 0;
+  margin-bottom: 0px;
+}
+.admonition p:last-child, .admonition ul:last-child, .admonition ol:last-child {
+  margin-bottom: 0;
+}
+.admonition code {
+  border-radius: 3px;
+}
+
+/* Tighten up space between multiple admonitions */
+.admonition + .admonition {
+  margin-top: -5px;
+}
+
+/* Variations */
+.admonition.danger {
+  border-left-color: #7dc991;
+  background-color: #d1e8d7;
+  border-bottom-color: #d1e8d7;
+  border-right-color: #d1e8d7;
+  border-top-color: #d1e8d7;
+  font-size: inherit;
+  font-family: inherit;
+  font-weight: 500;
+}
+.admonition.danger .admonition-title {
+  color: #7dc991;
+  background-color: #d1e8d7;
+  border-bottom-color: #d1e8d7;
+  font-size: inherit;
+  font-family: inherit;
+  font-weight: 500;
+}
+.admonition.warning {
+  border-left-color: #f0ad4e;
+  background-color: #FFD8A0;
+  border-bottom-color: #FFD8A0;
+  border-right-color: #FFD8A0;
+  border-top-color: #FFD8A0;
+  font-size: inherit;
+  font-family: inherit;
+  font-weight: 500;
+  border-radius: 10px;
+  
+}
+.admonition.warning .admonition-title {
+  color: #a66a16;
+  background-color: #FFD8A0;
+  border-bottom-color: #FFD8A0;
+  font-size: 1.4em;
+  font-family: inherit;
+  font-weight: 500;
+
+  border-radius: 0px;
+  -moz-border-radius-topleft: 20px;
+  -webkit-border-top-left-radius: 20px;
+  -khtml-border-radius-topleft: 20px;
+  border-top-left-radius: 20px;
+  -moz-border-radius-topright: 20px;
+  -webkit-border-top-right-radius: 20px;
+  -khtml-border-radius-topright: 20px;
+  border-top-right-radius: 20px;
+
+}
+.admonition.info {
+  border-left-color: #009FE3;
+  background-color: #BAEAF8;
+  border-bottom-color: #009FE3;
+  border-right-color: #009FE3;
+  border-top-color: #009FE3;
+  border-radius: 10px;
+}
+.admonition.info .admonition-title {
+  color: #1993B6;
+  background-color: #BAEAF8;
+  border-bottom-color: #BAEAF8;
+  
+  border-radius: 0px;
+  -moz-border-radius-topleft: 20px;
+  -webkit-border-top-left-radius: 20px;
+  -khtml-border-radius-topleft: 20px;
+  border-top-left-radius: 20px;
+  -moz-border-radius-topright: 20px;
+  -webkit-border-top-right-radius: 20px;
+  -khtml-border-radius-topright: 20px;
+  border-top-right-radius: 20px;
+}
+
+/* Title */
+.admonition-title {
+  font-size: inherit;
+  font-family: inherit;
+  font-weight: 500;
+  /*line-height: 1.1;*/
+}
+
+.admonition.info {
+  font-size: inherit;
+  font-family: inherit;
+  font-weight: 500;
+  /*line-height: 1.1;*/
+}
