@@ -1,57 +1,76 @@
 <!-- this is not on github server its local only and run my mkdocs server!
-docs made by D.Galloway 2019- 2022-->
+docs made by D.Galloway 2019- 2021-->
 
-# Download xDrip <br><br>
+Starting a sensor in xDrip+ has very different ways depending on your sensor type.
+## [xdrip± Back to Data Source](../xdrip/xdrip%20-%20hardwaredatasource.md#xdrip-data-source) <br>
 
 
-## PC Download
-[<img src="../../img/xdrip/xdrip pc download.jpg">](https://github.com/NightscoutFoundation/xDrip/releases)
+## Starting a Dexcom G6 Dexcom One Sensor
+
+Go to Hamburger/ <br>
+
+<img width="500" height="auto" border="0" align="center"  src="../../img/xdrip/left Hamburger bar.jpg" title="Hamburger Menu"/></a><br>
+
+Start Sensor/ <br>
+
+<img width="300" height="auto" border="0" align="center"  src="../../img/xdrip/start sensor.jpg" title="Start Sensor"/></a><br><br>
+
+## Start New Sensor/
+
+<img width="auto" height="auto" border="0" align="center"  src="../../img/xdrip/start new sensor.jpg" title="Start Sensor"/></a><br>
+
+xDrip+ will take you to the [system status page,](../xdrip/xdrip%20-%20System%20Status.md#system-status) <br>
+ do not exit until the transmitter is connected.Stay on the system status page.<br>
+Come back here to follow on with the setup!<br>
+
+ During the 2 hour warm-up stage xDrip+ will not display CGM data, you will see an indication on the main graph of the time left until it will start to display your readings.<br>
+
+Check the system status from time to time to make sure the transmitter is still connected. If connection falls, check your G5 or G6 settings and connection.<br>
+
+<img width="auto" height="auto" border="0" align="center"  src="../../img/xdrip/please wait sensor wars up.jpg" title="Time Left to warm up finishes"/></a><br>
+
+## Sensor code 
+
+Once warm-up is complete, if you're using a G6 or Dexcom ONE, you will be asked to enter the sensor calibration code.<br>
+This is the 4 digits number indicated on your sensor sticker protection when you was insertin git into you. <br>
+Best to take a picture of it to avoid losing it.<br>
+Do not start a sensor with a code different from the one received with it.<br>
+If you lose the sensor code, see below: No code start.<br>
+
+
+
+<img width="500" height="auto" border="0" align="center"  src="../../img/xdrip/G6 Sensor code.jpg" title="Sensor ode"/></a><br>
+
+!!!info  
+    No code start
+    If you use the sensor code 0000 (4 zeroes) you will start the G6 or ONE sensor in G5 mode: two calibrations at 12 hours distance then once every 24 hours will be required.
+    If you're using a G5 you will need to calibrate.
+
+
+
+
+<table width="1166" height="148" border="1" style="border-color: #000000; background-color: #ffffff;" cellpadding="1" cellspacing="1" height="98">
+<tbody>
+<tr style="height: 16px;">
+<td style="width: 1158px; border-color: #000000; background-color: #FF0000;" fff=""><span style="font-size: 14pt;"><strong><span style="color: #ffffff;">Warning! Do not use your mobiles bluetooth connection </span></strong></span></td>
+</tr>
+<tr style="height: 56.4063px;">
+<td style="width: 1158px; "350 border-color: #000000;><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 14pt;">
+
+Do not use your mobiles auto Bluetooth connection to pair your Transmitter! If it does unpair it, before you begin. xdrip+ will ask you to do it!  <a href="https://clarity.dexcom.com/" target="_blank" title="Dexcom USA Account">See Here</a> <a href="https://clarity.dexcom.eu/" target="_blank" title="Bluetooth connection"> </a> 
+</span></td>
+</tr>
+</tbody>
+</table><br>
+
+
+
+
+  
+
+## To Be continued!
+
 <br>
-
-To Download latest version of Xdrip on a Pc , <a href="https://github.com/NightscoutFoundation/xDrip/releases " target="_blank" title="PC xdrip latest version">Xdrip+</a>  and go to the  "Latest version". <br>
-From a "mobile" You will need to go to a web browser on your mobile and
- Download the latest version of Xdrip <a href="https://jamorham.github.io/#xdrip-plus" target="_blank" title="Mobile xdrip latest version">from Here</a> <br><br>
-
-## Mobile download
-[<img src="../../img/xdrip/xdrip mobile download.jpg">](https://jamorham.github.io/#xdrip-plus)
-
-No need to uninstall first. But I would would recomend you do! And don't forget to backup your settings first!<br> 
-
-<centre><iframe width="860" height="615" align="center" src="https://www.youtube.com/embed/C3n9cKoD3Dg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </centre><br><br>
-
-## Forked versions
-
-Some developers add features and customizations that are <span style="background-color: #FFFF00">**not available**</span> in the approved pre-releases until the author will create a Pull Request in xDrip+ and get it merged in the main project.<br>
-
-!!!warning "Updating forked Versions Risks"  
-    You can use these editions but need to understand they might only be supported only by their designer.<br>
-    **xDrip+ automated updates won't work with forked versions.**  
-    Also remember you cannot install a forked version if you have an official version installed on your phone:<br>
-    You will need to uninstall one or the other, either way around it first. (Forked or Official) only one can be installed.
-
-
-Bence's forks for CareLink follower you can get here [Bence's forks](https://github.com/benceszasz/xDripCareLinkFollower/releases). <br>
-
-Once downloaded continue to [installation](../xdrip/xdrip%20-%20install.md#install-xdrip) <br>
-<br>
-
-
-## Variants
-
-You cannot install xDrip+ many times on the same phone. But xDrip+ variants have different names.<br>
-So, you can install xDrip+ and an xDrip+ variant or even more. This essentially lets you install multiple instances of xDrip+ on the same phone.<br>
-
-This can prove exceptionally useful to follow more than one person at a time.<br>
-
-<img width="500" height="auto" border="0" align="center"  src="../../img/xdrip/Variants.jpg" title="Variants"/></a>
-<br><br>
-
-
-To download nightly <a href=" https://drive.google.com/drive/folders/0B6mvYVNVC-fOWkxnVF80dlFabjQ?resourcekey=0-ebguuiPuB1wUI9Rp2zjMNg" target="_blank" title="variants.">variants</a><br><br><br>
-
-Once you have downloaded a variant from Google Drive, continue like a normal [Setting up xDrip+ install ](../xdrip/xdrip%20-%20Download.md#pc-download).<br>
-<br><br>
-
 <a href="https://www.diabetes.org.uk/" target="_blank">
  <center> <img width="auto" height="auto" border="0" align="center"  src="../../img/Diabetesuk/pngarea.com_rutgers-logo-png-8467605.png" title="Diabetes UK"/>
 </a>               Why Not take visit [UK Wide Cycle Ride - Diabetes.uk](https://cycle.diabetes.org.uk/) <span style="background-color: #FFFF00">**or**</span>  [Swim22 - Diabetes.uk](https://swim22.diabetes.org.uk/) <span style="background-color: #FFFF00">**or**</span> [Month of Miles - Diabetes.uk](https://monthofmiles.diabetes.org.uk/?gclid=CjwKCAjwz5iMBhAEEiwAMEAwGO2_OoOGRQdN3BDD3NUQ8WoYAsJsxd1YUJN8dSVJowD1E4AjJ1RdVxoC9bgQAvD_BwE) for all of your Diabetes Needs!
@@ -80,11 +99,19 @@ adding 	Yellow Hightligher!!!!!!!!	with bold too
 <span style="background-color: #FFFF00">**Marked text**</span>
 
 
+************************************************************************
+
+!!!info  
+    The Bluetooth watchdog and G5 Bluetooth watchdog with turn off then on your phone Bluetooth, this will lead to a temporary Bluetooth disconnection on all connected devices. You might want to disable this feature if you use AAPS and your bridge/pump doesn't recover automatically Bluetooth connection.
+
+    ********************************************************************
+
 <a>
   <img width="auto" height="auto" border="0" align="center"  src="/img/Nightscout/Time to Update Nightscout.png" title="Update Tool"/></a>	
 
 
-
+link
+<a href=" https://github.com/" target="_blank" title="First create a user account by going to">Click Here</a>
 
 Adding a image with link
 <a href="https://www.youtube.com/watch?v=MFsbm45b6YY" target="_blank">
@@ -124,15 +151,9 @@ font size
 
 </font>
 
-**************************************
-
 link
 <a href=" https://github.com/" target="_blank" title="First create a user account by going to">Click Here</a>
 
-***********************
-[Part 3 Setting up xDrip+ install ](../xdrip/xdrip%20-%20Download.md#pc-download).<br>
-
-**********************************
 
 Table
 | Syntax | Description |

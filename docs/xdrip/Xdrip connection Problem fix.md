@@ -1,56 +1,38 @@
 <!-- this is not on github server its local only and run my mkdocs server!
-docs made by D.Galloway 2019- 2022-->
-
-# Download xDrip <br><br>
+docs made by tunasalad 2019- 2023-->
 
 
-## PC Download
-[<img src="../../img/xdrip/xdrip pc download.jpg">](https://github.com/NightscoutFoundation/xDrip/releases)
+For full Website content visit [The Diabetic Way](https://www.thediabeticway.co.uk/index.php/en/).
 <br>
-
-To Download latest version of Xdrip on a Pc , <a href="https://github.com/NightscoutFoundation/xDrip/releases " target="_blank" title="PC xdrip latest version">Xdrip+</a>  and go to the  "Latest version". <br>
-From a "mobile" You will need to go to a web browser on your mobile and
- Download the latest version of Xdrip <a href="https://jamorham.github.io/#xdrip-plus" target="_blank" title="Mobile xdrip latest version">from Here</a> <br><br>
-
-## Mobile download
-[<img src="../../img/xdrip/xdrip mobile download.jpg">](https://jamorham.github.io/#xdrip-plus)
-
-No need to uninstall first. But I would would recomend you do! And don't forget to backup your settings first!<br> 
-
-<centre><iframe width="860" height="615" align="center" src="https://www.youtube.com/embed/C3n9cKoD3Dg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </centre><br><br>
-
-## Forked versions
-
-Some developers add features and customizations that are <span style="background-color: #FFFF00">**not available**</span> in the approved pre-releases until the author will create a Pull Request in xDrip+ and get it merged in the main project.<br>
-
-!!!warning "Updating forked Versions Risks"  
-    You can use these editions but need to understand they might only be supported only by their designer.<br>
-    **xDrip+ automated updates won't work with forked versions.**  
-    Also remember you cannot install a forked version if you have an official version installed on your phone:<br>
-    You will need to uninstall one or the other, either way around it first. (Forked or Official) only one can be installed.
-
-
-Bence's forks for CareLink follower you can get here [Bence's forks](https://github.com/benceszasz/xDripCareLinkFollower/releases). <br>
-
-Once downloaded continue to [installation](../xdrip/xdrip%20-%20install.md#install-xdrip) <br>
 <br>
+<img width="auto" height="auto" border="0" align="center"  src="../../img/xdrip/the groups blood my xdrip_logo_white_cloud.png" title="xdrip logo"/></a><br>
+## <span style="color:#111478">Xdrip connection Problem </span> <br>
 
+<iframe width="860" height="615" src="https://www.youtube.com/embed/WfKZ2_Hv3nE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>  
+<font size="4"> 
+### 1. Make sure you are up to date on xdrip. You can do this by <span style="background-color: #FFFF00">** Following the links below**</span><br>
+#### a. If you are working on a <span style="background-color: #FFFF00">** PC **</span> Download latest version of Xdrip from here <a href="https://github.com/NightscoutFoundation/xDrip/releases" target="_blank" title="xdrip Nightly build PC">Click Here</a> or goto https://github.com/NightscoutFoundation/xDrip/releases <br>
 
-## Variants
+ <a href="https://github.com/NightscoutFoundation/xDrip/releases" target="_blank">
+  <img width="auto" height="auto" border="0" align="center"  src="/img/xdrip/xdrip_nightly build logo.jpg" title="xdrip Nightly Build"/></a><br>
+#### b. If you are working on a <span style="background-color: #FFFF00">** Mobile - Go to Chrome on your mobile**</span> & Download the latest version of Xdrip on to your Android Mobile Device <a href=" https://jamorham.github.io/#xdrip-plus" target="_blank" title="Download Xdrip from mobile">Click Here to download</a> or go to https://jamorham.github.io/#xdrip-plus in your broswer.
+ <a href="https://jamorham.github.io/#xdrip-plus" target="_blank">
+  <img width="auto" height="auto" border="0" align="center"  src="../../img/xdrip/Nightly Build Mobile link.jpg" title="xdrip Nightly Build Mobile"/></a><br>
+### 2. Try un-pairing your Bluetooth on mobile if it’s still paired to it.You will have to wait the 2 hour warm up time again doing this process.<br>
+  <iframe width="860" height="615" src="https://www.youtube.com/embed/YVy_qxeHpog" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+#### a. Then go to your system status in xdrip and forget device and <span style="background-color: #FFFF00">** restart the Collector** </span>or you can try with just restarting collector first to avoid the two hour warm up but does not always work this way!<br>
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/tUckHWhXiFQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+#### b. Now Re-boot your mobile <br>
+#### c. After re-booting, go back to <span style="background-color: #FFFF00">** your System Status page**</span> and swipe left to your <span style="background-color: #FFFF00">**Classic Status Page**</span> and wait for it to re-pair to your Bluetooth mobile again.<br>
+   
+  <iframe width="860" height="615" src="https://www.youtube.com/embed/WfKZ2_Hv3nE?start=100" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+   This can <span style="background-color: #FFFF00">** take a while be patient,**</span> but stay on the Classic page for it to do the process of connecting to your device.<br>
+   You may now need to start your sensor again and do the 2 hour warm up all depends which method you did in xdrip with forget device and restart the Collector options.<br>
+Best to <span style="background-color: #FFFF00">**re-boot again before your restart Sensor**</span><br>
+<center>
+### Hope you find this video helpful and fixes your connection issues.<br><br></center>
+   
 
-You cannot install xDrip+ many times on the same phone. But xDrip+ variants have different names.<br>
-So, you can install xDrip+ and an xDrip+ variant or even more. This essentially lets you install multiple instances of xDrip+ on the same phone.<br>
-
-This can prove exceptionally useful to follow more than one person at a time.<br>
-
-<img width="500" height="auto" border="0" align="center"  src="../../img/xdrip/Variants.jpg" title="Variants"/></a>
-<br><br>
-
-
-To download nightly <a href=" https://drive.google.com/drive/folders/0B6mvYVNVC-fOWkxnVF80dlFabjQ?resourcekey=0-ebguuiPuB1wUI9Rp2zjMNg" target="_blank" title="variants.">variants</a><br><br><br>
-
-Once you have downloaded a variant from Google Drive, continue like a normal [Setting up xDrip+ install ](../xdrip/xdrip%20-%20Download.md#pc-download).<br>
-<br><br>
 
 <a href="https://www.diabetes.org.uk/" target="_blank">
  <center> <img width="auto" height="auto" border="0" align="center"  src="../../img/Diabetesuk/pngarea.com_rutgers-logo-png-8467605.png" title="Diabetes UK"/>
@@ -58,7 +40,8 @@ Once you have downloaded a variant from Google Drive, continue like a normal [Se
 </center>
 
 
-<!--  
+</font>
+   <!--  
   ******************************************************************************************************************
   mkdocs.yml    # The configuration file.
     docs/
@@ -124,15 +107,9 @@ font size
 
 </font>
 
-**************************************
-
 link
 <a href=" https://github.com/" target="_blank" title="First create a user account by going to">Click Here</a>
 
-***********************
-[Part 3 Setting up xDrip+ install ](../xdrip/xdrip%20-%20Download.md#pc-download).<br>
-
-**********************************
 
 Table
 | Syntax | Description |

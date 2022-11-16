@@ -3,7 +3,7 @@ docs made by D.Galloway 2019- 2021-->
 <img width="860" height="615" border="0" align="center"  src="../../img/xdrip/Hardware Data Source_header.jpg" title="Data Source"/></a><br>
 
 ## [xdrip± Settings](../xdrip/settings.md)
-## [xdrip± Data Source](../xdrip/xdrip%20-%20hardwaredatasource.md#xdrip-data-source) <br>
+## [xdrip± Hardware Data Source](../xdrip/xdrip%20-%20hardwaredatasource.md#xdrip-data-source) <br>
 <img width="500" height="auto" border="0" align="center"  src="../../img/xdrip/choose data source.png" title="choose data source"/></a>If you don't see this<br>
 
 This is where you will be selecting your Device or Transmitter to work with xdrip.<br>
@@ -61,6 +61,8 @@ If another mechanism is connected to your sensor or bridge you should turn it of
 </tr>
 </tbody>
 </table><br>
+# Different Hardware Data Sources to use<br>
+## 1. [Dexcom G6 & Dexcom One](../xdrip/xdrip%20-%20Dexcom%20G6%20and%20Dexcom%20One.md#xdrip-data-source) <br>
 
 ## To Be continued!
 

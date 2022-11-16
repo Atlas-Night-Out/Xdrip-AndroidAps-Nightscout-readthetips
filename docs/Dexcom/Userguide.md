@@ -2,7 +2,7 @@
 
 
 ### **There are 4 Elements to get started**
-
+## Setup
 1. Sensor Applicator
 <img width="420" height="220" border="0" align="center"  src="../../img/Dexcom/Sensor Applicator_20220811_135041_2.jpg" title="Sensor Applicator"/></a>	
 2.  Sensor
@@ -12,21 +12,21 @@
 4.  A Display
 <img width="320" height="120" border="0" align="center"  src="../../img/Dexcom/Display_20220812_460x537.jpg" title="Display"/></a><br>
 
-## **Dexcom Intro Userguide**
+## Dexcom Intro Userguide
 
 * Prepare for sensor insertion <br>
 * Take off Labels <span style="background-color: #FFFF00">**(Do not forget to keep Lebels safe or take a photo of your Sensor Code)**</span><br> you will need the code later.<br>
 <centre><img width="Auto" height="Auto" border="0" align="center"  src="../../img/Dexcom/Sensor _code20220811_160x271.jpg" title="Sensor Code"/></a></centre><br>
 * Insert a sensor <br>
-* Attach transmitter to transmitter holder 
+* Attach transmitter to transmitter holder <br>
 
-
+## Dexcom Insertion Video
 
 <iframe id="video29564" width="860" height="615" src="https://www.youtube.com/embed/1MRU6_GTEtg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen">
 </iframe>
 
 
-## **If Using A Receiver**
+## If Using A Receiver
 
 I found if I was using xdrip+ I would start the Sensor and Transmitter, first in xDrip.+<br>
 
@@ -34,7 +34,7 @@ Then After the 2 hour Warm up I would then add Sensor code and add the tansmitte
 <br>
 <iframe id="video29564" width="860" height="615" src="https://www.youtube.com/embed/c5mjePmJVS0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
 
-### Tips
+## Tips
 I also do not use Alcohol wipes to wipe my skin, I prefer to use one of three types of spray's, one is called Cavilon,the other Sorbaderm or Medi Derma-s all 28ml spray with some kitchen roll.<br> 
 This helps protect my skin but also helps keep the sensors on longer. I spray it on and allow 5 minutes to dry before applying the Sensor Applicator.<br><br>
 
@@ -44,8 +44,8 @@ When it's time comes to removing the Sensor after 10 days I use a spray called S
 ### Tips 3
 And if at any point you feel you are not getting correct readings always do a finger prick. I find it can take a few hours for the sensor to settle in so I will finger prick until I can trust the readings.<br>
 
-### Tip 4 Why Sensor Glucose Won't Always Match Your Blood Glucose<br>
-<iframe id="video29564" width="860" height="615" src="https://www.youtube.com/embed/d9UzbC7pf4E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Why Sensor Glucose Won't Always Match Your Blood Glucose<iframe id="video29564" width="860" height="615" src="https://www.youtube.com/embed/d9UzbC7pf4E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 

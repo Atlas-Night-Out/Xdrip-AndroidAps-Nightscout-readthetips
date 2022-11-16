@@ -18,6 +18,17 @@ theme:
       scheme: default
     nav_style: primary
 
+extra_css:
+    - css/admonitions.css
+
+
+extra:
+  generator: false
+markdown_extensions:
+    - admonition
+    - toc:
+        permalink: ⌁
+
 nav:
      - Home: 'index.md'
      - Dexcom :
@@ -26,15 +37,18 @@ nav:
         - 'Download': 'xdrip/xdrip - Download.md'
         - 'Install': 'xdrip/xdrip - install.md'
         - 'xdrip± Settings': 'xdrip/settings.md'
-        - 'Hardware Data Source': 'xdrip/xdrip - hardwaredatasource.md'
-        - 'xdrip Hamburger Menu': 'xdrip/xdrip-HamburgerMenu.md'
+        
+        - 'xdrip± Hamburger Menu': 'xdrip/xdrip-HamburgerMenu.md'
         - 'xdrip± Copy Settings': 'xdrip/Copy-settings.md'
-        
-        
         - 'Base URL': 'xdrip/xdrip - Base.md'
-        
         - 'Compatible - Watches': 'xdrip/Compatible Watches.md'
         - 'Xdrip± Follower': 'xdrip/Xdrip Follower Setup.md'
+        - 'Hardware Data Source': 'xdrip/xdrip - hardwaredatasource.md'
+        - 'G6 & One': 'xdrip/xdrip - Dexcom G6 and Dexcom One.md'
+        - 'System Status': 'xdrip/xdrip - System Status.md'
+        - 'Start Sensor': 'xdrip/xdrip - Start Sensor.md'
+        - 'Connection issues – How to Fix': 'xdrip/Xdrip connection Problem fix.md'
+        - 'Setting up Glucose Meters': 'xdrip/Xdrip - Setting up Glucose Meters.md'
      - Nightscout :
         - 'Part 1 - Setting up Github': 'Nightscout/Setting_up_Github_Account_part1.md'
         - 'Part 2 Setting up Heroku Account ': 'Nightscout/Setting_up_Heroku_Account_part2.md'
